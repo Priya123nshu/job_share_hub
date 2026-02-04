@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobShare - Community Job Board</title>
+    <!-- Clerk Integration -->
+    <script
+      async
+      crossorigin="anonymous"
+      data-clerk-publishable-key="pk_test_aGlwLWdpcmFmZmUtMTcuY2xlcmsuYWNjb3VudHMuZGV2JA"
+      src="https://hip-giraffe-17.clerk.accounts.dev/npm/@clerk/clerk-js@latest/dist/clerk.browser.js"
+      type="text/javascript"
+    ></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f3f2ef;
+            color: #1d1d1d;
+            line-height: 1.5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: white;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 30px;
+            position: relative; 
+        }
+
+        /* Auth Buttons */
+        #auth-container {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #0a66c2;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        .filter-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 0 1px rgba(0,0,0,0.08);
+        }
+        
+        .filters {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 0;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 8px 16px;
+            background: white;
+            color: #666;
+            border: 1px solid #ccc;
+            border-radius: 16px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        .filter-btn:hover {
+            background-color: #f3f2ef;
+        }
+
+        .filter-btn.active {
+            background: #0a66c2;
+            color: white;
+            border-color: #0a66c2;
+        }
+
+        .section-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: #333;
+            border-bottom: 2px solid #0a66c2;
+            padding-bottom: 8px;
+            display: inline-block;
+        }
+
+        .job-category-group {
+            margin-bottom: 40px;
+        }
+
+        .job-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .job-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 0 1px rgba(0,0,0,0.08);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: box-shadow 0.2s;
+        }
+
+        .job-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .job-info {
+            flex: 1;
+        }
+
+        .job-url {
+            color: #0a66c2;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            display: block;
+            margin-bottom: 4px;
+            word-break: break-all;
+        }
+
+        .job-url:hover {
+            text-decoration: underline;
+        }
+
+        .job-meta {
+            color: #666;
+            font-size: 13px;
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .time-badge {
+            background: #eef3f8;
+            color: #0a66c2;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .time-badge.new {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 30px 20px;
+            color: #666;
+            border: 1px dashed #ccc;
+            border-radius: 8px;
+        }
+
+        /* Loading Spinner */
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #0a66c2;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 20px auto;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Auth Restricted Overlay */
+        #content-area {
+            display: none; /* Hidden by default until auth */
+        }
+        
+        #login-overlay {
+            text-align: center;
+            padding: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🔗 JobShare Hub</h1>
+        <p class="subtitle">Curated LinkedIn job opportunities, updated hourly.</p>
+        <div id="auth-container">
+            <!-- Clerk components will mount here -->
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- Login Prompt -->
+        <div id="login-overlay">
+            <h2>Please sign in to view jobs</h2>
+            <p>Exclusive access to hourly curated job listings.</p>
+        </div>
+
+        <!-- Main Content (Protected) -->
+        <div id="content-area">
+            
+            <div class="filter-section">
+                <div class="filters">
+                    <button class="filter-btn active" onclick="setGroupFilter('all')">All Profiles</button>
+                    <!-- Generated Dynamically -->
+                    <div id="profile-filters" style="display:contents"></div>
+                </div>
+            </div>
+
+            <div id="loading" class="loader"></div>
+            <div id="jobs-container"></div>
+        </div>
+    </div>
+
+    <script>
+        const PUBLISHABLE_KEY = 'pk_test_aGlwLWdpcmFmZmUtMTcuY2xlcmsuYWNjb3VudHMuZGV2JA'; // Provided by User
+
+        let allJobsData = {};
+        let currentProfileFilter = 'all';
+
+        // --- Clerk Authentication ---
+        window.addEventListener('load', async function () {
+            await Clerk.load({
+                publishableKey: PUBLISHABLE_KEY
+            });
+
+            const authContainer = document.getElementById('auth-container');
+            const contentArea = document.getElementById('content-area');
+            const loginOverlay = document.getElementById('login-overlay');
+
+            if (Clerk.user) {
+                // User is signed in
+                authContainer.innerHTML = '<div id="user-button"></div>';
+                Clerk.mountUserButton(document.getElementById('user-button'));
+                
+                loginOverlay.style.display = 'none';
+                contentArea.style.display = 'block';
+                
+                // Load Data
+                fetchJobs();
+            } else {
+                // User is not signed in
+                loginOverlay.style.display = 'block';
+                contentArea.style.display = 'none';
+                
+                authContainer.innerHTML = '<div id="sign-in-button"></div>';
+                Clerk.mountSignIn(document.getElementById('sign-in-button'));
+            }
+        });
+
+        // --- Data Handling ---
+
+        async function fetchJobs() {
+            try {
+                // Fetch the JSON file generated by our Python script
+                // In local dev, this works if served. In Vercel, it works if in public dir.
+                const response = await fetch('jobs_data.json');
+                const data = await response.json();
+                
+                allJobsData = data.profiles;
+                renderFilters(Object.keys(allJobsData));
+                renderJobs();
+                
+                document.getElementById('loading').style.display = 'none';
+            } catch (error) {
+                console.error("Failed to load jobs:", error);
+                document.getElementById('jobs-container').innerHTML = 
+                    '<p class="empty-state">Failed to load job data. Please try again later.</p>';
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+
+        function renderFilters(profiles) {
+            const container = document.getElementById('profile-filters');
+            container.innerHTML = profiles.map(profile => 
+                `<button class="filter-btn" onclick="setGroupFilter('${profile}')">${profile}</button>`
+            ).join('');
+        }
+
+        function setGroupFilter(profile) {
+            currentProfileFilter = profile;
+            
+            // Update UI
+            document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+            // Find button with text content matching profile or 'All Profiles'
+            const textToMatch = profile === 'all' ? 'All Profiles' : profile;
+            
+            // Simple robust selection
+            const buttons = document.querySelectorAll('.filter-btn');
+            for (let btn of buttons) {
+                if (btn.innerText === textToMatch) {
+                    btn.classList.add('active');
+                }
+            }
+            
+            renderJobs();
+        }
+
+        function renderJobs() {
+            const container = document.getElementById('jobs-container');
+            container.innerHTML = ''; // Clear
+
+            // Determine which categories to show
+            const categoriesToShow = currentProfileFilter === 'all' 
+                ? Object.keys(allJobsData) 
+                : [currentProfileFilter];
+
+            if (categoriesToShow.length === 0) {
+                container.innerHTML = '<div class="empty-state">No categories found.</div>';
+                return;
+            }
+
+            categoriesToShow.forEach(category => {
+                const categoryData = allJobsData[category];
+                if (!categoryData) return;
+
+                const jobs1h = categoryData['1h'] || [];
+                const jobs24h = categoryData['24h'] || [];
+
+                if (jobs1h.length === 0 && jobs24h.length === 0) return; // Skip empty categories
+
+                const section = document.createElement('div');
+                section.className = 'job-category-group';
+                
+                let html = `<div class="section-title">${category}</div>`;
+                
+                // 1 Hour Section
+                if (jobs1h.length > 0) {
+                    html += `
+                        <div style="margin-bottom: 15px;">
+                            <h4 style="color: #155724; margin-bottom: 8px; font-size: 0.9rem;">⚡ Fresh (Last Hour)</h4>
+                            <div class="job-list">
+                                ${jobs1h.map(url => createJobCard(url, '1h')).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+
+                // 24 Hour Section
+                if (jobs24h.length > 0) {
+                    html += `
+                        <div style="margin-bottom: 15px;">
+                            <h4 style="color: #666; margin-bottom: 8px; font-size: 0.9rem;">🕒 Last 24 Hours</h4>
+                            <div class="job-list">
+                                ${jobs24h.map(url => createJobCard(url, '24h')).join('')}
+                            </div>
+                        </div>
+                    `;
+                }
+
+                section.innerHTML = html;
+                container.appendChild(section);
+            });
+            
+            if (container.children.length === 0) {
+                container.innerHTML = '<div class="empty-state">No jobs found for this category currently.</div>';
+            }
+        }
+
+        function createJobCard(url, type) {
+            const badgeClass = type === '1h' ? 'time-badge new' : 'time-badge';
+            const badgeText = type === '1h' ? 'NEW' : '24H';
+            
+            // Try to extract ID for display
+            const match = url.match(/view\/(\d+)/);
+            const displayText = match ? `LinkedIn Job #${match[1]}` : url;
+
+            return `
+                <div class="job-card">
+                    <div class="job-info">
+                        <a href="${url}" target="_blank" class="job-url" rel="noopener">
+                            ${url}
+                        </a>
+                        <div class="job-meta">
+                            <span class="${badgeClass}">${badgeText}</span>
+                            <span>${type === '1h' ? 'Posted recently' : 'Posted within 24h'}</span>
+                        </div>
+                    </div>
+                    <a href="${url}" target="_blank" style="text-decoration:none">
+                        <button style="padding: 8px 16px; background: #0a66c2; color: white; border: none; border-radius: 16px; cursor: pointer;">Apply ↗</button>
+                    </a>
+                </div>
+            `;
+        }
+
+    </script>
+</body>
+</html>
