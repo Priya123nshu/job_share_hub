@@ -1,42 +1,944 @@
 {
   "metadata": {
-    "last_updated": "2026-02-04T21:07:07.320464"
+    "last_updated": "2026-02-04T23:51:17.486914"
   },
   "profiles": {
-    "AI Intern": {
+    "Software Developer Intern": {
       "1h": [
-        "https://www.linkedin.com/jobs/view/4369219262/",
-        "https://www.linkedin.com/jobs/view/4361596769/",
-        "https://www.linkedin.com/jobs/view/4355061939/",
-        "https://www.linkedin.com/jobs/view/4353200598/",
-        "https://www.linkedin.com/jobs/view/4341505284/",
-        "https://www.linkedin.com/jobs/view/4341035744/",
-        "https://www.linkedin.com/jobs/view/4295569288/"
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4359195099/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
       ],
       "24h": [
-        "https://www.linkedin.com/jobs/view/4369212221/",
-        "https://www.linkedin.com/jobs/view/4369206013/",
-        "https://www.linkedin.com/jobs/view/4369203375/",
+        "https://www.linkedin.com/jobs/view/4369208494/",
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4365308919/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4357750843/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4354914742/",
+        "https://www.linkedin.com/jobs/view/4353123326/",
+        "https://www.linkedin.com/jobs/view/4352755246/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4348351285/",
+        "https://www.linkedin.com/jobs/view/4326313224/"
+      ]
+    },
+    "Software Engineer Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361190109/",
+        "https://www.linkedin.com/jobs/view/4359195099/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4365308919/",
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4357750843/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4354914742/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4326313224/"
+      ]
+    },
+    "Junior Software Engineer": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361190109/",
+        "https://www.linkedin.com/jobs/view/4359195099/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4353073861/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4365308919/",
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4355072603/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4354953748/",
+        "https://www.linkedin.com/jobs/view/4354914742/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4326402936/"
+      ]
+    },
+    "Graduate Software Engineer": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361190109/",
+        "https://www.linkedin.com/jobs/view/4359195099/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4365308919/",
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4354953748/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4346056092/"
+      ]
+    },
+    "Fresher Software Developer": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4360760905/",
+        "https://www.linkedin.com/jobs/view/4359195099/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4365308919/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4354953748/",
+        "https://www.linkedin.com/jobs/view/4354914742/",
+        "https://www.linkedin.com/jobs/view/4353034268/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4345648033/"
+      ]
+    },
+    "Frontend Developer Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361627887/",
+        "https://www.linkedin.com/jobs/view/4361177007/",
+        "https://www.linkedin.com/jobs/view/4359195099/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4353073861/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4361174159/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4354953748/",
+        "https://www.linkedin.com/jobs/view/4354914742/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4348351285/",
+        "https://www.linkedin.com/jobs/view/4346056092/"
+      ]
+    },
+    "React Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4367948693/",
+        "https://www.linkedin.com/jobs/view/4364214639/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362332690/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4365308919/",
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361684385/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4359159743/",
+        "https://www.linkedin.com/jobs/view/4355072603/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4346056092/",
+        "https://www.linkedin.com/jobs/view/4342928652/"
+      ]
+    },
+    "Junior Frontend Developer": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364618318/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361627887/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4353210198/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4361278868/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4354914742/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4348351285/",
+        "https://www.linkedin.com/jobs/view/4346056092/",
+        "https://www.linkedin.com/jobs/view/4331011386/"
+      ]
+    },
+    "Web Developer Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364394374/",
+        "https://www.linkedin.com/jobs/view/4362363782/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4361627887/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4353210198/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361684385/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4361136933/",
+        "https://www.linkedin.com/jobs/view/4355072603/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4354914742/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4350232287/",
+        "https://www.linkedin.com/jobs/view/4348351285/",
+        "https://www.linkedin.com/jobs/view/4331011386/"
+      ]
+    },
+    "UI Developer Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364394374/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362332690/",
+        "https://www.linkedin.com/jobs/view/4360760905/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4345363194/",
+        "https://www.linkedin.com/jobs/view/4302007256/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4365308919/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4355072603/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4353123895/",
+        "https://www.linkedin.com/jobs/view/4352974447/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4350232287/",
+        "https://www.linkedin.com/jobs/view/4348351285/",
+        "https://www.linkedin.com/jobs/view/4331011386/"
+      ]
+    },
+    "Backend Developer Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364394374/",
+        "https://www.linkedin.com/jobs/view/4362441464/",
+        "https://www.linkedin.com/jobs/view/4362363782/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4362363782/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361684385/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4357690385/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4353094098/",
+        "https://www.linkedin.com/jobs/view/4353034268/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4350232287/"
+      ]
+    },
+    "Node.js Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4367948693/",
+        "https://www.linkedin.com/jobs/view/4364394374/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362332690/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4351670439/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4361136933/",
+        "https://www.linkedin.com/jobs/view/4359223681/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4353094098/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4350232287/",
+        "https://www.linkedin.com/jobs/view/4302007256/"
+      ]
+    },
+    "Java Backend Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364618318/",
+        "https://www.linkedin.com/jobs/view/4362332690/",
+        "https://www.linkedin.com/jobs/view/4361684385/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4361190109/",
+        "https://www.linkedin.com/jobs/view/4359223681/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4369225289/",
+        "https://www.linkedin.com/jobs/view/4369221549/",
+        "https://www.linkedin.com/jobs/view/4369216314/",
+        "https://www.linkedin.com/jobs/view/4369211404/",
+        "https://www.linkedin.com/jobs/view/4369210441/",
+        "https://www.linkedin.com/jobs/view/4369209474/",
+        "https://www.linkedin.com/jobs/view/4368744355/",
+        "https://www.linkedin.com/jobs/view/4368743422/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361684385/",
+        "https://www.linkedin.com/jobs/view/4361136933/",
+        "https://www.linkedin.com/jobs/view/4359223681/",
+        "https://www.linkedin.com/jobs/view/4358898004/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4357690385/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4302007256/"
+      ]
+    },
+    "Python Developer Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364394374/",
+        "https://www.linkedin.com/jobs/view/4362441464/",
+        "https://www.linkedin.com/jobs/view/4362363782/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362363782/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4361174159/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4353094098/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4350232287/"
+      ]
+    },
+    "Junior Backend Engineer": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364618318/",
+        "https://www.linkedin.com/jobs/view/4362441464/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4351670439/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361693128/",
+        "https://www.linkedin.com/jobs/view/4361684385/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4361136933/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4353034268/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4351670439/"
+      ]
+    },
+    "Full Stack Developer Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364394374/",
+        "https://www.linkedin.com/jobs/view/4362363782/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4353191231/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4362363782/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361693128/",
+        "https://www.linkedin.com/jobs/view/4361684385/",
+        "https://www.linkedin.com/jobs/view/4361627887/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4361287147/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4353034268/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352755246/",
+        "https://www.linkedin.com/jobs/view/4352112975/"
+      ]
+    },
+    "Junior Full Stack Developer": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364618318/",
+        "https://www.linkedin.com/jobs/view/4362441469/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4353191231/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4362363782/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361684385/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4361627887/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4361287147/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4353034268/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352755246/",
+        "https://www.linkedin.com/jobs/view/4352112975/"
+      ]
+    },
+    "MERN Stack Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364214639/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362332690/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4356771946/",
+        "https://www.linkedin.com/jobs/view/4353201286/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361684385/",
+        "https://www.linkedin.com/jobs/view/4361627887/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4361334364/",
+        "https://www.linkedin.com/jobs/view/4359223681/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4353201286/",
+        "https://www.linkedin.com/jobs/view/4352755246/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4349322540/"
+      ]
+    },
+    "Web Engineer Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364394374/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4357690385/",
+        "https://www.linkedin.com/jobs/view/4353073861/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4362363782/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361684385/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4361627887/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4361190109/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4352755246/",
+        "https://www.linkedin.com/jobs/view/4352112975/"
+      ]
+    },
+    "Data Analyst Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4369251144/",
+        "https://www.linkedin.com/jobs/view/4369250126/",
+        "https://www.linkedin.com/jobs/view/4369247262/",
+        "https://www.linkedin.com/jobs/view/4369246005/",
+        "https://www.linkedin.com/jobs/view/4369245264/",
+        "https://www.linkedin.com/jobs/view/4369242304/",
+        "https://www.linkedin.com/jobs/view/4358413613/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4369246005/",
+        "https://www.linkedin.com/jobs/view/4369238099/",
+        "https://www.linkedin.com/jobs/view/4369237089/",
+        "https://www.linkedin.com/jobs/view/4369237058/",
+        "https://www.linkedin.com/jobs/view/4369235274/",
+        "https://www.linkedin.com/jobs/view/4369233122/",
+        "https://www.linkedin.com/jobs/view/4369232268/",
+        "https://www.linkedin.com/jobs/view/4369228347/",
+        "https://www.linkedin.com/jobs/view/4360831807/",
+        "https://www.linkedin.com/jobs/view/4354864430/",
+        "https://www.linkedin.com/jobs/view/4354805989/",
+        "https://www.linkedin.com/jobs/view/4353054402/",
+        "https://www.linkedin.com/jobs/view/4352920093/",
+        "https://www.linkedin.com/jobs/view/4345785425/"
+      ]
+    },
+    "Business Analyst Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4369246204/",
+        "https://www.linkedin.com/jobs/view/4369246126/",
+        "https://www.linkedin.com/jobs/view/4369227933/",
+        "https://www.linkedin.com/jobs/view/4369224974/",
+        "https://www.linkedin.com/jobs/view/4368760401/",
+        "https://www.linkedin.com/jobs/view/4361637997/",
+        "https://www.linkedin.com/jobs/view/4355043137/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4369246126/",
+        "https://www.linkedin.com/jobs/view/4369227933/",
+        "https://www.linkedin.com/jobs/view/4369224974/",
+        "https://www.linkedin.com/jobs/view/4368759327/",
+        "https://www.linkedin.com/jobs/view/4368741944/",
+        "https://www.linkedin.com/jobs/view/4362372384/",
+        "https://www.linkedin.com/jobs/view/4361637997/",
+        "https://www.linkedin.com/jobs/view/4355043137/",
+        "https://www.linkedin.com/jobs/view/4353113834/",
+        "https://www.linkedin.com/jobs/view/4353063799/",
+        "https://www.linkedin.com/jobs/view/4353013951/",
+        "https://www.linkedin.com/jobs/view/4353004075/",
+        "https://www.linkedin.com/jobs/view/4352974433/",
+        "https://www.linkedin.com/jobs/view/4325622371/"
+      ]
+    },
+    "Data Science Intern": {
+      "1h": [
+        "https://www.linkedin.com/jobs/view/4364394374/",
+        "https://www.linkedin.com/jobs/view/4362442067/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4358119661/",
+        "https://www.linkedin.com/jobs/view/4357690385/",
+        "https://www.linkedin.com/jobs/view/4356771946/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4362442067/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4361673322/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361190109/",
+        "https://www.linkedin.com/jobs/view/4360831807/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4355043137/",
+        "https://www.linkedin.com/jobs/view/4353133947/",
+        "https://www.linkedin.com/jobs/view/4353034268/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ]
+    },
+    "Junior Data Analyst": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4366855094/",
+        "https://www.linkedin.com/jobs/view/4361673322/",
+        "https://www.linkedin.com/jobs/view/4361637997/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4360831807/",
+        "https://www.linkedin.com/jobs/view/4360033462/",
+        "https://www.linkedin.com/jobs/view/4357690385/",
+        "https://www.linkedin.com/jobs/view/4355043137/",
+        "https://www.linkedin.com/jobs/view/4354864430/",
+        "https://www.linkedin.com/jobs/view/4353034268/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4330172567/",
+        "https://www.linkedin.com/jobs/view/4324808197/"
+      ]
+    },
+    "SQL Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4362442067/",
+        "https://www.linkedin.com/jobs/view/4361673322/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361190109/",
+        "https://www.linkedin.com/jobs/view/4360831807/",
+        "https://www.linkedin.com/jobs/view/4360033462/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4355043137/",
+        "https://www.linkedin.com/jobs/view/4353094098/",
+        "https://www.linkedin.com/jobs/view/4353034268/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4345666946/",
+        "https://www.linkedin.com/jobs/view/4345363194/"
+      ]
+    },
+    "AI Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4369251018/",
+        "https://www.linkedin.com/jobs/view/4369234099/",
+        "https://www.linkedin.com/jobs/view/4369233182/",
+        "https://www.linkedin.com/jobs/view/4369231199/",
+        "https://www.linkedin.com/jobs/view/4369225273/",
+        "https://www.linkedin.com/jobs/view/4369223514/",
+        "https://www.linkedin.com/jobs/view/4369219262/",
+        "https://www.linkedin.com/jobs/view/4369206526/",
         "https://www.linkedin.com/jobs/view/4369201185/",
-        "https://www.linkedin.com/jobs/view/4369200615/",
-        "https://www.linkedin.com/jobs/view/4368732277/",
-        "https://www.linkedin.com/jobs/view/4361561423/",
-        "https://www.linkedin.com/jobs/view/4361500856/",
-        "https://www.linkedin.com/jobs/view/4361275972/",
-        "https://www.linkedin.com/jobs/view/4359563335/",
-        "https://www.linkedin.com/jobs/view/4355061939/",
-        "https://www.linkedin.com/jobs/view/4354943213/",
-        "https://www.linkedin.com/jobs/view/4354709032/",
-        "https://www.linkedin.com/jobs/view/4353200598/",
-        "https://www.linkedin.com/jobs/view/4352880364/",
-        "https://www.linkedin.com/jobs/view/4346240798/",
+        "https://www.linkedin.com/jobs/view/4368753464/",
+        "https://www.linkedin.com/jobs/view/4368751241/",
+        "https://www.linkedin.com/jobs/view/4368747771/",
+        "https://www.linkedin.com/jobs/view/4329001698/"
+      ]
+    },
+    "Machine Learning Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4369251018/",
+        "https://www.linkedin.com/jobs/view/4369234099/",
+        "https://www.linkedin.com/jobs/view/4369233182/",
+        "https://www.linkedin.com/jobs/view/4369231199/",
+        "https://www.linkedin.com/jobs/view/4369225273/",
+        "https://www.linkedin.com/jobs/view/4369223514/",
+        "https://www.linkedin.com/jobs/view/4369219262/",
+        "https://www.linkedin.com/jobs/view/4369206526/",
+        "https://www.linkedin.com/jobs/view/4369201185/",
+        "https://www.linkedin.com/jobs/view/4368753464/",
+        "https://www.linkedin.com/jobs/view/4368747771/",
         "https://www.linkedin.com/jobs/view/4341505284/",
-        "https://www.linkedin.com/jobs/view/4341035744/",
-        "https://www.linkedin.com/jobs/view/4335121507/",
-        "https://www.linkedin.com/jobs/view/4295569288/",
-        "https://www.linkedin.com/jobs/view/4248973309/",
-        "https://www.linkedin.com/jobs/view/4247492707/",
-        "https://www.linkedin.com/jobs/view/4218297659/"
+        "https://www.linkedin.com/jobs/view/4329001698/"
+      ]
+    },
+    "Deep Learning Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362363782/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4360794242/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355063394/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4353034268/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4341015595/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ]
+    },
+    "Neural Network Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4362442067/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361673322/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4360831807/",
+        "https://www.linkedin.com/jobs/view/4360760905/",
+        "https://www.linkedin.com/jobs/view/4355063394/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4346056092/",
+        "https://www.linkedin.com/jobs/view/4341015595/"
+      ]
+    },
+    "Junior Machine Learning Engineer": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4357750843/",
+        "https://www.linkedin.com/jobs/view/4357690385/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4353094098/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4330172567/"
+      ]
+    },
+    "DevOps Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4369250125/",
+        "https://www.linkedin.com/jobs/view/4369242267/",
+        "https://www.linkedin.com/jobs/view/4369242072/",
+        "https://www.linkedin.com/jobs/view/4368739913/",
+        "https://www.linkedin.com/jobs/view/4356415834/",
+        "https://www.linkedin.com/jobs/view/4355063394/",
+        "https://www.linkedin.com/jobs/view/4353133871/",
+        "https://www.linkedin.com/jobs/view/4353083980/",
+        "https://www.linkedin.com/jobs/view/4353033970/",
+        "https://www.linkedin.com/jobs/view/4353013946/",
+        "https://www.linkedin.com/jobs/view/4352974447/",
+        "https://www.linkedin.com/jobs/view/4346191822/",
+        "https://www.linkedin.com/jobs/view/4345363194/",
+        "https://www.linkedin.com/jobs/view/4328958644/"
+      ]
+    },
+    "Cloud Engineer Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4362363782/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4357750843/",
+        "https://www.linkedin.com/jobs/view/4357690385/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4353123326/",
+        "https://www.linkedin.com/jobs/view/4353094098/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352112975/"
+      ]
+    },
+    "AWS Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4367948693/",
+        "https://www.linkedin.com/jobs/view/4362442067/",
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361673322/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4355063394/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4352755246/",
+        "https://www.linkedin.com/jobs/view/4352112975/"
+      ]
+    },
+    "Site Reliability Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4367948693/",
+        "https://www.linkedin.com/jobs/view/4362442067/",
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4361287147/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4351670439/",
+        "https://www.linkedin.com/jobs/view/4270344742/"
+      ]
+    },
+    "QA Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4362442067/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4358288513/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4354864430/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4351670439/",
+        "https://www.linkedin.com/jobs/view/4302007256/"
+      ]
+    },
+    "Software Testing Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4369251018/",
+        "https://www.linkedin.com/jobs/view/4369243028/",
+        "https://www.linkedin.com/jobs/view/4369234099/",
+        "https://www.linkedin.com/jobs/view/4369233182/",
+        "https://www.linkedin.com/jobs/view/4369231199/",
+        "https://www.linkedin.com/jobs/view/4369225273/",
+        "https://www.linkedin.com/jobs/view/4369223514/",
+        "https://www.linkedin.com/jobs/view/4369219262/",
+        "https://www.linkedin.com/jobs/view/4369206526/",
+        "https://www.linkedin.com/jobs/view/4369201185/",
+        "https://www.linkedin.com/jobs/view/4368747771/",
+        "https://www.linkedin.com/jobs/view/4358878434/",
+        "https://www.linkedin.com/jobs/view/4353084291/",
+        "https://www.linkedin.com/jobs/view/4341505284/"
+      ]
+    },
+    "Automation Testing Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4367948693/",
+        "https://www.linkedin.com/jobs/view/4362442067/",
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4360770130/",
+        "https://www.linkedin.com/jobs/view/4355070839/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4351670439/",
+        "https://www.linkedin.com/jobs/view/4328949387/"
+      ]
+    },
+    "Product Analyst Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4365519509/",
+        "https://www.linkedin.com/jobs/view/4362442067/",
+        "https://www.linkedin.com/jobs/view/4362352187/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4361673322/",
+        "https://www.linkedin.com/jobs/view/4361637997/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4360831807/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4355043137/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4324808197/"
+      ]
+    },
+    "Technical Analyst Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4369239186/",
+        "https://www.linkedin.com/jobs/view/4369233357/",
+        "https://www.linkedin.com/jobs/view/4369233325/",
+        "https://www.linkedin.com/jobs/view/4369232067/",
+        "https://www.linkedin.com/jobs/view/4369230304/",
+        "https://www.linkedin.com/jobs/view/4369218977/",
+        "https://www.linkedin.com/jobs/view/4369040725/",
+        "https://www.linkedin.com/jobs/view/4361673322/",
+        "https://www.linkedin.com/jobs/view/4352870870/",
+        "https://www.linkedin.com/jobs/view/4352810134/",
+        "https://www.linkedin.com/jobs/view/4352801644/",
+        "https://www.linkedin.com/jobs/view/4352579992/"
+      ]
+    },
+    "IT Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4369252056/",
+        "https://www.linkedin.com/jobs/view/4369252055/",
+        "https://www.linkedin.com/jobs/view/4369250125/",
+        "https://www.linkedin.com/jobs/view/4369249184/",
+        "https://www.linkedin.com/jobs/view/4368755145/",
+        "https://www.linkedin.com/jobs/view/4356415834/",
+        "https://www.linkedin.com/jobs/view/4355063394/",
+        "https://www.linkedin.com/jobs/view/4353100920/",
+        "https://www.linkedin.com/jobs/view/4353013946/",
+        "https://www.linkedin.com/jobs/view/4352974447/",
+        "https://www.linkedin.com/jobs/view/4346191822/",
+        "https://www.linkedin.com/jobs/view/4345955998/",
+        "https://www.linkedin.com/jobs/view/4345363194/",
+        "https://www.linkedin.com/jobs/view/4339584226/"
+      ]
+    },
+    "Engineering Intern": {
+      "1h": [],
+      "24h": [
+        "https://www.linkedin.com/jobs/view/4368696920/",
+        "https://www.linkedin.com/jobs/view/4362442067/",
+        "https://www.linkedin.com/jobs/view/4362402286/",
+        "https://www.linkedin.com/jobs/view/4362333755/",
+        "https://www.linkedin.com/jobs/view/4362322732/",
+        "https://www.linkedin.com/jobs/view/4361647617/",
+        "https://www.linkedin.com/jobs/view/4361627887/",
+        "https://www.linkedin.com/jobs/view/4361383193/",
+        "https://www.linkedin.com/jobs/view/4361354520/",
+        "https://www.linkedin.com/jobs/view/4355053413/",
+        "https://www.linkedin.com/jobs/view/4352964061/",
+        "https://www.linkedin.com/jobs/view/4352112975/",
+        "https://www.linkedin.com/jobs/view/4351670439/",
+        "https://www.linkedin.com/jobs/view/4328949387/"
       ]
     }
   }

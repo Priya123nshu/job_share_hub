@@ -1,26 +1,51 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Rich, deep background colors */
+  --bg-primary: #0f172a; /* Slate 900 */
+  --bg-secondary: #1e293b; /* Slate 800 */
+  
+  /* Primary Brand Colors (Vibrant Blue/Purple/Teal gradients) */
+  --accent-primary: #3b82f6; /* Blue 500 */
+  --accent-secondary: #8b5cf6; /* Violet 500 */
+  --accent-glow: #06b6d4; /* Cyan 500 */
+
+  --text-primary: #f8fafc; /* Slate 50 */
+  --text-secondary: #94a3b8; /* Slate 400 */
+  --text-muted: #64748b; /* Slate 500 */
+
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-bg: rgba(30, 41, 59, 0.7);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-brand-blue: var(--accent-primary);
+  --color-brand-purple: var(--accent-secondary);
+  --color-brand-cyan: var(--accent-glow);
+  --color-bg-dark: var(--bg-primary);
+  --color-bg-card: var(--bg-secondary);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(circle at top left, #1e1b4b, #0f172a, #020617);
+  background-attachment: fixed; /* Parallax-like effect */
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif; /* Assumes Inter or system font fallback */
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
 }

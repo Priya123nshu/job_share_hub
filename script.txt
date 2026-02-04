@@ -1,0 +1,4 @@
+python collect_job_urls_unique.py
+git add jobshare-frontend/public/jobs_data.json
+git commit -m "update jobs"
+git push origin main    

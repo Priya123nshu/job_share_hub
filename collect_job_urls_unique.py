@@ -11,7 +11,64 @@ from linkedin_utils import get_server_parameters, search_jobs
 
 DATA_FILE = "jobs_data.json"
 KEYWORDS = [
-    "AI Intern"
+    # --- General Intern / Fresher ---
+    "Software Engineer Intern",
+    "Software Developer Intern",
+    "Junior Software Engineer",
+    "Graduate Software Engineer",
+    "Fresher Software Developer",
+
+    # --- Frontend ---
+    "Frontend Developer Intern",
+    "React Intern",
+    "Junior Frontend Developer",
+    "Web Developer Intern",
+    "UI Developer Intern",
+
+    # --- Backend ---
+    "Backend Developer Intern",
+    "Node.js Intern",
+    "Java Backend Intern",
+    "Python Developer Intern",
+    "Junior Backend Engineer",
+
+    # --- Full Stack ---
+    "Full Stack Developer Intern",
+    "Junior Full Stack Developer",
+    "MERN Stack Intern",
+    "Web Engineer Intern",
+
+    # --- Data ---
+    "Data Analyst Intern",
+    "Business Analyst Intern",
+    "Data Science Intern",
+    "Junior Data Analyst",
+    "SQL Intern",
+
+    # --- AI / ML ---
+    "AI Intern",
+    "Machine Learning Intern",
+    "Deep Learning Intern",
+    "Neural Network Intern",
+    "Junior Machine Learning Engineer",
+
+    # --- Cloud / DevOps ---
+    "DevOps Intern",
+    "Cloud Engineer Intern",
+    "AWS Intern",
+    "Site Reliability Intern",
+
+    # --- QA / Testing ---
+    "QA Intern",
+    "Software Testing Intern",
+    "Automation Testing Intern",
+
+    # --- Product & Others ---
+    "Product Analyst Intern",
+    "Technical Analyst Intern",
+    "IT Intern",
+    "Engineering Intern"
+
 ]
 
 def load_data():
