@@ -114,102 +114,132 @@ export default function Home() {
             </SignInButton>
           </div>
         ) : (
-          <div className="flex flex-col lg:flex-row gap-12">
-            {/* Sidebar */}
-            <aside className="lg:w-48 flex-shrink-0">
-              <div className="lg:sticky lg:top-24">
-                {data && (
-                  <nav className="space-y-1">
-                    <p className="text-xs font-medium text-neutral-500 uppercase tracking-wider mb-4">
-                      Categories
-                    </p>
-                    {Object.keys(data.profiles).map(profile => (
+          <div className="space-y-10">
+            {/* Category Cards Grid */}
+            {data && (
+              <section>
+                <div className="flex items-center justify-between mb-6">
+                  <div>
+                    <h2 className="text-2xl font-bold text-white mb-1">Job Categories</h2>
+                    <p className="text-sm text-neutral-500">Select a category to view available positions</p>
+                  </div>
+                  <div className="text-sm text-neutral-400">
+                    {Object.keys(data.profiles).length} categories
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+                  {Object.keys(data.profiles).map(profile => {
+                    const group = data.profiles[profile];
+                    const totalJobs = (group['1h']?.length || 0) + (group['24h']?.length || 0);
+                    const hasNewJobs = (group['1h']?.length || 0) > 0;
+
+                    return (
                       <button
                         key={profile}
                         onClick={() => scrollToSection(profile)}
-                        className={`w-full text-left px-3 py-2 rounded-md text-sm transition-colors ${activeProfile === profile
-                          ? 'bg-neutral-800 text-white'
-                          : 'text-neutral-400 hover:text-white hover:bg-neutral-900'
+                        className={`group relative p-4 rounded-xl border text-left transition-all duration-200 ${activeProfile === profile
+                            ? 'bg-white text-black border-white'
+                            : 'bg-neutral-900/50 border-neutral-800 hover:border-neutral-600 hover:bg-neutral-800/50'
                           }`}
                       >
-                        {profile}
-                      </button>
-                    ))}
-                  </nav>
-                )}
-                {loading && (
-                  <div className="space-y-2">
-                    {[1, 2, 3].map(i => (
-                      <div key={i} className="h-9 bg-neutral-900 rounded-md animate-pulse" />
-                    ))}
-                  </div>
-                )}
-              </div>
-            </aside>
+                        {/* New jobs indicator */}
+                        {hasNewJobs && activeProfile !== profile && (
+                          <span className="absolute top-2 right-2 h-2 w-2 bg-emerald-500 rounded-full animate-pulse" />
+                        )}
 
-            {/* Main Content */}
-            <div className="flex-1 min-w-0">
-              {loading && (
-                <div className="text-center py-20">
-                  <div className="h-5 w-5 border-2 border-neutral-700 border-t-white rounded-full animate-spin mx-auto mb-4" />
-                  <p className="text-neutral-500 text-sm">Loading jobs...</p>
-                </div>
-              )}
+                        <h3 className={`text-sm font-medium leading-tight mb-2 ${activeProfile === profile ? 'text-black' : 'text-white group-hover:text-white'
+                          }`}>
+                          {profile}
+                        </h3>
 
-              {!loading && data && (
-                <div className="space-y-16">
-                  {Object.keys(data.profiles).map(cat => {
-                    const group = data.profiles[cat];
-                    const jobs1h = group['1h'] || [];
-                    const jobs24h = group['24h'] || [];
-
-                    if (jobs1h.length === 0 && jobs24h.length === 0) return null;
-
-                    return (
-                      <section key={cat} id={`cat-${cat}`}>
-                        <div className="flex items-center gap-3 mb-6 pb-4 border-b border-neutral-800">
-                          <h2 className="text-lg font-semibold text-white">{cat}</h2>
-                          <span className="text-xs text-neutral-500 bg-neutral-900 px-2 py-1 rounded-full">
-                            {jobs1h.length + jobs24h.length} jobs
+                        <div className="flex items-center gap-2">
+                          <span className={`text-xs font-medium px-2 py-0.5 rounded-md ${activeProfile === profile
+                              ? 'bg-black/10 text-black'
+                              : 'bg-neutral-800 text-neutral-400'
+                            }`}>
+                            {totalJobs} jobs
                           </span>
-                        </div>
-
-                        <div className="space-y-6">
-                          {/* Fresh Jobs */}
-                          {jobs1h.length > 0 && (
-                            <div className="space-y-3">
-                              <p className="text-xs font-medium text-emerald-500 uppercase tracking-wider flex items-center gap-2">
-                                <span className="h-1.5 w-1.5 bg-emerald-500 rounded-full animate-pulse" />
-                                New Today
-                              </p>
-                              <div className="space-y-2">
-                                {jobs1h.map((url, i) => (
-                                  <JobCard key={`1h-${i}`} url={url} isNew={true} detail={details[url]} />
-                                ))}
-                              </div>
-                            </div>
-                          )}
-
-                          {/* 24h Jobs */}
-                          {jobs24h.length > 0 && (
-                            <div className="space-y-3">
-                              <p className="text-xs font-medium text-neutral-500 uppercase tracking-wider">
-                                Last 24 Hours
-                              </p>
-                              <div className="space-y-2">
-                                {jobs24h.map((url, i) => (
-                                  <JobCard key={`24h-${i}`} url={url} isNew={false} detail={details[url]} />
-                                ))}
-                              </div>
-                            </div>
+                          {hasNewJobs && (
+                            <span className={`text-xs ${activeProfile === profile ? 'text-black/60' : 'text-emerald-500'
+                              }`}>
+                              +{group['1h']?.length} new
+                            </span>
                           )}
                         </div>
-                      </section>
+                      </button>
                     );
                   })}
                 </div>
-              )}
-            </div>
+              </section>
+            )}
+
+            {loading && (
+              <div className="text-center py-20">
+                <div className="h-5 w-5 border-2 border-neutral-700 border-t-white rounded-full animate-spin mx-auto mb-4" />
+                <p className="text-neutral-500 text-sm">Loading jobs...</p>
+              </div>
+            )}
+
+            {/* Job Listings */}
+            {!loading && data && (
+              <div className="space-y-12">
+                {Object.keys(data.profiles).map(cat => {
+                  const group = data.profiles[cat];
+                  const jobs1h = group['1h'] || [];
+                  const jobs24h = group['24h'] || [];
+
+                  if (jobs1h.length === 0 && jobs24h.length === 0) return null;
+
+                  return (
+                    <section key={cat} id={`cat-${cat}`} className="scroll-mt-24">
+                      <div className="flex items-center gap-4 mb-6 pb-4 border-b border-neutral-800">
+                        <div className="h-10 w-10 rounded-lg bg-gradient-to-br from-neutral-700 to-neutral-900 flex items-center justify-center">
+                          <span className="text-white font-bold text-sm">{cat.charAt(0)}</span>
+                        </div>
+                        <div>
+                          <h2 className="text-xl font-bold text-white">{cat}</h2>
+                          <p className="text-sm text-neutral-500">
+                            {jobs1h.length + jobs24h.length} positions available
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="grid gap-4 md:grid-cols-2">
+                        {/* Fresh Jobs */}
+                        {jobs1h.length > 0 && (
+                          <div className="space-y-3">
+                            <p className="text-xs font-semibold text-emerald-400 uppercase tracking-wider flex items-center gap-2">
+                              <span className="h-2 w-2 bg-emerald-500 rounded-full animate-pulse" />
+                              New Today ({jobs1h.length})
+                            </p>
+                            <div className="space-y-2">
+                              {jobs1h.map((url, i) => (
+                                <JobCard key={`1h-${i}`} url={url} isNew={true} detail={details[url]} />
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        {/* 24h Jobs */}
+                        {jobs24h.length > 0 && (
+                          <div className="space-y-3">
+                            <p className="text-xs font-semibold text-neutral-500 uppercase tracking-wider">
+                              Last 24 Hours ({jobs24h.length})
+                            </p>
+                            <div className="space-y-2">
+                              {jobs24h.map((url, i) => (
+                                <JobCard key={`24h-${i}`} url={url} isNew={false} detail={details[url]} />
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    </section>
+                  );
+                })}
+              </div>
+            )}
           </div>
         )}
       </main>
