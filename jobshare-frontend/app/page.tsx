@@ -11,10 +11,10 @@ type JobData = {
 };
 
 export default function Home() {
-  const { isLoaded, isSignedIn, user } = useUser();
+  const { isLoaded, isSignedIn } = useUser();
   const [data, setData] = useState<{ profiles: JobData } | null>(null);
-  const [filter, setFilter] = useState("all");
   const [loading, setLoading] = useState(false);
+  const [activeProfile, setActiveProfile] = useState<string | null>(null);
 
   useEffect(() => {
     if (isSignedIn) {
@@ -32,6 +32,23 @@ export default function Home() {
     }
   }, [isSignedIn]);
 
+  // Scroll to section handler
+  const scrollToSection = (profile: string) => {
+    const element = document.getElementById(`cat-${profile}`);
+    if (element) {
+      // Offset for sticky header
+      const headerOffset = 100;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+      setActiveProfile(profile);
+    }
+  };
+
   if (!isLoaded) return (
     <div className="flex h-screen items-center justify-center text-blue-400 font-medium tracking-wide animate-pulse">
       Loading...
@@ -39,204 +56,200 @@ export default function Home() {
   );
 
   return (
-    <div className="min-h-screen font-sans">
-      {/* Background Glow Effects */}
+    <div className="min-h-screen font-sans bg-slate-900 text-slate-50">
+      {/* Background Glow Effects - keeping existing effects */}
       <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-900/30 rounded-full blur-[100px]" />
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-900/20 rounded-full blur-[100px]" />
+        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-900/20 rounded-full blur-[100px]" />
+        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-900/10 rounded-full blur-[100px]" />
       </div>
 
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-900/70 border-b border-white/10 shadow-lg transition-all duration-300">
-        <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-900/80 border-b border-white/5 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <div>
-            <h1 className="text-3xl font-extrabold tracking-tight bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               JobShare Hub
             </h1>
-            <p className="text-slate-400 text-xs tracking-wider uppercase font-medium mt-1">
-              Curated. Fast. Premium.
-            </p>
           </div>
 
           <div>
             {!isSignedIn ? (
               <SignInButton mode="modal">
-                <button className="relative group px-6 py-2.5 rounded-full overflow-hidden font-semibold text-white shadow-xl transition-all hover:scale-105 active:scale-95">
-                  <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-blue-600 to-purple-600 group-hover:from-blue-500 group-hover:to-purple-500 transition-all"></span>
-                  <span className="relative z-10">Sign In</span>
+                <button className="px-5 py-2 rounded-full font-medium text-white bg-blue-600 hover:bg-blue-500 transition-colors shadow-lg shadow-blue-500/20 text-sm">
+                  Sign In
                 </button>
               </SignInButton>
             ) : (
-              <div className="p-1 rounded-full bg-gradient-to-r from-blue-500 to-purple-500">
-                <div className="bg-slate-900 rounded-full p-0.5">
-                  <UserButton afterSignOutUrl="/" />
-                </div>
-              </div>
+              <UserButton afterSignOutUrl="/" appearance={{
+                elements: {
+                  avatarBox: "w-9 h-9 border-2 border-blue-500/20"
+                }
+              }} />
             )}
           </div>
         </div>
       </header>
 
-      <main className="max-w-6xl mx-auto px-6 py-12">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {!isSignedIn ? (
-          <div className="flex flex-col items-center justify-center py-20 text-center">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white drop-shadow-lg">
-              Unlock Your <span className="text-blue-400">Dream Career</span>
+          <div className="flex flex-col items-center justify-center py-20 text-center min-h-[60vh]">
+            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white tracking-tight">
+              Find Your Next <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Opportunity</span>
             </h2>
-            <p className="text-lg text-slate-300 max-w-2xl leading-relaxed mb-8">
-              Get exclusive access to hourly curated job listings from top companies.
-              Sign in to see opportunities before anyone else.
+            <p className="text-lg text-slate-400 max-w-2xl leading-relaxed mb-8">
+              Curated job listings updated hourly. Sign in to access the feed.
             </p>
           </div>
         ) : (
-          <div className="animate-in fade-in slide-in-from-bottom-4 duration-700">
-            {data && (
-              <div className="mb-10 flex flex-wrap gap-3 justify-center md:justify-start">
-                <FilterButton
-                  label="All Profiles"
-                  isActive={filter === 'all'}
-                  onClick={() => setFilter('all')}
-                />
-                {Object.keys(data.profiles).map(profile => (
-                  <FilterButton
-                    key={profile}
-                    label={profile}
-                    isActive={filter === profile}
-                    onClick={() => setFilter(profile)}
-                  />
-                ))}
+          <div className="flex flex-col lg:flex-row gap-8 relative">
+
+            {/* Sidebar Navigation */}
+            <aside className="lg:w-64 flex-shrink-0">
+              <div className="lg:sticky lg:top-24 max-h-[calc(100vh-8rem)] overflow-y-auto pb-4 pr-2 custom-scrollbar">
+                {data && (
+                  <nav className="space-y-1">
+                    <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-4 px-3">
+                      Job Profiles
+                    </h3>
+                    {Object.keys(data.profiles).map(profile => (
+                      <button
+                        key={profile}
+                        onClick={() => scrollToSection(profile)}
+                        className={`w-full text-left px-3 py-2 rounded-md text-sm font-medium transition-colors ${activeProfile === profile
+                            ? 'bg-blue-500/10 text-blue-400'
+                            : 'text-slate-400 hover:bg-white/5 hover:text-slate-200'
+                          }`}
+                      >
+                        {profile}
+                      </button>
+                    ))}
+                  </nav>
+                )}
+                {loading && (
+                  <div className="space-y-3 px-3">
+                    {[1, 2, 3, 4].map(i => (
+                      <div key={i} className="h-8 bg-white/5 rounded animate-pulse" />
+                    ))}
+                  </div>
+                )}
               </div>
-            )}
+            </aside>
 
-            {loading && <div className="text-center py-20 text-blue-300 animate-pulse text-lg">Searching the cosmos for jobs...</div>}
+            {/* Main Content Feed */}
+            <div className="flex-1 min-w-0">
+              {loading && (
+                <div className="text-center py-20">
+                  <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500 mb-4"></div>
+                  <p className="text-slate-400">Loading listings...</p>
+                </div>
+              )}
 
-            {!loading && data && (
-              <div className="space-y-12">
-                {Object.keys(data.profiles).map(cat => {
-                  if (filter !== 'all' && filter !== cat) return null;
-                  const group = data.profiles[cat];
-                  const jobs1h = group['1h'] || [];
-                  const jobs24h = group['24h'] || [];
+              {!loading && data && (
+                <div className="space-y-16 pb-20">
+                  {Object.keys(data.profiles).map(cat => {
+                    const group = data.profiles[cat];
+                    const jobs1h = group['1h'] || [];
+                    const jobs24h = group['24h'] || [];
 
-                  if (jobs1h.length === 0 && jobs24h.length === 0) return null;
+                    if (jobs1h.length === 0 && jobs24h.length === 0) return null;
 
-                  return (
-                    <div key={cat} className="space-y-6">
-                      <div className="flex items-center gap-4 mb-6">
-                        <h3 className="text-2xl font-bold text-white tracking-tight">{cat}</h3>
-                        <div className="h-[1px] flex-1 bg-gradient-to-r from-white/20 to-transparent" />
-                      </div>
-
-                      {/* 1h Section */}
-                      {jobs1h.length > 0 && (
-                        <div className="mb-8 pl-4 border-l-2 border-emerald-500/50">
-                          <h4 className="flex items-center gap-2 text-sm font-bold text-emerald-400 mb-4 uppercase tracking-widest">
-                            <span className="relative flex h-3 w-3">
-                              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                              <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
-                            </span>
-                            Fresh Drops (1h)
-                          </h4>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            {jobs1h.map((url, i) => (
-                              <JobCard key={i} url={url} type="1h" />
-                            ))}
-                          </div>
+                    return (
+                      <section
+                        key={cat}
+                        id={`cat-${cat}`}
+                        className="scroll-mt-24" // Helper class for scroll offset if supported, but we use JS mostly
+                      >
+                        <div className="flex items-center gap-4 mb-6 sticky top-[73px] z-10 bg-slate-900/95 backdrop-blur py-2 border-b border-white/5">
+                          <div className="h-8 w-1 bg-blue-500 rounded-full"></div>
+                          <h2 className="text-xl font-bold text-white">{cat}</h2>
                         </div>
-                      )}
 
-                      {/* 24h Section */}
-                      {jobs24h.length > 0 && (
-                        <div className="pl-4 border-l-2 border-slate-700/50">
-                          <h4 className="flex items-center gap-2 text-sm font-bold text-slate-400 mb-4 uppercase tracking-widest">
-                            <span className="w-2 h-2 rounded-full bg-slate-500"></span>
-                            Last 24 Hours
-                          </h4>
-                          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                            {jobs24h.map((url, i) => (
-                              <JobCard key={i} url={url} type="24h" />
-                            ))}
-                          </div>
+                        <div className="space-y-8 pl-0 lg:pl-5">
+                          {/* 1h Section */}
+                          {jobs1h.length > 0 && (
+                            <div className="space-y-4">
+                              <h4 className="flex items-center gap-2 text-xs font-bold text-emerald-400 uppercase tracking-widest">
+                                <span className="relative flex h-2 w-2">
+                                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                                </span>
+                                Fresh (1h)
+                              </h4>
+                              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4">
+                                {jobs1h.map((url, i) => (
+                                  <JobCard key={`1h-${i}`} url={url} type="1h" />
+                                ))}
+                              </div>
+                            </div>
+                          )}
+
+                          {/* 24h Section */}
+                          {jobs24h.length > 0 && (
+                            <div className="space-y-4">
+                              <h4 className="flex items-center gap-2 text-xs font-bold text-slate-500 uppercase tracking-widest">
+                                24 Hours
+                              </h4>
+                              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4">
+                                {jobs24h.map((url, i) => (
+                                  <JobCard key={`24h-${i}`} url={url} type="24h" />
+                                ))}
+                              </div>
+                            </div>
+                          )}
                         </div>
-                      )}
-                    </div>
-                  );
-                })}
-              </div>
-            )}
+                      </section>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
           </div>
         )}
       </main>
-
-      <footer className="border-t border-white/5 bg-slate-900/40 backdrop-blur-lg mt-20 py-10">
-        <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6 text-slate-400 text-sm">
-          <p>© {new Date().getFullYear()} JobShare Hub. Crafted by <span className="text-white font-semibold">Priyanshu Kumar</span>.</p>
-          <div className="flex items-center gap-6">
-            <a href="mailto:priyanshu.altruist@gmail.com" className="hover:text-blue-400 transition-colors">Feedback</a>
-            <a href="https://www.linkedin.com/in/priyanshu-kumar-980b50179/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">LinkedIn</a>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
 
-function FilterButton({ label, isActive, onClick }: { label: string, isActive: boolean, onClick: () => void }) {
-  return (
-    <button
-      onClick={onClick}
-      className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-300 border backdrop-blur-sm
-            ${isActive
-          ? 'bg-gradient-to-r from-blue-600/90 to-purple-600/90 border-transparent text-white shadow-[0_0_20px_rgba(59,130,246,0.3)] scale-105'
-          : 'bg-white/5 border-white/10 text-slate-300 hover:bg-white/10 hover:border-white/20'
-        }`}
-    >
-      {label}
-    </button>
-  )
-}
 
 function JobCard({ url, type }: { url: string, type: '1h' | '24h' }) {
   const isNew = type === '1h';
-
-  // Extracting a cleaner title from URL simply for display if possible, otherwise use full URL
-  const displayUrl = url.length > 50 ? url.substring(0, 50) + "..." : url;
+  // Attempt to make display URL cleaner
+  // e.g. https://www.linkedin.com/jobs/view/381... -> .../view/381...
+  // For now just truncation is fine.
+  const displayUrl = url.length > 60 ? url.substring(0, 60) + "..." : url;
 
   return (
-    <div className="group relative flex flex-col justify-between p-5 bg-slate-800/40 border border-white/5 rounded-xl hover:bg-slate-800/60 hover:border-blue-500/30 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-900/20 hover:-translate-y-1">
-      <div className="mb-4">
-        <div className="flex items-start justify-between gap-3">
-          <a
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white font-medium hover:text-blue-400 transition-colors break-all leading-snug text-sm sm:text-base line-clamp-2"
-          >
-            {/* Try to show something nicer than just URL if possible, otherwise URL */}
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`group block p-4 rounded-lg border transition-all duration-200 
+        ${isNew
+          ? 'bg-slate-800/40 border-emerald-500/20 hover:border-emerald-500/40 hover:bg-slate-800/60'
+          : 'bg-slate-800/20 border-white/5 hover:border-blue-500/30 hover:bg-slate-800/40'
+        }
+      `}
+    >
+      <div className="flex justify-between items-start gap-3">
+        <div className="min-w-0 flex-1">
+          <p className={`text-sm font-medium truncate mb-1 ${isNew ? 'text-emerald-100' : 'text-slate-300 group-hover:text-blue-200'}`}>
             {displayUrl}
-          </a>
-          {isNew && (
-            <span className="shrink-0 px-2 py-0.5 bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[10px] font-bold uppercase rounded tracking-wider">
-              New
+          </p>
+          <div className="flex items-center gap-2">
+            <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded border ${isNew
+                ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400'
+                : 'bg-slate-700/30 border-slate-600/30 text-slate-500'
+              }`}>
+              {isNew ? 'NEW' : 'RECENT'}
             </span>
-          )}
+            <span className="text-[10px] text-slate-600">LinkedIn</span>
+          </div>
         </div>
-        <p className="text-xs text-slate-500 mt-2">
-          {isNew ? 'Listing posted < 1 hour ago' : 'Listing posted within 24 hours'}
-        </p>
+        <div className="text-slate-600 group-hover:text-blue-400 transition-colors">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+            <path fillRule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clipRule="evenodd" />
+          </svg>
+        </div>
       </div>
-
-      <a
-        href={url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="self-start mt-2 inline-flex items-center gap-2 text-xs font-bold text-blue-400 group-hover:text-blue-300 transition-colors uppercase tracking-wider"
-      >
-        View Details
-        <span className="transition-transform group-hover:translate-x-1">→</span>
-      </a>
-
-      {/* Decorative Glow on Hover */}
-      <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-blue-500/0 via-white/5 to-purple-500/0 opacity-0 group-hover:opacity-100 pointer-events-none transition-opacity duration-500" />
-    </div>
+    </a>
   );
 }
