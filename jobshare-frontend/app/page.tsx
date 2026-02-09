@@ -10,19 +10,35 @@ type JobData = {
   };
 };
 
+type JobDetail = {
+  url: string;
+  role?: string;
+  about_company?: string;
+  raw_text?: string;
+};
+
+type JobDetailsMap = {
+  [url: string]: JobDetail;
+};
+
 export default function Home() {
   const { isLoaded, isSignedIn } = useUser();
   const [data, setData] = useState<{ profiles: JobData } | null>(null);
+  const [details, setDetails] = useState<JobDetailsMap>({});
   const [loading, setLoading] = useState(false);
   const [activeProfile, setActiveProfile] = useState<string | null>(null);
 
   useEffect(() => {
     if (isSignedIn) {
       setLoading(true);
-      fetch('/jobs_data.json')
-        .then(res => res.json())
-        .then(d => {
-          setData(d);
+
+      Promise.all([
+        fetch('/jobs_data.json').then(res => res.json()),
+        fetch('/job_details.json').then(res => res.json()).catch(() => ({}))
+      ])
+        .then(([jobsData, detailsData]) => {
+          setData(jobsData);
+          setDetails(detailsData);
           setLoading(false);
         })
         .catch(e => {
@@ -32,56 +48,49 @@ export default function Home() {
     }
   }, [isSignedIn]);
 
-  // Scroll to section handler
   const scrollToSection = (profile: string) => {
     const element = document.getElementById(`cat-${profile}`);
     if (element) {
-      // Offset for sticky header
-      const headerOffset = 100;
+      const headerOffset = 80;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: "smooth"
-      });
+      window.scrollTo({ top: offsetPosition, behavior: "smooth" });
       setActiveProfile(profile);
     }
   };
 
   if (!isLoaded) return (
-    <div className="flex h-screen items-center justify-center text-blue-400 font-medium tracking-wide animate-pulse">
-      Loading...
+    <div className="flex h-screen items-center justify-center bg-black text-neutral-400 font-medium">
+      <div className="flex items-center gap-3">
+        <div className="h-4 w-4 border-2 border-neutral-600 border-t-white rounded-full animate-spin" />
+        Loading...
+      </div>
     </div>
   );
 
   return (
-    <div className="min-h-screen font-sans bg-slate-900 text-slate-50">
-      {/* Background Glow Effects - keeping existing effects */}
-      <div className="fixed top-0 left-0 w-full h-full overflow-hidden -z-10 pointer-events-none">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-900/20 rounded-full blur-[100px]" />
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-900/10 rounded-full blur-[100px]" />
-      </div>
-
-      <header className="sticky top-0 z-50 backdrop-blur-md bg-slate-900/80 border-b border-white/5 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-          <div>
-            <h1 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              JobShare Hub
-            </h1>
+    <div className="min-h-screen bg-black text-white antialiased">
+      {/* Header - Vercel style */}
+      <header className="sticky top-0 z-50 border-b border-neutral-800 bg-black/80 backdrop-blur-xl">
+        <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="h-6 w-6 bg-white rounded-md flex items-center justify-center">
+              <span className="text-black font-bold text-xs">J</span>
+            </div>
+            <span className="font-semibold text-sm tracking-tight">JobShare</span>
           </div>
 
           <div>
             {!isSignedIn ? (
               <SignInButton mode="modal">
-                <button className="px-5 py-2 rounded-full font-medium text-white bg-blue-600 hover:bg-blue-500 transition-colors shadow-lg shadow-blue-500/20 text-sm">
+                <button className="h-8 px-4 text-sm font-medium bg-white text-black rounded-md hover:bg-neutral-200 transition-colors">
                   Sign In
                 </button>
               </SignInButton>
             ) : (
               <UserButton afterSignOutUrl="/" appearance={{
                 elements: {
-                  avatarBox: "w-9 h-9 border-2 border-blue-500/20"
+                  avatarBox: "w-8 h-8"
                 }
               }} />
             )}
@@ -89,34 +98,38 @@ export default function Home() {
         </div>
       </header>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <main className="max-w-6xl mx-auto px-6 py-12">
         {!isSignedIn ? (
-          <div className="flex flex-col items-center justify-center py-20 text-center min-h-[60vh]">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white tracking-tight">
-              Find Your Next <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400">Opportunity</span>
-            </h2>
-            <p className="text-lg text-slate-400 max-w-2xl leading-relaxed mb-8">
+          <div className="flex flex-col items-center justify-center py-24 text-center">
+            <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 bg-gradient-to-b from-white to-neutral-400 bg-clip-text text-transparent">
+              Find Your Next Role
+            </h1>
+            <p className="text-lg text-neutral-500 max-w-md leading-relaxed mb-8">
               Curated job listings updated hourly. Sign in to access the feed.
             </p>
+            <SignInButton mode="modal">
+              <button className="h-12 px-8 text-base font-medium bg-white text-black rounded-lg hover:bg-neutral-200 transition-colors">
+                Get Started
+              </button>
+            </SignInButton>
           </div>
         ) : (
-          <div className="flex flex-col lg:flex-row gap-8 relative">
-
-            {/* Sidebar Navigation */}
-            <aside className="lg:w-64 flex-shrink-0">
-              <div className="lg:sticky lg:top-24 max-h-[calc(100vh-8rem)] overflow-y-auto pb-4 pr-2 custom-scrollbar">
+          <div className="flex flex-col lg:flex-row gap-12">
+            {/* Sidebar */}
+            <aside className="lg:w-48 flex-shrink-0">
+              <div className="lg:sticky lg:top-24">
                 {data && (
                   <nav className="space-y-1">
-                    <h3 className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-4 px-3">
-                      Job Profiles
-                    </h3>
+                    <p className="text-xs font-medium text-neutral-500 uppercase tracking-wider mb-4">
+                      Categories
+                    </p>
                     {Object.keys(data.profiles).map(profile => (
                       <button
                         key={profile}
                         onClick={() => scrollToSection(profile)}
-                        className={`w-full text-left px-3 py-2 rounded-md text-sm font-medium transition-colors ${activeProfile === profile
-                            ? 'bg-blue-500/10 text-blue-400'
-                            : 'text-slate-400 hover:bg-white/5 hover:text-slate-200'
+                        className={`w-full text-left px-3 py-2 rounded-md text-sm transition-colors ${activeProfile === profile
+                          ? 'bg-neutral-800 text-white'
+                          : 'text-neutral-400 hover:text-white hover:bg-neutral-900'
                           }`}
                       >
                         {profile}
@@ -125,26 +138,26 @@ export default function Home() {
                   </nav>
                 )}
                 {loading && (
-                  <div className="space-y-3 px-3">
-                    {[1, 2, 3, 4].map(i => (
-                      <div key={i} className="h-8 bg-white/5 rounded animate-pulse" />
+                  <div className="space-y-2">
+                    {[1, 2, 3].map(i => (
+                      <div key={i} className="h-9 bg-neutral-900 rounded-md animate-pulse" />
                     ))}
                   </div>
                 )}
               </div>
             </aside>
 
-            {/* Main Content Feed */}
+            {/* Main Content */}
             <div className="flex-1 min-w-0">
               {loading && (
                 <div className="text-center py-20">
-                  <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500 mb-4"></div>
-                  <p className="text-slate-400">Loading listings...</p>
+                  <div className="h-5 w-5 border-2 border-neutral-700 border-t-white rounded-full animate-spin mx-auto mb-4" />
+                  <p className="text-neutral-500 text-sm">Loading jobs...</p>
                 </div>
               )}
 
               {!loading && data && (
-                <div className="space-y-16 pb-20">
+                <div className="space-y-16">
                   {Object.keys(data.profiles).map(cat => {
                     const group = data.profiles[cat];
                     const jobs1h = group['1h'] || [];
@@ -153,44 +166,39 @@ export default function Home() {
                     if (jobs1h.length === 0 && jobs24h.length === 0) return null;
 
                     return (
-                      <section
-                        key={cat}
-                        id={`cat-${cat}`}
-                        className="scroll-mt-24" // Helper class for scroll offset if supported, but we use JS mostly
-                      >
-                        <div className="flex items-center gap-4 mb-6 sticky top-[73px] z-10 bg-slate-900/95 backdrop-blur py-2 border-b border-white/5">
-                          <div className="h-8 w-1 bg-blue-500 rounded-full"></div>
-                          <h2 className="text-xl font-bold text-white">{cat}</h2>
+                      <section key={cat} id={`cat-${cat}`}>
+                        <div className="flex items-center gap-3 mb-6 pb-4 border-b border-neutral-800">
+                          <h2 className="text-lg font-semibold text-white">{cat}</h2>
+                          <span className="text-xs text-neutral-500 bg-neutral-900 px-2 py-1 rounded-full">
+                            {jobs1h.length + jobs24h.length} jobs
+                          </span>
                         </div>
 
-                        <div className="space-y-8 pl-0 lg:pl-5">
-                          {/* 1h Section */}
+                        <div className="space-y-6">
+                          {/* Fresh Jobs */}
                           {jobs1h.length > 0 && (
-                            <div className="space-y-4">
-                              <h4 className="flex items-center gap-2 text-xs font-bold text-emerald-400 uppercase tracking-widest">
-                                <span className="relative flex h-2 w-2">
-                                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                                  <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-                                </span>
-                                Fresh (1h)
-                              </h4>
-                              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4">
+                            <div className="space-y-3">
+                              <p className="text-xs font-medium text-emerald-500 uppercase tracking-wider flex items-center gap-2">
+                                <span className="h-1.5 w-1.5 bg-emerald-500 rounded-full animate-pulse" />
+                                New Today
+                              </p>
+                              <div className="space-y-2">
                                 {jobs1h.map((url, i) => (
-                                  <JobCard key={`1h-${i}`} url={url} type="1h" />
+                                  <JobCard key={`1h-${i}`} url={url} isNew={true} detail={details[url]} />
                                 ))}
                               </div>
                             </div>
                           )}
 
-                          {/* 24h Section */}
+                          {/* 24h Jobs */}
                           {jobs24h.length > 0 && (
-                            <div className="space-y-4">
-                              <h4 className="flex items-center gap-2 text-xs font-bold text-slate-500 uppercase tracking-widest">
-                                24 Hours
-                              </h4>
-                              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-4">
+                            <div className="space-y-3">
+                              <p className="text-xs font-medium text-neutral-500 uppercase tracking-wider">
+                                Last 24 Hours
+                              </p>
+                              <div className="space-y-2">
                                 {jobs24h.map((url, i) => (
-                                  <JobCard key={`24h-${i}`} url={url} type="24h" />
+                                  <JobCard key={`24h-${i}`} url={url} isNew={false} detail={details[url]} />
                                 ))}
                               </div>
                             </div>
@@ -205,50 +213,81 @@ export default function Home() {
           </div>
         )}
       </main>
+
+      {/* Footer */}
+      <footer className="border-t border-neutral-800 mt-24">
+        <div className="max-w-6xl mx-auto px-6 py-8">
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-sm text-neutral-400">
+              Created by <span className="text-white font-medium">Priyanshu Kumar</span>
+            </p>
+            <div className="flex items-center gap-6 text-sm">
+              <a
+                href="mailto:priyanshu.altruist@gmail.com"
+                className="text-neutral-500 hover:text-white transition-colors"
+              >
+                Feedback
+              </a>
+              <a
+                href="https://www.linkedin.com/in/priyanshu-kumar-980b50179/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-neutral-500 hover:text-white transition-colors flex items-center gap-1.5"
+              >
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                </svg>
+                Connect
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
 
 
-function JobCard({ url, type }: { url: string, type: '1h' | '24h' }) {
-  const isNew = type === '1h';
-  // Attempt to make display URL cleaner
-  // e.g. https://www.linkedin.com/jobs/view/381... -> .../view/381...
-  // For now just truncation is fine.
-  const displayUrl = url.length > 60 ? url.substring(0, 60) + "..." : url;
+function JobCard({ url, isNew, detail }: { url: string, isNew: boolean, detail?: JobDetail }) {
+  const roleTitle = detail?.role || "View Job Details";
+
+  // Extract job ID from URL for display
+  const jobId = url.match(/\/view\/(\d+)/)?.[1] || '';
 
   return (
     <a
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className={`group block p-4 rounded-lg border transition-all duration-200 
-        ${isNew
-          ? 'bg-slate-800/40 border-emerald-500/20 hover:border-emerald-500/40 hover:bg-slate-800/60'
-          : 'bg-slate-800/20 border-white/5 hover:border-blue-500/30 hover:bg-slate-800/40'
-        }
-      `}
+      className={`group flex items-center justify-between p-4 rounded-lg border transition-all duration-150 ${isNew
+        ? 'bg-neutral-900/50 border-neutral-800 hover:border-neutral-700 hover:bg-neutral-900'
+        : 'bg-transparent border-neutral-800/50 hover:border-neutral-700 hover:bg-neutral-900/50'
+        }`}
     >
-      <div className="flex justify-between items-start gap-3">
-        <div className="min-w-0 flex-1">
-          <p className={`text-sm font-medium truncate mb-1 ${isNew ? 'text-emerald-100' : 'text-slate-300 group-hover:text-blue-200'}`}>
-            {displayUrl}
+      <div className="flex items-center gap-4 min-w-0">
+        {/* Status indicator */}
+        <div className={`flex-shrink-0 h-2 w-2 rounded-full ${isNew ? 'bg-emerald-500' : 'bg-neutral-600'}`} />
+
+        <div className="min-w-0">
+          <h3 className={`text-sm font-medium truncate ${isNew ? 'text-white' : 'text-neutral-300'} group-hover:text-white transition-colors`}>
+            {roleTitle}
+          </h3>
+          <p className="text-xs text-neutral-500 font-mono mt-0.5">
+            #{jobId}
           </p>
-          <div className="flex items-center gap-2">
-            <span className={`text-[10px] font-semibold px-1.5 py-0.5 rounded border ${isNew
-                ? 'bg-emerald-500/10 border-emerald-500/20 text-emerald-400'
-                : 'bg-slate-700/30 border-slate-600/30 text-slate-500'
-              }`}>
-              {isNew ? 'NEW' : 'RECENT'}
-            </span>
-            <span className="text-[10px] text-slate-600">LinkedIn</span>
-          </div>
         </div>
-        <div className="text-slate-600 group-hover:text-blue-400 transition-colors">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
-            <path fillRule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clipRule="evenodd" />
-          </svg>
-        </div>
+      </div>
+
+      {/* Arrow */}
+      <div className="flex-shrink-0 ml-4">
+        <svg
+          className="w-4 h-4 text-neutral-600 group-hover:text-white group-hover:translate-x-0.5 transition-all"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+        </svg>
       </div>
     </a>
   );
