@@ -14,6 +14,8 @@ type JobDetail = {
   url: string;
   role?: string;
   about_company?: string;
+  skills?: string[];
+  salary?: string;
   raw_text?: string;
 };
 
@@ -139,8 +141,8 @@ export default function Home() {
                         key={profile}
                         onClick={() => scrollToSection(profile)}
                         className={`group relative p-4 rounded-xl border text-left transition-all duration-200 ${activeProfile === profile
-                            ? 'bg-white text-black border-white'
-                            : 'bg-neutral-900/50 border-neutral-800 hover:border-neutral-600 hover:bg-neutral-800/50'
+                          ? 'bg-white text-black border-white'
+                          : 'bg-neutral-900/50 border-neutral-800 hover:border-neutral-600 hover:bg-neutral-800/50'
                           }`}
                       >
                         {/* New jobs indicator */}
@@ -155,8 +157,8 @@ export default function Home() {
 
                         <div className="flex items-center gap-2">
                           <span className={`text-xs font-medium px-2 py-0.5 rounded-md ${activeProfile === profile
-                              ? 'bg-black/10 text-black'
-                              : 'bg-neutral-800 text-neutral-400'
+                            ? 'bg-black/10 text-black'
+                            : 'bg-neutral-800 text-neutral-400'
                             }`}>
                             {totalJobs} jobs
                           </span>
@@ -280,6 +282,9 @@ export default function Home() {
 
 function JobCard({ url, isNew, detail }: { url: string, isNew: boolean, detail?: JobDetail }) {
   const roleTitle = detail?.role || "View Job Details";
+  const companyName = detail?.about_company ? detail.about_company.split('.')[0].substring(0, 40) + (detail.about_company.length > 40 ? "..." : "") : "Company Confidential";
+  const salary = detail?.salary && detail.salary !== "Not mentioned" ? detail.salary : null;
+  const skills = detail?.skills?.slice(0, 4) || [];
 
   // Extract job ID from URL for display
   const jobId = url.match(/\/view\/(\d+)/)?.[1] || '';
@@ -289,35 +294,54 @@ function JobCard({ url, isNew, detail }: { url: string, isNew: boolean, detail?:
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className={`group flex items-center justify-between p-4 rounded-lg border transition-all duration-150 ${isNew
-        ? 'bg-neutral-900/50 border-neutral-800 hover:border-neutral-700 hover:bg-neutral-900'
-        : 'bg-transparent border-neutral-800/50 hover:border-neutral-700 hover:bg-neutral-900/50'
+      className={`group flex flex-col p-5 rounded-xl border transition-all duration-200 hover:shadow-lg hover:-translate-y-1 relative overflow-hidden ${isNew
+        ? 'bg-neutral-900/40 border-neutral-800 hover:border-emerald-500/30 hover:bg-neutral-900/60'
+        : 'bg-neutral-950/30 border-neutral-800/50 hover:border-neutral-700 hover:bg-neutral-900/40'
         }`}
     >
-      <div className="flex items-center gap-4 min-w-0">
-        {/* Status indicator */}
-        <div className={`flex-shrink-0 h-2 w-2 rounded-full ${isNew ? 'bg-emerald-500' : 'bg-neutral-600'}`} />
+      {/* New Indicator line */}
+      {isNew && (
+        <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-emerald-500 to-transparent opacity-50" />
+      )}
 
-        <div className="min-w-0">
-          <h3 className={`text-sm font-medium truncate ${isNew ? 'text-white' : 'text-neutral-300'} group-hover:text-white transition-colors`}>
+      <div className="flex justify-between items-start gap-4 mb-3">
+        <div className="min-w-0 flex-1">
+          <h3 className="text-lg font-semibold text-white group-hover:text-emerald-400 transition-colors leading-tight mb-1">
             {roleTitle}
           </h3>
-          <p className="text-xs text-neutral-500 font-mono mt-0.5">
-            #{jobId}
+          <p className="text-sm text-neutral-400 font-medium">
+            {companyName}
           </p>
         </div>
+
+        {salary && (
+          <div className="flex-shrink-0 bg-emerald-500/10 border border-emerald-500/20 px-2.5 py-1 rounded-md">
+            <p className="text-xs font-bold text-emerald-400 whitespace-nowrap">
+              {salary}
+            </p>
+          </div>
+        )}
       </div>
 
-      {/* Arrow */}
-      <div className="flex-shrink-0 ml-4">
-        <svg
-          className="w-4 h-4 text-neutral-600 group-hover:text-white group-hover:translate-x-0.5 transition-all"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-        </svg>
+      {skills.length > 0 && (
+        <div className="flex flex-wrap gap-2 mb-4">
+          {skills.map((skill, idx) => (
+            <span key={idx} className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-neutral-800 text-neutral-300 border border-neutral-700">
+              {skill}
+            </span>
+          ))}
+        </div>
+      )}
+
+      <div className="mt-auto flex items-center justify-between pt-3 border-t border-dashed border-neutral-800/50">
+        <span className="text-xs text-neutral-600 font-mono">ID: {jobId}</span>
+
+        <div className="flex items-center gap-1 text-xs font-medium text-emerald-500 opacity-0 group-hover:opacity-100 transition-opacity transform translate-x-2 group-hover:translate-x-0">
+          Apply Now
+          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </div>
       </div>
     </a>
   );
