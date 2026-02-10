@@ -166,14 +166,14 @@
     "about_company": "",
     "fetched_at": "now",
     "skills": [
-      "Analytical thinking",
-      "Problem-solving",
-      "Decision-making",
+      "analytical thinking",
+      "problem-solving",
+      "decision-making",
       "Excel",
       "PowerPoint",
       "Power BI",
       "Tableau",
-      "Communication"
+      "communication"
     ],
     "salary": "\u20b97,499"
   },
@@ -244,12 +244,12 @@
       "Tableau",
       "MS Excel",
       "SQL",
-      "Data cleaning",
-      "Data transformation",
-      "Data validation",
+      "data cleaning",
+      "data transformation",
+      "data validation",
       "Exploratory Data Analysis (EDA)",
-      "Analytical thinking",
-      "Problem-solving"
+      "analytical thinking",
+      "problem-solving"
     ],
     "salary": "\u20b97,500"
   },
@@ -297,7 +297,7 @@
       "UI development (modern HTML/CSS)",
       "Responsive Design",
       "Agile/Scrum methodology",
-      "strong communication and collaboration skills"
+      "communication and collaboration skills"
     ],
     "salary": "Not mentioned"
   },
@@ -308,9 +308,9 @@
     "about_company": "",
     "fetched_at": "now",
     "skills": [
-      "frontend development",
-      "web technologies",
-      "user-friendly UI implementation",
+      "web development",
+      "frontend components development",
+      "responsive UI implementation",
       "collaboration",
       "willingness to learn"
     ],
@@ -428,9 +428,8 @@
       "Vue.js",
       "responsive design",
       "REST APIs",
-      "Webpack",
-      "Vite",
-      "communication skills",
+      "build tools (Webpack/Vite)",
+      "good communication skills",
       "teamwork mindset",
       "eagerness to learn"
     ],
@@ -452,16 +451,33 @@
       "LLMs",
       "AI agents",
       "RAG pipelines",
+      "unstructured data ingestion",
+      "chunking",
+      "vectorization",
+      "retrieval",
+      "evaluation",
+      "LangChain",
+      "LangGraph",
+      "CrewAI",
       "vector databases",
+      "Pinecone",
+      "Weaviate",
+      "ChromaDB",
       "SQL databases",
+      "PostgreSQL",
+      "MySQL",
       "NoSQL databases",
+      "MongoDB",
+      "ML frameworks",
+      "DL frameworks",
       "TensorFlow",
       "PyTorch",
       "large datasets",
       "data preprocessing",
       "agile development",
       "version control",
-      "good English communication skills"
+      "coding copilots",
+      "English communication"
     ],
     "salary": "Not mentioned"
   },
@@ -494,7 +510,7 @@
       "analytical skills",
       "problem-solving skills",
       "communication skills",
-      "collaboration skills",
+      "collaboration",
       "proactive mindset",
       "self-motivated"
     ],
@@ -516,7 +532,7 @@
       "responsive design",
       "REST APIs",
       "build tools (Webpack/Vite)",
-      "communication skills",
+      "good communication skills",
       "teamwork mindset",
       "eagerness to learn"
     ],
@@ -560,6 +576,7 @@
       "integration architectures",
       "offshore development practices",
       "troubleshooting",
+      "operational stability",
       "IBM webMethods Integration Server",
       "messaging",
       "architecture design",
@@ -585,7 +602,6 @@
       "SQL",
       "Jupyter Notebooks",
       "data cleaning",
-      "preprocessing",
       "feature engineering",
       "Exploratory Data Analysis (EDA)",
       "machine learning model development",
@@ -636,21 +652,16 @@
       "Transformer architectures",
       "RAG pipelines",
       "LLM parameter handling",
-      "Model selection",
       "Scaling strategies",
       "Performance optimization",
       "Prompt engineering",
       "Instruction tuning",
       "Evaluation frameworks",
-      "Latency analysis",
-      "Cost analysis",
-      "Governance and compliance",
+      "Agentic AI systems",
       "Multi-agent orchestration",
       "Tool-use workflows",
-      "Autonomous task execution",
       "Long-term memory architectures",
-      "Model training",
-      "Fine-tuning",
+      "Fine-tuning approaches",
       "Model compression techniques",
       "CUDA",
       "Triton",
@@ -661,8 +672,7 @@
       "Production-grade inference servers",
       "APIs",
       "Microservices",
-      "Cloud architectures",
-      "Research and evaluation"
+      "Cloud architectures"
     ],
     "salary": "Not mentioned"
   },
@@ -676,7 +686,11 @@
       "Deep subject knowledge in Computer Science and Information Technology",
       "Expertise in Programming and Cybersecurity principles and applications",
       "Experience in Curriculum Development",
-      "Excellent communication and teaching skills"
+      "Excellent communication and teaching skills",
+      "Mentoring students",
+      "Assessing academic progress",
+      "Collaboration with colleagues",
+      "Staying updated on industry innovations"
     ],
     "salary": "Not mentioned"
   },
@@ -711,7 +725,8 @@
       "APIs",
       "Git version control",
       "problem-solving",
-      "logical thinking"
+      "logical thinking",
+      "willingness to learn new technologies"
     ],
     "salary": "Up to \u20b97,500 (Performance-Based)"
   },
@@ -727,11 +742,13 @@
       "data structures",
       "Django",
       "Flask",
+      "FastAPI",
       "SQL databases",
       "APIs",
       "Git version control",
       "problem-solving",
-      "logical thinking"
+      "logical thinking",
+      "willingness to learn new technologies"
     ],
     "salary": "Up to \u20b97,500 (Performance-Based)"
   },
@@ -742,16 +759,16 @@
     "about_company": "UM IT Solutions provides students and graduates with practical learning opportunities in web development. Our internship program emphasizes hands-on experience in both front-end and back-end development through real-world projects, enabling interns to build strong technical foundations and industry-...",
     "fetched_at": "now",
     "skills": [
-      "HTML",
+      "Proficiency in HTML",
       "CSS",
       "JavaScript",
-      "React",
+      "Familiarity with frameworks such as React",
       "Angular",
       "Node.js",
       "Strong communication skills",
       "Teamwork skills",
       "Willingness to learn",
-      "Adaptability"
+      "Adaptability to new technologies"
     ],
     "salary": "\u20b97,499"
   },
@@ -786,16 +803,15 @@
     "skills": [
       "Front-End Development",
       "React Native",
-      "User Interface Design",
+      "User Interface Design Principles",
       "Back-End Web Development",
       "Software Development",
       "API Integration",
       "Database Integration",
-      "JavaScript",
+      "JavaScript Programming",
       "Redux.js",
       "Problem-Solving",
       "Collaboration",
-      "Remote Team Work",
       "Passion for Learning"
     ],
     "salary": "Not mentioned"
@@ -990,7 +1006,8 @@
       "Cloud",
       "Architecture",
       "Prompt Engineering",
-      "Model Training"
+      "Model Training",
+      "Integration"
     ],
     "salary": "Not mentioned"
   },
@@ -1122,9 +1139,6 @@
       "Excel",
       "SQL",
       "Power BI",
-      "data cleaning",
-      "data transformation",
-      "data validation",
       "analytical skills",
       "problem-solving skills",
       "willingness to learn"
@@ -1246,7 +1260,7 @@
       "Data visualization tools (Tableau, Power BI)",
       "Knowledge of Python",
       "Knowledge of R",
-      "Understanding of sports concepts",
+      "Understanding of sports concepts and performance metrics",
       "Good written communication skills",
       "Attention to detail",
       "Team-first mindset"
@@ -1294,13 +1308,7 @@
     "fetched_at": "now",
     "skills": [
       "Data Science",
-      "Customer Intelligence",
-      "Growth Intelligence",
-      "Commerce Intelligence",
-      "Search and Ranking",
-      "Recommendations",
-      "Personalization",
-      "Customer Profiling",
+      "Customer profiling",
       "Segmentation",
       "LTV",
       "Churn",
@@ -1308,48 +1316,49 @@
       "Acquisition",
       "Engagement",
       "Retention",
-      "Lifecycle Optimization",
-      "Marketing Effectiveness",
+      "Lifecycle optimization",
+      "Marketing effectiveness",
       "Attribution",
       "Uplift",
       "Experimentation",
-      "Dynamic Pricing",
-      "Markdown Optimization",
-      "Promotion Effectiveness",
-      "Offer Personalization",
-      "Ads Relevance",
-      "Bidding Intelligence",
+      "Dynamic pricing",
+      "Markdown optimization",
+      "Promotion effectiveness",
+      "Offer personalization",
+      "Ads relevance",
+      "Bidding intelligence",
       "Measurement",
-      "Margin Optimization",
-      "Revenue Intelligence",
-      "Demand Planning",
+      "Margin optimization",
+      "Revenue intelligence",
+      "Demand planning",
       "Forecasting",
-      "Inventory Optimization",
+      "Inventory optimization",
       "Replenishment",
-      "Allocation Optimization",
-      "Network Planning",
+      "Allocation optimization",
+      "Network planning",
       "S&OP",
-      "Fulfillment Intelligence",
-      "Store Efficiency",
-      "Labor Optimization",
+      "Fulfillment intelligence",
+      "Store efficiency",
+      "Labor optimization",
       "Compliance",
-      "Planogram Intelligence",
-      "Assortment Effectiveness",
-      "Computer Vision",
-      "Video Intelligence",
-      "Sensor-based Intelligence",
-      "Shrinkage Prevention",
-      "Fraud Prevention",
-      "Loss Prevention",
-      "Intelligent Decision Engines",
-      "Automated Planning",
-      "Execution Monitoring",
-      "Causal Modeling",
-      "Simulation Modeling",
-      "Digital Twin Modeling",
-      "Reusable ML Platforms",
-      "Feature Stores",
-      "Inference Systems"
+      "Planogram intelligence",
+      "Assortment effectiveness",
+      "Computer vision",
+      "Video intelligence",
+      "Sensor-based intelligence",
+      "Shrinkage prevention",
+      "Fraud prevention",
+      "Loss prevention",
+      "Intelligent decision engines",
+      "Automated planning",
+      "Execution",
+      "Monitoring",
+      "Causal modeling",
+      "Simulation modeling",
+      "Digital twin-based modeling",
+      "Reusable ML platforms",
+      "Feature stores",
+      "Inference systems"
     ],
     "salary": "Not mentioned"
   },
@@ -1442,9 +1451,8 @@
       "Vue.js",
       "responsive design",
       "REST APIs",
-      "Webpack",
-      "Vite",
-      "communication skills",
+      "build tools (Webpack/Vite)",
+      "good communication skills",
       "teamwork mindset",
       "eagerness to learn"
     ],
@@ -1481,12 +1489,13 @@
       "Python",
       "FastAPI",
       "Django",
+      "Generative AI",
       "APIs",
       "JSON",
-      "Generative AI",
-      "Artificial Intelligence (AI)"
+      "AI Agents",
+      "RAG systems"
     ],
-    "salary": "Unpaid Internship"
+    "salary": "Not mentioned"
   },
   "https://www.linkedin.com/jobs/view/4370677745/": {
     "url": "https://www.linkedin.com/jobs/view/4370677745/",
@@ -1502,11 +1511,9 @@
       "browser-based debugging",
       "performance testing",
       "automated testing",
-      "front-end module creation",
       "code reusability",
-      "smooth animations",
-      "working with third-party dependencies",
-      "APIs"
+      "API integration",
+      "UI design"
     ],
     "salary": "Not mentioned"
   },
@@ -1524,9 +1531,7 @@
       "JavaScript",
       "web development concepts",
       "teamwork",
-      "debugging",
-      "testing",
-      "application performance optimization"
+      "willingness to learn"
     ],
     "salary": "Not mentioned"
   },
@@ -1601,8 +1606,6 @@
       "Good analytical and problem-solving skills",
       "Strong attention to detail",
       "Good written and verbal communication",
-      "Exposure to CRM tools",
-      "Exposure to AI lead generation / data enrichment platforms",
       "Basic SQL knowledge",
       "Understanding of B2B data structures"
     ],
@@ -1619,7 +1622,7 @@
       "Algorithms",
       "Mentoring",
       "Problem-solving",
-      "Communication"
+      "Clear communication"
     ],
     "salary": "Not mentioned"
   },
@@ -1653,8 +1656,7 @@
     "skills": [
       "Market Research",
       "Customer Engagement",
-      "Survey Conducting",
-      "Communication"
+      "Survey Conducting"
     ],
     "salary": "Not mentioned"
   },
@@ -1719,7 +1721,7 @@
     "skills": [
       "SQL",
       "Python",
-      "analytical thought process"
+      "Analytical thinking"
     ],
     "salary": "Not mentioned"
   },
@@ -1735,11 +1737,10 @@
       "Detail-oriented",
       "Ability to follow precise instructions",
       "Comfortable working independently",
-      "Meeting tight deadlines",
-      "Experience with data collection",
-      "Experience with annotation or QA work",
-      "Experience recording or documenting workflows",
-      "Comfort working with new tools and staged environments"
+      "Ability to meet tight deadlines",
+      "Experience with data collection or annotation (nice-to-have)",
+      "Experience recording workflows (nice-to-have)",
+      "Comfort with new tools and staged environments (nice-to-have)"
     ],
     "salary": "Not mentioned"
   },
@@ -1754,7 +1755,7 @@
       "containerization",
       "cloud infrastructure",
       "CI/CD automation",
-      "DevSecOps practices",
+      "DevSecOps",
       "API development",
       "Java",
       "Springboot",
@@ -1766,8 +1767,6 @@
       "Helm",
       "Ansible",
       "ArgoCD",
-      "code quality tools",
-      "security tools",
       "SonarQube",
       "Black Duck",
       "RestAPI",
@@ -1953,8 +1952,8 @@
       "React",
       "Angular",
       "Node.js",
-      "Strong communication skills",
-      "Time management skills"
+      "strong communication",
+      "time management"
     ],
     "salary": "\u20b97,500 - \u20b915,000"
   },
@@ -1969,7 +1968,7 @@
       "video editing",
       "time management",
       "ability to follow feedback",
-      "productivity tracking"
+      "productivity targets"
     ],
     "salary": "\u20b924,000 / month + bonus"
   },
@@ -1982,8 +1981,6 @@
     "skills": [
       "Cloud Architectures",
       "public cloud offerings",
-      "software development",
-      "distributed transactional systems",
       "Java 17+",
       "Spring Boot",
       "Middleware (Messaging \u2013 MQ/Kafka)",
@@ -2020,12 +2017,11 @@
       "Image Processing",
       "Video Processing",
       "Voice Processing",
-      "Watson Technologies",
-      "Python",
       "TensorFlow",
       "PyTorch",
       "Keras",
       "Hugging Face",
+      "Python",
       "Cloud Platforms (Kubernetes, AWS, Azure, GCP)",
       "Relational Databases (SQL, Postgres, DB2)",
       "NoSQL Databases (MongoDB)",
@@ -2047,13 +2043,14 @@
     "about_company": "",
     "fetched_at": "now",
     "skills": [
-      "Strong attention to detail",
-      "Ability to follow structured instructions",
-      "Comfort working with digital tools and interfaces",
-      "Familiarity with JSON or structured data formats",
-      "Background in STEM or technical disciplines",
-      "Strong digital proficiency",
-      "Ability to work independently in a fully remote environment"
+      "strong attention to detail",
+      "ability to follow structured instructions",
+      "comfort working with digital tools and interfaces",
+      "familiarity with JSON or structured data formats",
+      "background in STEM or technical disciplines",
+      "strong digital proficiency",
+      "ability to work independently",
+      "access to a desktop or laptop computer"
     ],
     "salary": "$50\u2013$90/hour"
   },
@@ -2216,16 +2213,36 @@
       "AI / Machine Learning",
       "Python programming",
       "machine learning algorithms",
-      "data preprocessing",
-      "feature engineering",
-      "model evaluation",
-      "model training",
-      "model tuning",
-      "model optimization",
-      "REST APIs",
+      "Regression",
+      "Classification",
+      "Clustering",
+      "Decision Trees",
+      "Ensemble methods",
+      "Supervised learning",
+      "Unsupervised learning",
+      "model evaluation metrics",
+      "Accuracy",
+      "Precision",
+      "Recall",
+      "F1-score",
+      "ROC-AUC",
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "Keras",
+      "NumPy",
+      "Pandas",
+      "Matplotlib",
+      "Seaborn",
       "data cleaning",
+      "preprocessing",
       "SQL",
+      "structured data",
+      "semi-structured data",
+      "deploying ML models",
+      "APIs",
       "Docker",
+      "cloud concepts",
       "AWS",
       "Azure",
       "GCP",
@@ -2233,10 +2250,551 @@
       "NLP",
       "Computer Vision",
       "LLMs",
+      "prompt engineering",
+      "embeddings",
       "MLOps tools",
+      "MLflow",
+      "Airflow",
+      "Kubeflow",
       "data visualization",
-      "ethical AI"
+      "storytelling",
+      "ethical AI",
+      "bias mitigation"
     ],
     "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370697922/": {
+    "url": "https://www.linkedin.com/jobs/view/4370697922/",
+    "raw_text": "Computer Science Engineer Intern\nCompany: Inficore Sof\ntInternship Type: Full-tim\neLocation: Remot\neDuration: 1\u20133 Month\nsStipend: \u20b915,500 per mont\nh\nAbout the Ro\nle\nThe Computer Science Engineer Intern will assist with development, analysis, and technical support tas\nks.\nKey Responsibili\nties\u2022 Support software and system develop\nment\u2022 Assist with coding and tes\nting\u2022 Analyze technical requirem\nents\u2022 Document technical proce\nsses\nRequired Skills & Qualifica\ntions\u2022 Background in computer science con\ncepts\u2022 Basic programming know\nledge\u2022 Analytical and logical thi\nnking\nWho Can\nApply\u2022 Computer science students or recent gra\nduates\nWhat You\u2019\nll Gain\u2022 Broad technical e\nxposure\u2022 Practical engineering exp\nerience\u2022 Internship certificate upon com\npletion",
+    "role": "Computer Science Engineer Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Background in computer science concepts",
+      "Basic programming knowledge",
+      "Analytical thinking",
+      "Logical thinking"
+    ],
+    "salary": "\u20b915,500 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4370702501/": {
+    "url": "https://www.linkedin.com/jobs/view/4370702501/",
+    "raw_text": "Important Note : You can share your CV through WhatsApp on the following number ( +91 8147711033 )\n\ud83d\ude80 Hiring Salesforce Developer \u2013 Fresher | Work From Home\n\ud83d\udccd\nCompany :\nERP Force India\n\ud83d\udccd\nLocation\n: Remote (WFH) / Bangalore\n\ud83d\udcc5\nJoining\n: Immediate\n\ud83d\udd39 About ERP Force India\nERP Force India is a cloud-focused CRM & ERP solutions company specializing in Salesforce consulting, development, and integrations. We help businesses grow by delivering scalable, business-driven cloud solutions.\n\ud83d\udd39 Role: Salesforce Developer / Force.com Developer (Fresher)\nWe are looking for enthusiastic freshers who have completed Salesforce training and are eager to start their career in Salesforce development.\n\ud83d\udd39 Roles & Responsibilities\n\u2714\ufe0f Customize Salesforce using workflows, approval processes, validation & assignment rules\n\u2714\ufe0f Develop solutions using Apex, Visualforce & Lightning Web Components (LWC)\n\u2714\ufe0f Work on Sales Cloud / Service Cloud / Community Cloud\n\u2714\ufe0f Support Salesforce integrations using REST / SOAP APIs\n\u2714\ufe0f Assist in Lightning Experience implementation\n\u2714\ufe0f Debug, test, and deploy Salesforce solutions\n\u2714\ufe0f Collaborate with senior developers and project teams\n\u2714\ufe0f Follow Salesforce best practices and documentation standards\n\ud83d\udd39 Required Skills & Knowledge\n\ud83d\udd39 0\u20136 months experience or training in Salesforce\n\ud83d\udd39 Completed Salesforce Admin + Development training\n\ud83d\udd39 Knowledge of Force.com declarative & programmatic development\n\ud83d\udd39 Familiarity with Apex, LWC, Visualforce\n\ud83d\udd39 Basic understanding of HTML, CSS, JavaScript, JSON, XML\n\ud83d\udd39 Understanding of Salesforce architecture (preferred)\n\ud83d\udd39 Experience\n\ud83c\udf93 Freshers / Entry-level candidates\n\ud83d\udca1 Java or Salesforce background preferred\n\ud83d\udd39 Salary\n\ud83d\udcb0 Up to \u20b930,000 per month\n(Depends on knowledge, experience & communication skills)\n\ud83d\udd39 Job Details\n\ud83d\udd58 Office Hours: 9:30 AM \u2013 6:30 PM\n\ud83c\udfe0 Work Mode: Work From Home / Anywhere (Good internet required)\n\ud83c\udf93 Qualification: Graduation\n\ud83d\udce9 How to Apply\n\ud83d\udcf2 WhatsApp Only: +91 81477 11033",
+    "role": "Salesforce Developer / Force.com Developer (Fresher)",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Salesforce",
+      "Apex",
+      "Visualforce",
+      "Lightning Web Components (LWC)",
+      "Sales Cloud",
+      "Service Cloud",
+      "Community Cloud",
+      "REST APIs",
+      "SOAP APIs",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JSON",
+      "XML"
+    ],
+    "salary": "Up to \u20b930,000 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4370693858/": {
+    "url": "https://www.linkedin.com/jobs/view/4370693858/",
+    "raw_text": "Note: Please visit the website before proceeding ahead\nGenerate AI assets on a shared canvas and Drive- that is what you can achieve with Invook. A single space where AI-generated assets are created, stored, and shared - without losing context.\nThis program is for college students who want to be early builders, not just users.\nYou\u2019ll get early access to Invook, work closely with the founding team, and experiment with your own ideas to introduce the product on your campus. and community.\nAs they say 9-5 is easy, 0-1 is hard. Get hands on experience on building a product from scratch\nThere are no fixed script or targets - just curiosity, creativity, and honest feedback.\nDuration: 4\u20136 weeks\nTime commitment: ~3\u20135 hours/week\nWho can apply: people who love building stuff, curious, good design sense, good listeners- can use feedback to improve product, research mindset and should have a hobby to talk about.\nNote: This is a learning-first, non-paid program with certificates, recognition, and priority consideration for future roles.\nLink to the website: Invook",
+    "role": "Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "curiosity",
+      "creativity",
+      "good design sense",
+      "good listening skills",
+      "ability to use feedback to improve product",
+      "research mindset"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371013839/": {
+    "url": "https://www.linkedin.com/jobs/view/4371013839/",
+    "raw_text": "Data Science Intern\nCompany:\nSKOOLAGE\nLocation:\nRemote\nDuration:\n3 Months\nStipend:\nUp to \u20b97,500 (Paid | Performance-Based)\nEmployment Opportunity:\nPotential full-time role based on performance + Certificate of Internship\nAbout SKOOLAGE\nSKOOLAGE is a technology-driven learning and career-readiness platform that delivers practical training and internship programs across Artificial Intelligence, Machine Learning, Data Science, and emerging digital technologies. The organization focuses on real-world exposure, industry-relevant projects, and guided mentorship to prepare learners for successful careers in data-driven fields.\nRole Overview\nAs a Data Science Intern at SKOOLAGE, you will work on end-to-end data science projects involving data preprocessing, exploratory analysis, machine learning model development, and predictive analytics. This internship is ideal for candidates aiming to strengthen their applied data science and AI skills through hands-on experience.\nKey Responsibilities\nPerform data cleaning, preprocessing, feature engineering, and Exploratory Data Analysis (EDA)\nBuild, train, test, and evaluate machine learning models using Scikit-learn\nVisualize data insights using tools such as Matplotlib, Seaborn, or Power BI\nWork with real-world datasets to develop predictive and analytical solutions\nCollaborate with mentors to improve model accuracy, performance, and scalability\nDocument findings and present insights in a clear, structured manner\nEligibility & Requirements\nWorking knowledge of Python, Pandas, NumPy, Scikit-learn, and Matplotlib\nUnderstanding of machine learning algorithms, data preprocessing techniques, and evaluation metrics\nFamiliarity with SQL and Jupyter Notebooks\nStrong analytical thinking, curiosity, and problem-solving skills\nPrior coursework, certifications, or personal projects in data science or ML are an added advantage\nWhat You Will Gain\nPaid stipend of up to \u20b97,500 (Performance-Based)\nCertificate of Internship from SKOOLAGE\nHands-on experience with real-world AI and machine learning projects\nMentorship from experienced data science professionals\nOpportunity to build portfolio-ready data science projects\nNetworking opportunities, career guidance, and placement support\nPotential full-time employment opportunity based on performance",
+    "role": "Data Science Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Matplotlib",
+      "SQL",
+      "Jupyter Notebooks",
+      "data cleaning",
+      "preprocessing",
+      "feature engineering",
+      "Exploratory Data Analysis (EDA)",
+      "machine learning model development",
+      "predictive analytics",
+      "analytical thinking",
+      "curiosity",
+      "problem-solving"
+    ],
+    "salary": "Up to \u20b97,500 (Paid | Performance-Based)"
+  },
+  "https://www.linkedin.com/jobs/view/4370705328/": {
+    "url": "https://www.linkedin.com/jobs/view/4370705328/",
+    "raw_text": "Artificial Intelligence Intern\nCompany: Inficore Soft\nInternship Type: Full-time\nLocation: Remote\nDuration: 1\u20133 Months\nStipend: \u20b915,500 per month\nAbout the Role\nThe Artificial Intelligence Intern will support AI-based solutions and experimentation under guidance.\nKey Responsibilities\n\u2022 Assist in AI model development\n\u2022 Work with datasets and algorithms\n\u2022 Perform testing and analysis\n\u2022 Document AI workflows\nRequired Skills & Qualifications\n\u2022 Basic understanding of AI concepts\n\u2022 Python programming knowledge\n\u2022 Interest in intelligent systems\nWho Can Apply\n\u2022 Students or recent graduates in technical disciplines\nWhat You\u2019ll Gain\n\u2022 Exposure to AI applications\n\u2022 Hands-on technical learning\n\u2022 Internship certificate upon completion",
+    "role": "Artificial Intelligence Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Basic understanding of AI concepts",
+      "Python programming knowledge",
+      "Interest in intelligent systems"
+    ],
+    "salary": "\u20b915,500 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4371014636/": {
+    "url": "https://www.linkedin.com/jobs/view/4371014636/",
+    "raw_text": "About the Company\nSportsBuzz is a sports-tech platform dedicated to real-time updates, in-depth analysis, and engaging sports content. The internship offers students and graduates hands-on exposure to sports data analytics and digital sports media, helping them build practical skills and a strong foundation for a career in sports analytics and data science.\nAbout the Role\nAs a Sports Analyst Intern, you will work at the intersection of data and sports. You will analyze match statistics, player performance, and game trends to generate actionable insights that support content creation and strategic decision-making. This role is designed to strengthen analytical skills and build a portfolio in the fast-growing sports-tech industry.\nResponsibilities\nCollect and organize historical and real-time sports data, including scores, player statistics, and team metrics\nAnalyze player and team performance to identify patterns, trends, and key performance indicators (KPIs)\nPrepare match previews, post-match reports, and data-driven insights for editorial teams\nBuild and maintain dashboards to visualize game trends and statistical comparisons\nMonitor global sports trends and fan engagement metrics to support content strategy\nQualifications\nCurrently enrolled in or graduated from Sports Management, Data Science, Statistics, Mathematics, or related fields\nRequired Skills\nStrong analytical ability to interpret complex datasets and convert insights into clear narratives\nFamiliarity with Excel, Google Sheets, or data visualization tools such as Tableau or Power BI\nKnowledge of Python or R is an added advantage\nStrong understanding of sports concepts, rules, and performance metrics (Cricket, Football, etc.)\nGood written communication skills, attention to detail, and a team-first mindset\nPreferred Skills\nNone specified\nPay range and compensation package\nPerformance-based stipend up to \u20b97,499\nSwags and goodies\nCertificate of Internship\nLetter of Recommendation (based on performance)\nPotential full-time role based on performance\nEqual Opportunity Statement\nSportsBuzz is an equal opportunity organization and welcomes candidates from all backgrounds who share a passion for sports and data.",
+    "role": "Sports Analyst Intern",
+    "about_company": "SportsBuzz is a sports-tech platform dedicated to real-time updates, in-depth analysis, and engaging sports content. The internship offers students and graduates hands-on exposure to sports data analytics and digital sports media, helping them build practical skills and a strong foundation for a car...",
+    "fetched_at": "now",
+    "skills": [
+      "Strong analytical ability",
+      "Familiarity with Excel",
+      "Familiarity with Google Sheets",
+      "Data visualization tools (Tableau, Power BI)",
+      "Knowledge of Python",
+      "Knowledge of R",
+      "Understanding of sports concepts",
+      "Good written communication skills",
+      "Attention to detail",
+      "Team-first mindset"
+    ],
+    "salary": "\u20b97,499"
+  },
+  "https://www.linkedin.com/jobs/view/4361889225/": {
+    "url": "https://www.linkedin.com/jobs/view/4361889225/",
+    "raw_text": "Backend Developer Intern (Remote)\nCompany: Skillzenloop\nInternship Type: Full-Time\nDuration: 1\u20133 Months\nStipend: \u20b915,000 per month\nWork Mode: Remote\n\u2e3b\nInternship Overview\nSkillzenloop is offering an opportunity for a Backend Developer Intern who is interested in understanding how server-side systems, databases, and application logic work together. This internship focuses on practical backend development exposure through guided, real-world tasks in a remote environment.\n\u2e3b\nWhat You\u2019ll Be Working On\n\u2022 Assisting in developing backend logic for web applications\n\u2022 Working with server-side languages and frameworks\n\u2022 Supporting API creation, integration, and testing\n\u2022 Handling basic database operations and data management\n\u2022 Debugging and improving backend performance\n\u2022 Collaborating with frontend developers and team members\n\u2022 Maintaining basic technical documentation\n\u2e3b\nSkills & Requirements\n\u2022 Basic understanding of backend development concepts\n\u2022 Familiarity with at least one backend language (Python, Java, Node.js, etc.)\n\u2022 Basic knowledge of databases (MySQL, PostgreSQL, MongoDB, etc.)\n\u2022 Understanding of APIs and request\u2013response flow\n\u2022 Logical thinking and problem-solving ability\n\u2022 Willingness to learn backend tools and best practices\n\u2022 Ability to work independently in a remote setup\n\u2e3b\nWho Can Apply\n\u2022 Students or recent graduates from any technical background\n\u2022 Freshers interested in backend or server-side development\n\u2022 Candidates looking to gain hands-on backend experience\n\u2022 Applicants available for a full-time internship (1\u20133 months)\n\u2e3b\nWhat Skillzenloop Offers\n\u2022 Practical exposure to real backend development tasks\n\u2022 Learning-focused environment with guidance and support\n\u2022 Monthly stipend of \u20b915,000\n\u2022 Flexible remote working setup\n\u2022 Internship completion certificate\n\u2022 Opportunity to build a strong backend development foundation",
+    "role": "Backend Developer Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Basic understanding of backend development concepts",
+      "Familiarity with at least one backend language (Python, Java, Node.js, etc.)",
+      "Basic knowledge of databases (MySQL, PostgreSQL, MongoDB, etc.)",
+      "Understanding of APIs and request\u2013response flow",
+      "Logical thinking and problem-solving ability",
+      "Willingness to learn backend tools and best practices",
+      "Ability to work independently in a remote setup"
+    ],
+    "salary": "\u20b915,000 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4370684685/": {
+    "url": "https://www.linkedin.com/jobs/view/4370684685/",
+    "raw_text": "Frontend Developer Internship (Remote)\nLocation:\nRemote\nWork Type:\nInternship\nWorking Hours:\nFlexible\nAbout the Internship\nWe are seeking enthusiastic candidates for a\nFrontend Developer Internship\nwho are eager to build user-friendly and responsive web interfaces. Interns will work on\nreal-time, industry-level capstone projects\nand gain practical experience in frontend development within a professional environment.\nThis internship is suitable for students and fresh graduates who want to strengthen their web development skills.\nKey Responsibilities\nAssist in developing and improving frontend components\nWork on real-time frontend capstone projects\nConvert design requirements into functional interfaces\nEnsure responsive and user-friendly UI implementation\nCollaborate with the development team on project tasks\nWho Can Apply\nStudents and fresh graduates from any background\nCandidates interested in frontend and web development\nBasic understanding of web technologies is a plus\nWillingness to learn and work on practical projects\nWhat You Will Gain\nHands-on experience with industry-level projects\nFlexible working hours\nExposure to real-world frontend development workflows\nPlacement assistance for top-performing interns\nInternship completion recognition",
+    "role": "Frontend Developer Internship",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "frontend development",
+      "web development",
+      "user-friendly UI implementation",
+      "collaboration",
+      "willingness to learn"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370626616/": {
+    "url": "https://www.linkedin.com/jobs/view/4370626616/",
+    "raw_text": "\ud83d\ude80\nHiring: MERN Stack Developer Intern (MongoDB, Express, React, Node.js)\nWe are looking for enthusiastic and self-motivated\nMERN Stack Developer Interns\nwho are eager to build full-stack web applications and gain hands-on industry experience.\n\ud83d\udd0d\nRoles & Responsibilities\nDevelop full-stack web applications using\nMongoDB, Express, React, and Node.js\nBuild and integrate RESTful APIs\nWork on frontend and backend features\nDebug, test, and optimize application performance\nCollaborate with the development team on real-world projects\n\u2705\nEligibility Criteria\nFreshers and students are welcome\nBasic knowledge of\nReact, Node.js, Express, and MongoDB\nUnderstanding of JavaScript and web development concepts\nWillingness to learn and work in a team environment\n\ud83c\udf10\nInternship Details\n\ud83d\udccd\nMode:\nVirtual / Remote\n\u23f3\nDuration:\nFlexible\n\ud83d\udcb0\nStipend:\nNot stipend based\n\ud83c\udf1f\nPerks & Benefits\nHands-on experience with real projects\nInternship Certificate\nFull-stack development exposure\n\u2b50\nTop performers will get 100% placement support\n\ud83d\udccc\nHow to Apply\nInterested candidates can apply by clicking on the\n\u201cApply\u201d option\n.\n\ud83d\uddd3\ufe0f\nApply before 28th February\nto be considered for this opportunity.",
+    "role": "MERN Stack Developer Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js",
+      "JavaScript",
+      "web development concepts",
+      "teamwork"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370691709/": {
+    "url": "https://www.linkedin.com/jobs/view/4370691709/",
+    "raw_text": "We're looking for\nData Analysts\n!\nResponsibilities\nCreate reports, dashboards, and visualizations for business and technical stakeholders\nCollect, clean, and analyze large datasets to identify trends, patterns, and insights\nPerform data validation and quality checks to ensure accuracy and consistency\nUse statistical and analytical techniques to support business decisions\nCollaborate with internal teams to understand data requirements and deliver insights\nDocument data sources, methodologies, and analysis processes\nSupport ongoing improvement of data processes and reporting systems\nQualifications\nProficiency in Excel, SQL, Power BI\nStrong analytical and problem-solving skills\nHigh attention to detail and data accuracy\nBachelor\u2019s degree in Computer Science, Statistics, Mathematics, Engineering, or a related field\n(\n*Note:\nThis is a requirement for one of Scoutit's clients)\nSkills: excel,sql,power bi",
+    "role": "Data Analyst",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Excel",
+      "SQL",
+      "Power BI",
+      "analytical skills",
+      "problem-solving skills",
+      "attention to detail",
+      "data accuracy"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4363120668/": {
+    "url": "https://www.linkedin.com/jobs/view/4363120668/",
+    "raw_text": "Data Analyst Intern (Paid Internship \u2013 Remote, India)\nLocation: Remote (India-based applicants preferred)\nEmployment Type: Internship \u2013 Full-time (Temporary)\nDuration: 2\u20133 months\nCompensation: \u20b915,500 per month\n---\nAbout Skillzenloop\nSkillzenloop is a growing technology and consulting company focused on delivering smart, data-driven solutions that help businesses operate more efficiently. We combine analytics, strategy, and innovation to empower organizations with actionable insights.\n---\nRole Overview\nWe are seeking a Data Analyst Intern to join our analytics team. This internship is designed for students or recent graduates who want hands-on experience in data analysis, visualization, and business intelligence. You will work closely with consultants and analysts to support client projects and internal initiatives.\n---\nKey Responsibilities\n\u2022 Collect, clean, and organize large datasets for analysis.\n\u2022 Perform exploratory data analysis to identify trends and patterns.\n\u2022 Build dashboards and reports using visualization tools (e.g., Power BI, Tableau).\n\u2022 Support financial and business modeling with data-driven insights.\n\u2022 Collaborate with cross-functional teams to provide recommendations based on data.\n\u2022 Document findings and prepare presentations for internal and client use.\n---\nQualifications\n\u2022 Pursuing or recently completed a degree in Data Science, Statistics, Computer Science, Economics, or related fields.\n\u2022 Strong analytical and quantitative skills.\n\u2022 Proficiency in MS Excel (pivot tables, formulas, charts).\n\u2022 Familiarity with SQL or Python for data analysis.\n\u2022 Knowledge of visualization tools (Power BI, Tableau) is a plus.\n\u2022 Good communication and presentation skills.\n---\nWhat We Offer\n\u2022 Practical exposure to real-world data analytics projects.\n\u2022 Mentorship from experienced data analysts and consultants.\n\u2022 Flexible remote work environment.\n\u2022 Monthly compensation of \u20b915,500.\n\u2022 Formal internship completion letter.",
+    "role": "Data Analyst Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "data analysis",
+      "visualization",
+      "business intelligence",
+      "analytical skills",
+      "quantitative skills",
+      "MS Excel",
+      "SQL",
+      "Python",
+      "Power BI",
+      "Tableau",
+      "communication skills",
+      "presentation skills"
+    ],
+    "salary": "\u20b915,500 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4370712065/": {
+    "url": "https://www.linkedin.com/jobs/view/4370712065/",
+    "raw_text": "Data Science Intern\nCompany: Inficore Sof\ntInternship Type: Full-tim\neLocation: Remot\neDuration: 1\u20133 Month\nsStipend: \u20b915,500 per mont\nh\nAbout the Ro\nle\nInficore Soft is hiring a Data Science Intern to support data analysis, modeling, and insights generati\non.\nKey Responsibili\nties\u2022 Analyze structured and unstructured\ndata\u2022 Assist in statistical and predictive anal\nysis\u2022 Build basic data mo\ndels\u2022 Prepare reports and visualizat\nions\nRequired Skills & Qualifica\ntions\u2022 Knowledge of Python and stati\nstics\u2022 Understanding of data science con\ncepts\u2022 Analytical and problem-solving s\nkills\nWho Can\nApply\u2022 Students or recent graduates in data-related\nfields\nWhat You\u2019\nll Gain\u2022 Real-world data science e\nxposure\u2022 Practical analytical exp\nerience\u2022 Internship certificate upon com\npletion",
+    "role": "Data Science Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Knowledge of Python",
+      "Statistics",
+      "Understanding of data science concepts",
+      "Analytical skills",
+      "Problem-solving skills"
+    ],
+    "salary": "\u20b915,500 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4370714132/": {
+    "url": "https://www.linkedin.com/jobs/view/4370714132/",
+    "raw_text": "Graduate Engineer Intern\nCompany: Inficore Sof\ntInternship Type: Full-tim\neLocation: Remot\neDuration: 1\u20133 Month\nsStipend: \u20b915,500 per mont\nh\nAbout the Ro\nle\nThe Graduate Engineer Intern will assist in technical and analytical tasks across projec\nts.\nKey Responsibili\nties\u2022 Support engineering and development activi\nties\u2022 Assist with testing and documenta\ntion\u2022 Analyze project requirem\nents\u2022 Collaborate with technical t\neams\nRequired Skills & Qualifica\ntions\u2022 Engineering graduate or final-year st\nudent\u2022 Basic technical know\nledge\u2022 Willingness to\nlearn\nWho Can\nApply\u2022 Engineering graduates or final-year st\nudents\nWhat You\u2019\nll Gain\u2022 Practical engineering e\nxposure\u2022 Professional work exp\nerience\u2022 Internship certificate upon com\npletion",
+    "role": "Graduate Engineer Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Basic technical knowledge",
+      "Willingness to learn",
+      "Support engineering and development activities",
+      "Assist with testing and documentation",
+      "Analyze project requirements",
+      "Collaborate with technical teams"
+    ],
+    "salary": "\u20b915,500 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4370948982/": {
+    "url": "https://www.linkedin.com/jobs/view/4370948982/",
+    "raw_text": "This role has been designated as \u2018Remote/Teleworker\u2019, which means you will primarily work from home.\nWho We Are\nHewlett Packard Enterprise is the global edge-to-cloud company advancing the way people live and work. We help companies connect, protect, analyze, and act on their data and applications wherever they live, from edge to cloud, so they can turn insights into outcomes at the speed required to thrive in today\u2019s complex world. Our culture thrives on finding new and better ways to accelerate what\u2019s next. We know varied backgrounds are valued and succeed here. We have the flexibility to manage our work and personal needs. We make bold moves, together, and are a force for good. If you are looking to stretch and grow your career our culture will embrace you. Open up opportunities with HPE.\nJob Description\nJob Family Definition:\nStudents or recent graduates of college, university, or other accredited academic programs, pursuing diplomas or degrees (Associate, Bachelor\u2019s, Master\u2019s, or PhD) in any field. Assists in various tasks aligned with their field of study, including research, collaboration on team initiatives and projects, problem-solving, and creative thinking to gain hands-on experience and develop professional skills. Includes internships, research roles, visiting scholar positions, or other program-related opportunities.\nResponsibilities\nManagement Level Definition:\nSupport senior team members on assigned technical projects as determined by the business unit.\nHelp identify and troubleshoot technical issues, providing support and suggesting solutions.\nAssist with maintaining and updating hardware, software, and other technical systems.\nParticipate in team activities by attending team meetings, learn about project methodologies, and collaborate effectively with colleagues.\nActively engage in learning about new technologies and methodologies relevant to work.\nFulfill tasks and responsibilities assigned by a supervisor in a timely and efficient manner.\nParticipate in periodic reviews to share updates and incorporate feedback on assigned projects/initiatives.\nEducation & Experience\nCurrently pursuing a Bachelor's degree in Engineering, Computer Science, Information Technology, or a related technical field.\nFamiliarity with programming languages or technical tools relevant to the role.\nKnowledge & Skills\nBasic programming or scripting knowledge (e.g., Python, Java, C++).\nStrong interest in high-tech and a passion for learning.\nExcellent communication and interpersonal skills.\nStrong problem-solving and analytical skills.\nTime management skills and working with strict deadlines.\nA collaborative, solution-focused mindset and overall sense of urgency.\nImpact/Scope\nUniversity students actively enrolled in a university/college/institution pursuing a Bachelor's degree in a technical area of study, and who typically works during school breaks and then returns to their university. While this applies to most interns, there may be opportunities for full-time students to work as part-time interns during the school year in some countries.\nAdditional Skills\nWhat We Can Offer You:\nHealth & Wellbeing\nWe strive to provide our team members and their loved ones with a comprehensive suite of benefits that supports their physical, financial and emotional wellbeing.\nPersonal & Professional Development\nWe also invest in your career because the better you are, the better we all are. We have specific programs catered to helping you reach any career goals you have \u2014 whether you want to become a knowledge expert in your field or apply your skills to another division.\nUnconditional Inclusion\nWe are unconditionally inclusive in the way we work and celebrate individual uniqueness. We know varied backgrounds are valued and succeed here. We have the flexibility to manage our work and personal needs. We make bold moves, together, and are a force for good.\nLet's Stay Connected\nFollow @HPECareers on Instagram to see the latest on people, culture and tech at HPE.\nJob\nAdministration\nJob Level\nN/A\nHPE is an Equal Employment Opportunity/ Veterans/Disabled/LGBT employer. We do not discriminate on the basis of race, gender, or any other protected category, and all decisions we make are made on the basis of qualifications, merit, and business need. Our goal is to be one global team that is representative of our customers, in an inclusive environment where we can continue to innovate and grow together. Please click here: Equal Employment Opportunity.\nHewlett Packard Enterprise is EEO Protected Veteran/ Individual with Disabilities.\nHPE will comply with all applicable laws related to employer use of arrest and conviction records, including laws requiring employers to consider for employment qualified applicants with criminal histories.\nNo Fees Notice & Recruitment Fraud Disclaimer\nIt has come to HPE\u2019s attention that there has been an increase in recruitment fraud whereby scammer impersonate HPE or HPE-authorized recruiting agencies and offer fake employment opportunities to candidates. These scammers often seek to obtain personal information or money from candidates.\nPlease note that Hewlett Packard Enterprise (HPE), its direct and indirect subsidiaries and affiliated companies, and its authorized recruitment agencies/vendors\nwill never charge any candidate a registration fee, hiring fee, or any other fee in connection with its recruitment and hiring process.\nThe credentials of any hiring agency that claims to be working with HPE for recruitment of talent should be verified by candidates and candidates shall be solely responsible to conduct such verification. Any candidate/individual who relies on the erroneous representations made by fraudulent employment agencies does so at their own risk, and HPE disclaims liability for any damages or claims that may result from any such communication.",
+    "role": "Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Basic programming or scripting knowledge (e.g., Python, Java, C++)",
+      "Strong interest in high-tech and a passion for learning",
+      "Excellent communication and interpersonal skills",
+      "Strong problem-solving and analytical skills",
+      "Time management skills and working with strict deadlines",
+      "Collaborative, solution-focused mindset"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4363082211/": {
+    "url": "https://www.linkedin.com/jobs/view/4363082211/",
+    "raw_text": "Hiring: WordPress / PHP Developer (Intern / Fresher)\nWe are currently looking for a\nWordPress / PHP Developer (Intern/Fresher)\nto join our team.\nNo prior work experience is required\n\u2014 freshers with strong fundamentals and a willingness to learn are welcome.\nKey Responsibilities\nBuild, customize, and maintain WordPress websites\nAssist in managing website back-end, including databases and server hosting\nDevelop and customize WordPress themes from HTML/CSS (basic custom fields knowledge preferred)\nEnsure mobile-responsive website layouts\nWork on eCommerce websites\nInstall and customize themes and plugins\nPerform website testing and basic performance checks\nTroubleshoot and resolve website issues\nAssist in website speed optimization\nMonitor website performance and security\nSupport project execution and ensure timely delivery\nRequirements\nBasic knowledge of PHP, WordPress, HTML, CSS, and JavaScript\nUnderstanding of responsive design principles\nWillingness to learn WordPress development and best practices\nGood problem-solving skills and attention to detail\nAbility to work in a team environment\nFreshers and recent graduates are encouraged to apply.\nShortlisted candidates will be invited for an\nin-person or online interview.\nOffice Address:\nD-204, Titanium Business Park,\nB/h, nr. Railway Under Bridge,\nMakarba, Ahmedabad,\nGujarat 380051",
+    "role": "WordPress / PHP Developer (Intern / Fresher)",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "PHP",
+      "WordPress",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "responsive design principles",
+      "problem-solving skills",
+      "attention to detail",
+      "teamwork"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4362277153/": {
+    "url": "https://www.linkedin.com/jobs/view/4362277153/",
+    "raw_text": "Role:\nHealthcare Data Analyst (MD, DO, MBBS, or equivalent) - Remote\nLocations:\nRemote In:\nIndia\nCompensation:\nUp to USD 120/hour (paid weekly via PayPal/Airtm, varies by expertise and performance)\nRadiology experts with clinical imaging experience contribute to advanced AI model training by creating diagnostic questions, reviewing AI outputs, and providing structured feedback. This flexible remote work enhances AI accuracy in medical imaging interpretation while fitting alongside clinical practice.\nWho Qualifies\nMedical Degree (MD, DO, MBBS) or equivalent with radiology experience from accredited programs.\nHands-on clinical experience interpreting diagnostic imaging (MRI, CT scans, X-rays, ultrasound).\nPracticing or recently practicing radiologists, fellows, or radiology residents.\nStrong ability to assess clinical soundness, scientific rigor, and diagnostic reasoning.\nFluent English with minimal language errors for technical writing and evaluation.\nKey Responsibilities\nCreate and answer complex radiology cases and diagnostic reasoning questions for AI training.\nReview AI-generated reports for accuracy, completeness, and clinical relevance.\nRank and analyze model outputs to identify reasoning gaps, factual errors, or unsafe recommendations.\nProvide detailed expert feedback to improve AI diagnostic logic and imaging interpretation.\nOpportunity Details\nFlexible schedule: 5\u201340 hours/week based on availability and project demand.\nWeekly payments; rates calibrated to radiology expertise, task accuracy, and time commitment.\nFree access to Model Playground for testing leading large language models.\nValid permanent government-issued ID required from country of residence for verification.\nEqual Opportunity\nAll qualified applicants welcome regardless of protected characteristics. Selection based solely on radiology expertise, clinical experience, and project requirements per applicable laws.",
+    "role": "Healthcare Data Analyst (MD, DO, MBBS, or equivalent)",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Medical Degree (MD, DO, MBBS) or equivalent",
+      "Radiology experience",
+      "Hands-on clinical experience interpreting diagnostic imaging (MRI, CT scans, X-rays, ultrasound)",
+      "Strong ability to assess clinical soundness",
+      "Scientific rigor",
+      "Diagnostic reasoning",
+      "Fluent English for technical writing and evaluation"
+    ],
+    "salary": "Up to USD 120/hour"
+  },
+  "https://www.linkedin.com/jobs/view/4363064295/": {
+    "url": "https://www.linkedin.com/jobs/view/4363064295/",
+    "raw_text": "Software Developer Intern (Remote)\nCompany: Skillzenloop\nInternship Type: Full-Time\nDuration: 1\u20133 Months\nStipend: \u20b915,000 per month\nWork Mode: Remote\n\u2e3b\nInternship Overview\nSkillzenloop is offering an opportunity for a Software Developer Intern who wants to gain hands-on exposure to real-world software development. This role is suitable for individuals interested in understanding how applications are designed, built, tested, and improved in a professional environment.\n\u2e3b\nWhat You\u2019ll Be Involved In\n\u2022 Assisting in the development and enhancement of software applications\n\u2022 Writing and reviewing basic code under guidance\n\u2022 Supporting testing, debugging, and issue resolution\n\u2022 Working on small development tasks or modules\n\u2022 Collaborating with team members on assigned technical activities\n\u2022 Maintaining basic documentation related to development work\n\u2e3b\nSkills & Knowledge Required\n\u2022 Basic understanding of programming concepts\n\u2022 Familiarity with at least one language such as Python, Java, or JavaScript\n\u2022 Awareness of how software applications work\n\u2022 Interest in learning development tools and workflows\n\u2022 Logical thinking and problem-solving ability\n\u2022 Clear communication and willingness to learn\n\u2022 Ability to work independently in a remote setup\n\u2e3b\nWho Can Apply\n\u2022 Students or recent graduates from any technical background\n\u2022 Freshers exploring a career in software development\n\u2022 Candidates seeking practical exposure to development work\n\u2022 Applicants available for a full-time internship (1\u20133 months)\n\u2e3b\nWhat Skillzenloop Offers\n\u2022 Practical exposure to real software development tasks\n\u2022 Learning-focused environment with guidance and support\n\u2022 Monthly stipend of \u20b915,000\n\u2022 Flexible remote work setup\n\u2022 Internship completion certificate\n\u2022 Opportunity to build a strong technical foundation",
+    "role": "Software Developer Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Basic understanding of programming concepts",
+      "Familiarity with at least one language such as Python, Java, or JavaScript",
+      "Awareness of how software applications work",
+      "Interest in learning development tools and workflows",
+      "Logical thinking and problem-solving ability",
+      "Clear communication and willingness to learn",
+      "Ability to work independently in a remote setup"
+    ],
+    "salary": "\u20b915,000 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4363064478/": {
+    "url": "https://www.linkedin.com/jobs/view/4363064478/",
+    "raw_text": "Location: Hyderabad, Bangalore, Noida, Chennai and Pune\nWe are seeking a\nGenerative AI Developer\nto design, build, deploy, and operate\nAI-powered applications natively on AWS\n. The ideal candidate has strong experience in\nPython\n, hands-on expertise with\nAWS Bedrock (Agent Core SDK)\n,\nAWS Strands SDK\n, and a solid foundation in\ncloud-native development, DevOps pipelines, and observability\n.\nYou will work closely with platform, data, and product teams to deliver\nsecure, scalable, and production-grade GenAI solutions\n.\nKey Responsibilities Generative AI Development\nDesign and implement\nGenerative AI applications\nusing\nAWS Bedrock\n, including:\no Bedrock Agent Core SDK o Foundation Models (FM) integration Prompt engineering and agent orchestration\nBuild AI workflows using\nAWS Strands SDK\nfor scalable model execution and orchestration\nDevelop and maintain reusable\nAI components, APIs, and services\nin Python\nOptimize model performance, latency, and cost for production workloads\nAWS-Native Application Development\nDesign and develop\ncloud-native applications\non AWS using:\no AWS Lambda, ECS/EKS, EC2 o API Gateway / Application Load Balancer o S3, DynamoDB, Aurora, OpenSearch\nImplement secure IAM roles and policies aligned with least-privilege principles\nBuild event-driven and microservices-based architectures\nDevOps & CI/CD\nDesign and maintain\nCI/CD pipelines\nusing tools such as:\nAWS CodePipeline / CodeBuild / CodeDeploy o GitHub Actions / GitLab CI (as applicable)\nInfrastructure as Code (IaC) using:\nAWS CloudFormation / CDK / Terraform\nAutomate build, test, deployment, and rollbacks for GenAI workloads\nObservability & Operations\nImplement end-to-end\nobservability\nfor AI and application workloads:\nAmazon CloudWatch (logs, metrics, alarms) o AWS X-Ray tracing o Custom metrics for model behavior and performance\nMonitor:\nModel response latency o Token usage and cost o Error rates and failure scenarios\nParticipate in\nincident management\n, root cause analysis, and system optimization\nSecurity, Governance & Compliance\nEnsure secure handling of data used in AI workflows\nImplement:\nEncryption at rest and in transit o Secure secrets management (AWS Secrets Manager / Parameter Store)\nFollow enterprise standards for:\nData privacy o AI governance o Responsible AI usage\nRequired Skills & Qualifications Technical Skills (Must Have)\n\u2022\nPython\n(advanced proficiency)\nHands-on experience with:\no AWS Bedrock o AWS Bedrock Agent Core SDK o AWS Strands SDK\nStrong knowledge of\nAWS services\nand cloud-native design patterns\nExperience building and deploying applications\nnatively on AWS\nCI/CD pipeline implementation and maintenance\nObservability and monitoring in production environments\nPreferred Skills (Good to Have)\nExperience with:\nLLMs, RAG (Retrieval Augmented Generation)\nVector databases and embeddings\nKnowledge of containerization:\nDocker, Kubernetes (EKS)\nFamiliarity with MLOps or Model Lifecycle Management\nExperience with cost optimization for AI workloads\nUnderstanding of ethical AI and responsible AI principles",
+    "role": "Generative AI Developer",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Python",
+      "AWS Bedrock",
+      "AWS Bedrock Agent Core SDK",
+      "AWS Strands SDK",
+      "cloud-native development",
+      "DevOps pipelines",
+      "observability",
+      "AWS Lambda",
+      "ECS/EKS",
+      "EC2",
+      "API Gateway",
+      "Application Load Balancer",
+      "S3",
+      "DynamoDB",
+      "Aurora",
+      "OpenSearch",
+      "IAM roles and policies",
+      "CI/CD pipelines",
+      "AWS CodePipeline",
+      "CodeBuild",
+      "CodeDeploy",
+      "GitHub Actions",
+      "GitLab CI",
+      "AWS CloudFormation",
+      "CDK",
+      "Terraform",
+      "Amazon CloudWatch",
+      "AWS X-Ray",
+      "encryption",
+      "data privacy",
+      "AI governance",
+      "responsible AI usage"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4361765488/": {
+    "url": "https://www.linkedin.com/jobs/view/4361765488/",
+    "raw_text": "Location: Remote\nExperience: 0\u20133 years\nCompensation: \u20b96-9 LPA\nCompany: GoodSpace (AI-powered Job & Career Platform)\nAbout GoodSpace\nGoodSpace is an AI-powered job platform helping job seekers find opportunities faster and helping employers hire more efficiently. Our AI engine powers personalized job recommendations, automated screening, and seamless career journeys. We\u2019re expanding our engineering team to build scalable systems that support millions of users.\nRole Overview\nWe\u2019re looking for a Backend Developer who can design and build robust, scalable, and high-performance backend systems. You\u2019ll work closely with the product and AI teams to develop APIs, improve system architecture, and ensure high reliability across our platform.\nKey Responsibilities\nDevelop, maintain, and scale backend services and APIs powering the GoodSpace platform.\nDesign efficient data models, handle large datasets, and optimize database performance.\nWrite clean, maintainable, and well-tested code.\nCollaborate with frontend, AI/ML, and product teams to ship features rapidly.\nImprove system reliability, observability, and performance.\nEnsure security, data protection, and compliance across backend systems.\nParticipate in code reviews, architecture discussions, and technical decision-making.\nRequirements\nBachelor\u2019s degree in Computer Science, Engineering, or related field.\n0\u20133 years of backend development experience.\nStrong command of one or more backend languages/frameworks:\nNode.js, Python (FastAPI / Django), Go, or Java.\nSolid understanding of REST APIs, microservices, and distributed systems.\nStrong knowledge of databases (PostgreSQL/MySQL, MongoDB, Redis).\nExperience with cloud platforms (AWS/GCP/Azure) and containerisation (Docker).\nFamiliarity with CI/CD pipelines and DevOps basics.\nStrong debugging, problem-solving, and architectural skills.\nGood to Have\nExperience with message queues (Kafka, RabbitMQ, SQS).\nKnowledge of serverless architectures.\nExposure to AI/ML API integration.\nExperience working in a startup environment.\nWhy Join GoodSpace?\nBuild core systems used by millions of job seekers and employers.\nWork in a fast-paced, high-ownership environment with direct impact.\nOpportunity to collaborate with AI and product teams building category-defining features.\nGrowth pathways into senior engineering, architecture, or tech leadership roles.",
+    "role": "Backend Developer",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Node.js",
+      "Python (FastAPI / Django)",
+      "Go",
+      "Java",
+      "REST APIs",
+      "microservices",
+      "distributed systems",
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Docker",
+      "CI/CD pipelines",
+      "DevOps",
+      "debugging",
+      "problem-solving",
+      "architectural skills"
+    ],
+    "salary": "\u20b96-9 LPA"
+  },
+  "https://www.linkedin.com/jobs/view/4371016506/": {
+    "url": "https://www.linkedin.com/jobs/view/4371016506/",
+    "raw_text": "\ud83d\udccc Data Analyst Intern (Remote)\nCompany:\nWeb X UM\nLocation:\nRemote\nDuration:\n3 Months\n\ud83d\udcc5 Application Deadline:\n11th February 2026\nOpportunity & Benefits:\n\ud83d\udcb0 Performance-based stipend up to \u20b97,499\n\ud83c\udf81 Swags and goodies\n\ud83d\udcdc Certificate of Internship\n\u2709\ufe0f Letter of Recommendation (based on performance)\n\ud83c\udf1f Potential full-time role based on performance\n\ud83d\udcca Hands-on experience with real-world data analysis projects\nAbout Web X UM:\nWeb X UM provides students and graduates with practical exposure to data analysis. The organization focuses on developing real-world skills, gaining industry experience, and working on projects that strengthen professional portfolios.\nRoles & Responsibilities:\nCollect, clean, and analyze datasets for actionable insights\nDevelop reports, dashboards, and data visualizations\nIdentify trends, patterns, and key metrics from data\nCollaborate on presentations and provide data-driven recommendations\nRequirements:\nCurrently enrolled in or graduated from Data Science, Computer Science, Statistics, or related fields\nStrong analytical skills with attention to detail\nFamiliarity with Excel, SQL, or Python (preferred)\nGood communication, collaboration, and teamwork skills\nWhat You Will Gain:\nHands-on experience with real-world data analysis projects\nPerformance-based stipend up to \u20b97,499\nSwags and goodies\nCertificate of Internship upon completion\nLetter of Recommendation based on performance\nOpportunity to build a strong professional portfolio\nPotential full-time role based on performance\nHow to Apply:\nSubmit your application with the subject line:\n\u201cData Analyst Intern Application\u201d\nPlease include:\nUpdated resume\nRelevant portfolio or project links\nEqual Opportunity Statement:\nWeb X UM is an equal opportunity employer and welcomes applicants from all backgrounds, fostering a diverse and inclusive work environment.",
+    "role": "Data Analyst Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "analytical skills",
+      "attention to detail",
+      "Excel",
+      "SQL",
+      "Python",
+      "communication",
+      "collaboration",
+      "teamwork"
+    ],
+    "salary": "\u20b97,499"
+  },
+  "https://www.linkedin.com/jobs/view/4371017760/": {
+    "url": "https://www.linkedin.com/jobs/view/4371017760/",
+    "raw_text": "Data Analyst Intern\nCompany:\nSkoollage\nLocation:\nRemote\nDuration:\n3 Months\nStipend:\n\u20b97,500 (Performance-Based)\nEmployment Opportunity:\nPotential full-time role based on performance + Certificate of Internship\nAbout Skoollage\nSkoollage is a next-generation learning and career-readiness platform dedicated to equipping students and professionals with in-demand, industry-aligned skills. Through real-world projects, expert mentorship, and practical exposure, Skoollage enables learners to transform raw data into meaningful insights that drive informed business decisions.\nRole Overview\nAs a Data Analyst Intern at Skoollage, you will work with real-world datasets to perform in-depth analysis and develop impactful visualizations that support data-driven decision-making. This role is ideal for individuals looking to build a strong foundation and hands-on experience in data analytics and business intelligence.\nKey Responsibilities\nPerform data cleaning, transformation, and validation to prepare datasets for analysis\nConduct Exploratory Data Analysis (EDA) using Python or R\nBuild interactive dashboards and visualizations using Power BI, Tableau, or MS Excel\nInterpret data findings and prepare analytical reports with actionable business insights\nAnalyze large datasets to identify trends, patterns, and opportunities\nSupport data-driven decision-making through clear documentation and presentations\nEligibility & Requirements\nStrong working knowledge of Python (Pandas, NumPy, Matplotlib) or MS Excel\nBasic understanding of SQL and data visualization tools\nStrong analytical thinking and problem-solving skills\nAttention to detail and data accuracy\nPrior coursework, certifications, or personal projects in data analytics will be an added advantage\nWhat You Will Gain\nPerformance-based stipend of \u20b97,500\nCertificate of Internship from Skoollage\nHands-on exposure to real-world analytics and business intelligence projects\nMentorship from experienced data analytics professionals\nCareer guidance, networking opportunities, and placement support\nPotential full-time employment opportunity based on performance",
+    "role": "Data Analyst Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "MS Excel",
+      "SQL",
+      "data visualization tools",
+      "analytical thinking",
+      "problem-solving",
+      "attention to detail",
+      "data accuracy"
+    ],
+    "salary": "\u20b97,500 (Performance-Based)"
+  },
+  "https://www.linkedin.com/jobs/view/4370635663/": {
+    "url": "https://www.linkedin.com/jobs/view/4370635663/",
+    "raw_text": "Location:\nGurugram\nExperience:\n0\u20131 Year\nEmployment Type:\nFull-Time\n\ud83e\udde0 Job Overview\nWe are looking for a creative and analytical\nPrompt Engineer\nto join our growing AI team in Gurugram. This role is ideal for freshers or early-career professionals who are passionate about\nArtificial Intelligence, Large Language Models (LLMs), and Generative AI tools\nlike ChatGPT, Claude, Gemini, and similar platforms. As a Prompt Engineer, you will be responsible for designing, testing, and optimizing prompts to improve AI outputs for business, marketing, automation, customer support, and internal workflows.\n\ud83d\udd27 Key Responsibilities\nDesign and develop high-quality prompts for text, image, and data-driven AI models\nExperiment with different prompt structures to improve accuracy, tone, and relevance\nCollaborate with AI engineers, product teams, and content teams to translate business needs into effective AI prompts\nTest and fine-tune prompts for multiple use cases such as chatbots, content generation, summarization, data extraction, and automation\nDocument prompt frameworks, best practices, and optimization strategies\nAnalyze AI responses and continuously improve prompt performance\nStay updated with the latest trends in Generative AI, LLM updates, and prompt-engineering techniques\n\ud83c\udf93 Required Skills & Qualifications\nBachelor\u2019s degree (or final-year student) in Engineering, Computer Science, Data Science, AI, or related field\nBasic understanding of AI, Machine Learning, and Large Language Models\nStrong command of written English and logical thinking\nFamiliarity with tools like ChatGPT, Bard/Gemini, Claude, or similar AI platforms\nAbility to think creatively and frame clear instructions for AI systems\nBasic knowledge of Python or scripting is a plus (not mandatory)\n\ud83c\udf1f Preferred Skills\nExperience with AI tools for content, coding, or automation\nUnderstanding of NLP concepts\nCuriosity to experiment and optimize AI outputs\nStrong problem-solving and communication skills\n\ud83d\ude80 What We Offer\nOpportunity to work on real-world AI projects\nHands-on learning with cutting-edge AI tools\nFriendly and innovative work culture\nCareer growth in one of the fastest-growing AI domains",
+    "role": "Prompt Engineer",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Artificial Intelligence",
+      "Large Language Models (LLMs)",
+      "Generative AI tools",
+      "Basic understanding of AI",
+      "Machine Learning",
+      "Strong command of written English",
+      "Logical thinking",
+      "Familiarity with tools like ChatGPT, Bard/Gemini, Claude",
+      "Ability to think creatively",
+      "Basic knowledge of Python or scripting"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370691886/": {
+    "url": "https://www.linkedin.com/jobs/view/4370691886/",
+    "raw_text": "SQL Developer Intern\nCompany: Inficore Sof\ntInternship Type: Full-tim\neLocation: Remot\neDuration: 1\u20133 Month\nsStipend: \u20b915,500 per mont\nh\nAbout the Ro\nle\nThe SQL Developer Intern will assist in database querying, optimization, and data management tas\nks.\nKey Responsibili\nties\u2022 Write and optimize SQL que\nries\u2022 Assist in database design and mainten\nance\u2022 Support data extraction and repor\nting\u2022 Ensure data accuracy and consist\nency\u2022 Document database proce\nsses\nRequired Skills & Qualifica\ntions\u2022 Basic knowledge o\nf SQL\u2022 Understanding of relational data\nbases\u2022 Analytical thinking and problem-solving s\nkills\nWho Can\nApply\u2022 Students or recent graduates in technical\nfields\u2022 Full-time availability for remote inte\nrnship\nWhat You\u2019\nll Gain\u2022 Practical database exp\nerience\u2022 Exposure to data-driven appli\ncations\u2022 Internship certificate upon com\npletion",
+    "role": "SQL Developer Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Basic knowledge of SQL",
+      "Understanding of relational databases",
+      "Analytical thinking",
+      "Problem-solving skills"
+    ],
+    "salary": "\u20b915,500 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4371017511/": {
+    "url": "https://www.linkedin.com/jobs/view/4371017511/",
+    "raw_text": "About the Company\nSPORTSBUZZ\nis an EdTech and IT solutions provider focused on making learners industry-ready through practical exposure, real-time projects, and structured mentorship. The organization aims to bridge the gap between academic learning and professional cybersecurity practices by offering hands-on training aligned with industry standards.\nAbout the Role\nAs a\nCybersecurity Intern\n, you will gain hands-on experience in securing systems, analyzing threats, and protecting digital infrastructure. This role is ideal for students or fresh graduates looking to build a strong foundation in cybersecurity, ethical hacking, and information security.\nResponsibilities\nMonitor and analyze security alerts, logs, and system activity\nAssist in identifying vulnerabilities and implementing mitigation strategies\nSupport risk assessments and penetration testing under expert guidance\nCreate, document, and update security policies and compliance reports\nAssist IT teams in investigating and responding to security incidents\nResearch emerging threats, malware patterns, and attack techniques\nQualifications\nCurrently pursuing or completed a\nBachelor\u2019s or Master\u2019s degree\nin Computer Science, IT, Cybersecurity, or related fields\nRequired Skills\nBasic understanding of\nfirewalls, network security, and IDS/IPS systems\nFamiliarity with tools such as\nWireshark, Metasploit, Burp Suite, or Kali Linux\n(preferred)\nKnowledge of\nOWASP Top 10 vulnerabilities\nis an advantage\nStrong analytical, problem-solving, and critical-thinking skills\nPreferred Skills\nNone specified\nPay Range and Compensation Package\n\ud83d\udcb0\nStipend: \u20b97,500 (Performance-Based)\nCertificate of Internship\nPotential full-time role based on performance\nEqual Opportunity Statement\nSPORTSBUZZ is committed to diversity and inclusivity in the workplace and encourages applicants from all backgrounds to apply.",
+    "role": "Cybersecurity Intern",
+    "about_company": "SPORTSBUZZ\nis an EdTech and IT solutions provider focused on making learners industry-ready through practical exposure, real-time projects, and structured mentorship. The organization aims to bridge the gap between academic learning and professional cybersecurity practices by offering hands-on train...",
+    "fetched_at": "now",
+    "skills": [
+      "firewalls",
+      "network security",
+      "IDS/IPS systems",
+      "Wireshark",
+      "Metasploit",
+      "Burp Suite",
+      "Kali Linux",
+      "analytical skills",
+      "problem-solving skills",
+      "critical-thinking skills"
+    ],
+    "salary": "\u20b97,500"
+  },
+  "https://www.linkedin.com/jobs/view/4361869204/": {
+    "url": "https://www.linkedin.com/jobs/view/4361869204/",
+    "raw_text": "React & Node.js Developer Intern (Remote)\nCompany: Skillzenloop\nInternship Type: Full-Time\nDuration: 1\u20133 Months\nStipend: \u20b915,000 per month\nWork Mode: Remote\n\u2e3b\nInternship Overview\nSkillzenloop is offering an exciting opportunity for a React & Node.js Developer Intern who wants to gain hands-on experience in building modern, full-stack web applications. This internship focuses on practical learning by working with both frontend and backend technologies in a guided, remote environment.\n\u2e3b\nWhat You\u2019ll Be Working On\n\u2022 Developing user interfaces using React.js\n\u2022 Assisting in building backend services using Node.js\n\u2022 Connecting frontend components with backend APIs\n\u2022 Working with application logic, routing, and basic state management\n\u2022 Debugging, testing, and improving application functionality\n\u2022 Collaborating with team members on assigned development tasks\n\u2e3b\nSkills & Knowledge\n\u2022 Basic understanding of JavaScript\n\u2022 Familiarity with React.js fundamentals (components, props, state)\n\u2022 Exposure to Node.js or backend concepts is a plus\n\u2022 Basic awareness of APIs and web application flow\n\u2022 Interest in full-stack or MERN-style development\n\u2022 Willingness to learn and improve coding skills\n\u2022 Ability to work independently in a remote setup\n\u2e3b\nWho Can Apply\n\u2022 Students or recent graduates from any technical background\n\u2022 Freshers interested in frontend, backend, or full-stack development\n\u2022 Candidates looking to gain practical experience with React and Node.js\n\u2022 Applicants available for a full-time internship (1\u20133 months)\n\u2e3b\nWhat Skillzenloop Offers\n\u2022 Hands-on exposure to real-world React & Node.js development\n\u2022 Learning-focused environment with guidance and support\n\u2022 Monthly stipend of \u20b915,000\n\u2022 Flexible remote work setup\n\u2022 Internship completion certificate\n\u2022 Opportunity to build a strong full-stack development profile",
+    "role": "React & Node.js Developer Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Basic understanding of JavaScript",
+      "Familiarity with React.js fundamentals",
+      "Exposure to Node.js or backend concepts",
+      "Basic awareness of APIs and web application flow",
+      "Interest in full-stack or MERN-style development",
+      "Willingness to learn and improve coding skills",
+      "Ability to work independently in a remote setup"
+    ],
+    "salary": "\u20b915,000 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4363064519/": {
+    "url": "https://www.linkedin.com/jobs/view/4363064519/",
+    "raw_text": "AI / ML Engineer Intern\nJosh Talks AI\nLocation: Gurgaon, India\nType: Full-time Internship\n(6 months)\nAbout JoshTalks AI\nAt JoshTalks AI, we believe that voice will become the primary interface between humans and machines. Our mission is ambitious and focused:\nEnable machines to communicate as naturally as humans\nBuild benchmarks and datasets that form the backbone of global progress in speech AI\nDrive improvements not only through models or compute, but through high-quality, diverse, real-world data\nOur datasets already power some of the world\u2019s largest and most widely used speech models (ones you\u2019ve almost certainly interacted with, even if we can\u2019t name them).\nWhat You\u2019ll Work On\nThis is not a conventional internship. You will contribute directly to work that influences the global speech AI ecosystem.\nBenchmarking & Evaluation\nDesign and run evaluations for ASR and speech-to-speech systems\nBenchmark leading speech models to identify real-world strengths, weaknesses, and failure modes\nBuild evaluation frameworks that guide top AI labs on where models perform well and where they need improvement\nModeling & Fine-Tuning\nFine-tune speech recognition models (e.g., Whisper, wav2vec2) to push Word Error Rates toward ~5%\nExperiment with multilingual, code-switched, accented, and noisy speech to reflect real-world usage\nWork with large-scale, production-grade speech datasets\nImpact at Scale\nYour work will go beyond internal experiments or academic exercises\nIt will directly influence how large speech models are built, tested, and improved globally\nWho We\u2019re Looking For\nWe are looking for motivated builders with a strong interest in voice AI.\nRequired Qualifications\nFinal-year undergraduate students or recent graduates (B.Tech/B.E.) in CSE, EE, AI/ML, or related fields\nStrong interest in speech, audio, NLP, or multimodal AI\nHands-on experience in one or more of the following:\nFine-tuning speech or language models (Whisper, wav2vec2, HuBERT, SER, etc.)\nBuilding speech-driven systems such as assistants, classifiers, or SER pipelines\nWorking with PyTorch, TensorFlow, or Hugging Face Transformers\nPreferred Qualifications\nOpen-source contributions, GitHub projects, Kaggle experience, or research papers\nExperience working with multilingual or low-resource speech data\nWhy Join Us\nMeaningful Ownership\nEven as an intern, you will own problems of global relevance, from reducing ASR error rates to building benchmarks that influence the next generation of speech-to-speech models.\nFront-Row Seat to Speech AI\nYour work will shape benchmarks and datasets used by leading AI research labs worldwide.\nDeep Technical Learning\nWork alongside experts tackling speech challenges across 20+ Indian languages and real-world audio conditions.\nStartup Environment, Global Reach\nA small, focused team working on problems that impact billions of users.\nDetails\nLocation: Gurgaon (on-site preferred for close collaboration)\nDuration: 6\nType: Paid, full-time internship\nStart Date: Flexible (aligned with academic calendars)\nIf you are passionate about making speech AI as natural as human conversation, this role offers the opportunity to work at the true frontier of the field.\nTo Apply:\nPlease Fill in the form - https://forms.gle/KqRhq7RmQGkoXnT77",
+    "role": "AI / ML Engineer Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Fine-tuning speech or language models",
+      "Building speech-driven systems",
+      "Working with PyTorch",
+      "Working with TensorFlow",
+      "Working with Hugging Face Transformers",
+      "Strong interest in speech, audio, NLP, or multimodal AI"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371027304/": {
+    "url": "https://www.linkedin.com/jobs/view/4371027304/",
+    "raw_text": "Data Analyst Intern\nCompany:\nWEBS IT SOLUTION\nLocation:\nRemote\nDuration:\n3 Months\nStipend:\n\u20b97,500 (Paid | Performance-Based)\nEmployment Opportunity:\nPotential full-time role based on performance + Certificate of Internship\nAbout WEBS IT SOLUTION\nWEBS IT SOLUTION is a technology and training organization focused on preparing individuals for the future of work. Through industry-aligned programs in Data Analytics, IT, AI, and Digital Technologies, the organization provides hands-on learning, real-world projects, and structured mentorship to develop job-ready professionals.\nRole Overview\nAs a Data Analyst Intern at WEBS IT SOLUTION, you will work with real datasets to perform analytical tasks and create insightful dashboards and visualizations that support data-driven decision-making. This role is ideal for candidates seeking strong foundational and practical experience in data analytics and business intelligence.\nKey Responsibilities\nPerform data cleaning, transformation, and validation to prepare datasets for analysis\nConduct Exploratory Data Analysis (EDA) using Python or R\nBuild interactive dashboards and visualizations using Power BI, Tableau, or MS Excel\nInterpret data and prepare reports with actionable insights and business recommendations\nAnalyze large datasets to identify trends, patterns, and opportunities\nEligibility & Requirements\nWorking knowledge of Python (Pandas, NumPy, Matplotlib) or strong proficiency in MS Excel\nBasic understanding of SQL and data visualization tools\nStrong analytical thinking and problem-solving skills\nPrior coursework or personal projects in data analysis will be an added advantage\nWhat You Will Gain\nPaid stipend of \u20b97,500 (Performance-Based)\nCertificate of Internship from WEBS IT SOLUTION\nHands-on exposure to real-world analytics projects\nMentorship from experienced data analysts\nCareer guidance, networking, and placement support\nPotential full-time employment opportunity based on performance",
+    "role": "Data Analyst Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Python",
+      "R",
+      "Power BI",
+      "Tableau",
+      "MS Excel",
+      "SQL",
+      "data cleaning",
+      "data transformation",
+      "data validation",
+      "Exploratory Data Analysis (EDA)",
+      "analytical thinking",
+      "problem-solving"
+    ],
+    "salary": "\u20b97,500"
+  },
+  "https://www.linkedin.com/jobs/view/4370703614/": {
+    "url": "https://www.linkedin.com/jobs/view/4370703614/",
+    "raw_text": "Node.js Developer Intern\nCompany: Inficore Sof\ntInternship Type: Full-tim\neLocation: Remot\neDuration: 1\u20133 Month\nsStipend: \u20b915,500 per mont\nh\nAbout the Ro\nle\nThe Node.js Developer Intern will support backend development using JavaScript-based technologi\nes.\nKey Responsibili\nties\u2022 Assist in building server-side applicat\nions\u2022 Work with APIs and datab\nases\u2022 Perform backend testing and debug\nging\u2022 Maintain documenta\ntion\nRequired Skills & Qualifica\ntions\u2022 Basic understanding of JavaS\ncript\u2022 Familiarity with Node.js con\ncepts\u2022 Knowledge of databases is a\nplus\nWho Can\nApply\u2022 Students or recent gra\nduates\nWhat You\u2019\nll Gain\u2022 Backend development e\nxposure\u2022 Experience with server-side techn\nologies\u2022 Internship certificate upon com\npletion",
+    "role": "Node.js Developer Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Basic understanding of JavaScript",
+      "Familiarity with Node.js concepts",
+      "Knowledge of databases"
+    ],
+    "salary": "\u20b915,500 per month"
   }
 }
