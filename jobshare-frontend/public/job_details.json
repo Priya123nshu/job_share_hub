@@ -73,20 +73,16 @@
     "fetched_at": "now",
     "skills": [
       "AI-driven workflows",
-      "prompt creation",
-      "business process understanding",
+      "prompt engineering",
       "automation workflows",
-      "ChatGPT workflows",
+      "ChatGPT",
       "n8n",
       "Groq",
-      "Perplexity",
+      "Perplexity AI",
       "agentic AI frameworks",
-      "workflow design",
-      "prompt engineering",
+      "business process analysis",
       "cross-functional collaboration",
       "AI solution development",
-      "knowledge sharing",
-      "research and innovation",
       "performance monitoring",
       "analytical skills",
       "problem-solving skills",
@@ -129,10 +125,10 @@
       "AWS",
       "Azure",
       "SQL",
-      "database fundamentals",
-      "E2E tests",
-      "load tests",
-      "performance benchmarks"
+      "database design",
+      "E2E testing",
+      "load testing",
+      "performance benchmarking"
     ],
     "salary": "\u20b930L - \u20b950L"
   },
@@ -166,14 +162,14 @@
     "about_company": "",
     "fetched_at": "now",
     "skills": [
-      "analytical thinking",
-      "problem-solving",
-      "decision-making",
+      "Analytical thinking",
+      "Problem-solving",
+      "Decision-making",
       "Excel",
       "PowerPoint",
       "Power BI",
       "Tableau",
-      "communication"
+      "Communication"
     ],
     "salary": "\u20b97,499"
   },
@@ -216,16 +212,14 @@
       "CI/CD pipelines",
       "scalable deployment architectures",
       "Python",
-      "TensorFlow",
-      "PyTorch",
-      "Scikit-learn",
+      "ML frameworks (TensorFlow, PyTorch, Scikit-learn)",
       "recommendation systems",
       "collaborative filtering",
       "embeddings",
       "ranking models",
       "Docker",
       "Kubernetes",
-      "cloud platforms (AWS, GCP, or Azure)",
+      "cloud platforms (AWS, GCP, Azure)",
       "data storage systems (SQL/NoSQL)",
       "caching mechanisms (Redis, Memcached)"
     ],
@@ -267,8 +261,8 @@
       "AOSP (Android Open-Source Project)",
       "Android Framework internals",
       "Android IPC (Binder & AIDL)",
-      "communication skills",
-      "leadership skills"
+      "Communication skills",
+      "Leadership skills"
     ],
     "salary": "Not mentioned"
   },
@@ -297,7 +291,7 @@
       "UI development (modern HTML/CSS)",
       "Responsive Design",
       "Agile/Scrum methodology",
-      "communication and collaboration skills"
+      "strong communication and collaboration skills"
     ],
     "salary": "Not mentioned"
   },
@@ -308,9 +302,9 @@
     "about_company": "",
     "fetched_at": "now",
     "skills": [
+      "frontend development",
       "web development",
-      "frontend components development",
-      "responsive UI implementation",
+      "user-friendly UI implementation",
       "collaboration",
       "willingness to learn"
     ],
@@ -364,7 +358,7 @@
       "collaborative mindset",
       "proactive attitude",
       "ability to present findings",
-      "engaging personality"
+      "hardware-software integration understanding"
     ],
     "salary": "Not mentioned"
   },
@@ -375,15 +369,13 @@
     "about_company": "",
     "fetched_at": "now",
     "skills": [
+      "Business analysis techniques",
       "Excel",
       "PowerPoint",
-      "data visualization tools",
-      "Power BI",
-      "Tableau",
-      "business analysis techniques",
-      "communication skills",
-      "analytical skills",
-      "problem-solving skills"
+      "Data visualization tools (Power BI/Tableau)",
+      "Communication skills",
+      "Analytical skills",
+      "Problem-solving skills"
     ],
     "salary": "\u20b97,500 - \u20b915,000"
   },
@@ -429,7 +421,7 @@
       "responsive design",
       "REST APIs",
       "build tools (Webpack/Vite)",
-      "good communication skills",
+      "communication skills",
       "teamwork mindset",
       "eagerness to learn"
     ],
@@ -531,8 +523,9 @@
       "Vue.js",
       "responsive design",
       "REST APIs",
-      "build tools (Webpack/Vite)",
-      "good communication skills",
+      "Webpack",
+      "Vite",
+      "communication skills",
       "teamwork mindset",
       "eagerness to learn"
     ],
@@ -652,6 +645,7 @@
       "Transformer architectures",
       "RAG pipelines",
       "LLM parameter handling",
+      "Model selection",
       "Scaling strategies",
       "Performance optimization",
       "Prompt engineering",
@@ -663,16 +657,13 @@
       "Long-term memory architectures",
       "Fine-tuning approaches",
       "Model compression techniques",
-      "CUDA",
-      "Triton",
+      "Performance-level tooling",
       "Data pipeline integration",
       "ML CI/CD processes",
       "GPU/compute requirements",
       "Cost-efficient deployment strategies",
       "Production-grade inference servers",
-      "APIs",
-      "Microservices",
-      "Cloud architectures"
+      "Collaboration with engineering teams"
     ],
     "salary": "Not mentioned"
   },
@@ -725,8 +716,7 @@
       "APIs",
       "Git version control",
       "problem-solving",
-      "logical thinking",
-      "willingness to learn new technologies"
+      "logical thinking"
     ],
     "salary": "Up to \u20b97,500 (Performance-Based)"
   },
@@ -759,16 +749,16 @@
     "about_company": "UM IT Solutions provides students and graduates with practical learning opportunities in web development. Our internship program emphasizes hands-on experience in both front-end and back-end development through real-world projects, enabling interns to build strong technical foundations and industry-...",
     "fetched_at": "now",
     "skills": [
-      "Proficiency in HTML",
+      "HTML",
       "CSS",
       "JavaScript",
-      "Familiarity with frameworks such as React",
+      "React",
       "Angular",
       "Node.js",
       "Strong communication skills",
       "Teamwork skills",
       "Willingness to learn",
-      "Adaptability to new technologies"
+      "Adaptability"
     ],
     "salary": "\u20b97,499"
   },
@@ -830,7 +820,7 @@
       "communication skills",
       "patience",
       "adaptability",
-      "passion for teaching",
+      "teaching",
       "Jupyter Notebook",
       "TensorFlow"
     ],
@@ -860,7 +850,8 @@
       "Basic knowledge of UI/UX design principles",
       "Wireframing",
       "Prototyping",
-      "Proficiency in design tools such as Figma and Canva",
+      "Proficiency in design tools such as Figma",
+      "Proficiency in Canva",
       "Good communication skills",
       "Strong attention to detail",
       "Basic understanding of branding",
@@ -887,7 +878,7 @@
       "attention to detail",
       "data accuracy"
     ],
-    "salary": "\u20b97,500 (Performance-Based)"
+    "salary": "\u20b97,500"
   },
   "https://www.linkedin.com/jobs/view/4370665073/": {
     "url": "https://www.linkedin.com/jobs/view/4370665073/",
@@ -907,7 +898,7 @@
       "SDKs",
       "DevOps",
       "MLOps",
-      "CI/CD for AI",
+      "CI/CD",
       "automation tools",
       "AI/ML services",
       "Kubernetes",
@@ -919,7 +910,7 @@
       "Databricks",
       "data pipelines",
       "feature engineering",
-      "model training at scale",
+      "model training",
       "database technologies",
       "SQL",
       "NoSQL",
@@ -1006,8 +997,7 @@
       "Cloud",
       "Architecture",
       "Prompt Engineering",
-      "Model Training",
-      "Integration"
+      "Model Training"
     ],
     "salary": "Not mentioned"
   },
@@ -1038,15 +1028,15 @@
     "about_company": "",
     "fetched_at": "now",
     "skills": [
-      "Analytical skills",
-      "Problem-solving abilities",
-      "Communication skills",
-      "Collaboration skills",
-      "Passion for technology",
-      "Product thinking",
-      "User experience design",
-      "Basic understanding of product management tools",
-      "Basic understanding of analytics tools"
+      "analytical skills",
+      "problem-solving abilities",
+      "communication skills",
+      "collaboration skills",
+      "passion for technology",
+      "product thinking",
+      "user experience design",
+      "basic understanding of product management tools",
+      "basic understanding of analytics tools"
     ],
     "salary": "Not mentioned"
   },
@@ -1097,19 +1087,16 @@
     "about_company": "Our client delivers next-generation security analytics and operations management. They secure organisations worldwide by staying ahead of cyber threats, leveraging AI-reinforced capabilities for unparalleled protection.\nJob Overview:\nWe\u2019re seeking a Senior Data Scientist to architect agentic AI solu...",
     "fetched_at": "now",
     "skills": [
-      "Operationalise large language models",
+      "Large Language Models (LLMs)",
       "Agentic workflows",
       "MLOps best practices",
-      "Multi-agent systems",
       "AWS (Bedrock, SageMaker, Lambda, EKS/ECS)",
       "CI/CD pipelines",
       "GitHub Actions",
       "Jenkins",
       "AWS CodePipeline",
-      "Model versioning with MLflow and DVC",
-      "Automated testing",
-      "Rollback procedures",
-      "Retraining workflows",
+      "MLflow",
+      "DVC",
       "Terraform",
       "REST APIs",
       "Microservices",
@@ -1120,7 +1107,6 @@
       "Grafana",
       "Python",
       "Data pipelines",
-      "Generative AI fundamentals",
       "Feature engineering",
       "Model evaluation",
       "Data ingestion",
@@ -1139,6 +1125,9 @@
       "Excel",
       "SQL",
       "Power BI",
+      "data cleaning",
+      "data transformation",
+      "data validation",
       "analytical skills",
       "problem-solving skills",
       "willingness to learn"
@@ -1236,14 +1225,14 @@
     "about_company": "",
     "fetched_at": "now",
     "skills": [
-      "Analytical thinking",
-      "Problem-solving",
-      "Decision-making",
+      "analytical thinking",
+      "problem-solving",
+      "decision-making",
       "Excel",
       "PowerPoint",
       "Power BI",
       "Tableau",
-      "Communication"
+      "communication"
     ],
     "salary": "\u20b97,499"
   },
@@ -1260,7 +1249,7 @@
       "Data visualization tools (Tableau, Power BI)",
       "Knowledge of Python",
       "Knowledge of R",
-      "Understanding of sports concepts and performance metrics",
+      "Understanding of sports concepts",
       "Good written communication skills",
       "Attention to detail",
       "Team-first mindset"
@@ -1354,8 +1343,8 @@
       "Execution",
       "Monitoring",
       "Causal modeling",
-      "Simulation modeling",
-      "Digital twin-based modeling",
+      "Simulation",
+      "Digital twin modeling",
       "Reusable ML platforms",
       "Feature stores",
       "Inference systems"
@@ -1465,8 +1454,9 @@
     "about_company": "We are building modern social platforms that connect people through video, text, and real-time experiences. Our products are used daily by global users.\nRole Description\nWork directly with the founder on high-priority, cross-functional problems across product, growth, operations, and strategy. This ...",
     "fetched_at": "now",
     "skills": [
+      "ownership",
+      "research",
       "project management",
-      "market research",
       "documentation",
       "problem-solving",
       "basic coding",
@@ -1474,7 +1464,6 @@
       "growth",
       "SEO",
       "content experience",
-      "strong research skills",
       "structured thinking"
     ],
     "salary": "Not mentioned"
@@ -1489,13 +1478,12 @@
       "Python",
       "FastAPI",
       "Django",
-      "Generative AI",
       "APIs",
       "JSON",
-      "AI Agents",
-      "RAG systems"
+      "Generative AI",
+      "Artificial Intelligence (AI)"
     ],
-    "salary": "Not mentioned"
+    "salary": "Unpaid Internship"
   },
   "https://www.linkedin.com/jobs/view/4370677745/": {
     "url": "https://www.linkedin.com/jobs/view/4370677745/",
@@ -1530,8 +1518,7 @@
       "Node.js",
       "JavaScript",
       "web development concepts",
-      "teamwork",
-      "willingness to learn"
+      "teamwork"
     ],
     "salary": "Not mentioned"
   },
@@ -1606,6 +1593,8 @@
       "Good analytical and problem-solving skills",
       "Strong attention to detail",
       "Good written and verbal communication",
+      "Exposure to CRM tools",
+      "Exposure to AI lead generation / data enrichment platforms",
       "Basic SQL knowledge",
       "Understanding of B2B data structures"
     ],
@@ -1622,7 +1611,7 @@
       "Algorithms",
       "Mentoring",
       "Problem-solving",
-      "Clear communication"
+      "Communication"
     ],
     "salary": "Not mentioned"
   },
@@ -1645,7 +1634,7 @@
       "attention to detail",
       "data accuracy"
     ],
-    "salary": "\u20b97,500 (Performance-Based)"
+    "salary": "\u20b97,500"
   },
   "https://www.linkedin.com/jobs/view/4363043961/": {
     "url": "https://www.linkedin.com/jobs/view/4363043961/",
@@ -1656,7 +1645,8 @@
     "skills": [
       "Market Research",
       "Customer Engagement",
-      "Survey Conducting"
+      "Survey Conducting",
+      "Communication"
     ],
     "salary": "Not mentioned"
   },
@@ -1840,9 +1830,9 @@
       "Python programming fundamentals",
       "Django",
       "Flask",
-      "Analytical skills",
-      "Problem-solving skills",
-      "Time-management skills",
+      "analytical skills",
+      "problem-solving skills",
+      "time-management skills",
       "Git/GitHub"
     ],
     "salary": "\u20b97,499"
@@ -2213,36 +2203,18 @@
       "AI / Machine Learning",
       "Python programming",
       "machine learning algorithms",
-      "Regression",
-      "Classification",
-      "Clustering",
-      "Decision Trees",
-      "Ensemble methods",
-      "Supervised learning",
-      "Unsupervised learning",
-      "model evaluation metrics",
-      "Accuracy",
-      "Precision",
-      "Recall",
-      "F1-score",
-      "ROC-AUC",
-      "Scikit-learn",
-      "TensorFlow",
-      "PyTorch",
-      "Keras",
-      "NumPy",
-      "Pandas",
-      "Matplotlib",
-      "Seaborn",
+      "data preprocessing",
+      "feature engineering",
+      "model evaluation",
+      "model training",
+      "model tuning",
+      "model optimization",
+      "REST APIs",
       "data cleaning",
-      "preprocessing",
       "SQL",
       "structured data",
       "semi-structured data",
-      "deploying ML models",
-      "APIs",
       "Docker",
-      "cloud concepts",
       "AWS",
       "Azure",
       "GCP",
@@ -2251,13 +2223,8 @@
       "Computer Vision",
       "LLMs",
       "prompt engineering",
-      "embeddings",
       "MLOps tools",
-      "MLflow",
-      "Airflow",
-      "Kubeflow",
       "data visualization",
-      "storytelling",
       "ethical AI",
       "bias mitigation"
     ],
@@ -2331,15 +2298,9 @@
       "Matplotlib",
       "SQL",
       "Jupyter Notebooks",
-      "data cleaning",
-      "preprocessing",
-      "feature engineering",
-      "Exploratory Data Analysis (EDA)",
-      "machine learning model development",
-      "predictive analytics",
-      "analytical thinking",
-      "curiosity",
-      "problem-solving"
+      "Analytical thinking",
+      "Curiosity",
+      "Problem-solving"
     ],
     "salary": "Up to \u20b97,500 (Paid | Performance-Based)"
   },
@@ -2435,10 +2396,10 @@
       "Excel",
       "SQL",
       "Power BI",
-      "analytical skills",
-      "problem-solving skills",
-      "attention to detail",
-      "data accuracy"
+      "Analytical skills",
+      "Problem-solving skills",
+      "Attention to detail",
+      "Data accuracy"
     ],
     "salary": "Not mentioned"
   },
@@ -2487,11 +2448,7 @@
     "fetched_at": "now",
     "skills": [
       "Basic technical knowledge",
-      "Willingness to learn",
-      "Support engineering and development activities",
-      "Assist with testing and documentation",
-      "Analyze project requirements",
-      "Collaborate with technical teams"
+      "Willingness to learn"
     ],
     "salary": "\u20b915,500 per month"
   },
@@ -2526,7 +2483,8 @@
       "responsive design principles",
       "problem-solving skills",
       "attention to detail",
-      "teamwork"
+      "teamwork",
+      "willingness to learn"
     ],
     "salary": "Not mentioned"
   },
@@ -2599,7 +2557,8 @@
       "Terraform",
       "Amazon CloudWatch",
       "AWS X-Ray",
-      "encryption",
+      "encryption at rest and in transit",
+      "secure secrets management",
       "data privacy",
       "AI governance",
       "responsible AI usage"
@@ -2690,8 +2649,10 @@
       "Strong command of written English",
       "Logical thinking",
       "Familiarity with tools like ChatGPT, Bard/Gemini, Claude",
-      "Ability to think creatively",
-      "Basic knowledge of Python or scripting"
+      "Creative thinking",
+      "Basic knowledge of Python or scripting",
+      "Problem-solving skills",
+      "Communication skills"
     ],
     "salary": "Not mentioned"
   },
@@ -2723,6 +2684,7 @@
       "Metasploit",
       "Burp Suite",
       "Kali Linux",
+      "OWASP Top 10 vulnerabilities",
       "analytical skills",
       "problem-solving skills",
       "critical-thinking skills"
@@ -2775,12 +2737,12 @@
       "Tableau",
       "MS Excel",
       "SQL",
-      "data cleaning",
-      "data transformation",
-      "data validation",
+      "Data cleaning",
+      "Data transformation",
+      "Data validation",
       "Exploratory Data Analysis (EDA)",
-      "analytical thinking",
-      "problem-solving"
+      "Analytical thinking",
+      "Problem-solving"
     ],
     "salary": "\u20b97,500"
   },
@@ -2796,5 +2758,740 @@
       "Knowledge of databases"
     ],
     "salary": "\u20b915,500 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4362289046/": {
+    "url": "https://www.linkedin.com/jobs/view/4362289046/",
+    "raw_text": "Exciting opportunity for a GenAI Engineer (DS SA2) at a multinational corporation!\n*Role: GenAI Engineer (DS SA2)\n*Experience:6\u20138 years, with at least 5+ years of experience\n*Employment Type:Permanent\n*Location:Hyderabad / Bangalore\n*Work Mode:Hybrid (2 days/week from customer location)\n*Shift:** 11:00 AM \u2013 8:00 PM\n*Job Description:*\nThe GenAI Engineer will design, develop, and maintain backend infrastructure for GenAI solutions.\n**Key Responsibilities:**\n- Design and implement backend services for GenAI-based ingestion and draft generation\n- Build APIs connecting UI, AI inference, and data layers\n- Integrate AWS services (Bedrock, Textract, RDS, S3, Lambda, ECR)\n- Implement prompt orchestration, RAG, context caching, and prompt chaining\n- Support CI/CD, monitoring, and compliance with AI standards\n*Mandatory Skills:*\n- ML, DL, NLP, LLMs, LangChain, OpenAI LLM libraries, Python, Cloud (AWS/GCP/Azure)\nIf you meet the qualifications and are interested in this role, please reach out! lalitha@helloworkconsultants.com",
+    "role": "GenAI Engineer (DS SA2)",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "ML",
+      "DL",
+      "NLP",
+      "LLMs",
+      "LangChain",
+      "OpenAI LLM libraries",
+      "Python",
+      "Cloud (AWS/GCP/Azure)"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371235983/": {
+    "url": "https://www.linkedin.com/jobs/view/4371235983/",
+    "raw_text": "Role Overview\nThe Web/Data Analyst supports data-driven decision-making across digital platforms by analyzing user behavior, experimentation outcomes, and campaign performance. The role partners closely with product, marketing, and design teams to generate actionable insights that improve user experience, engagement, and conversion. This position plays a key role in translating complex digital data into clear, business-relevant recommendations.\nResponsibilities\nAnalyze A/B test results and user engagement metrics to evaluate digital performance and optimization opportunities\nTrack key website and campaign performance indicators and identify trends, anomalies, and improvement areas\nBuild and maintain performance reports and dashboards for stakeholders\nCollaborate with product, marketing, and design teams to support UX and conversion optimization initiatives\nPerform basic statistical analysis to validate insights and experiment outcomes\nSupport data extraction, validation, and analysis from centralized data platforms\nCommunicate insights clearly through presentations, reports, and discussions with stakeholders\nCandidate Qualifications\nRelevant experience of 2-5 yrs.\nExperience in web or digital analytics within a product or data-driven environment\nStrong analytical skills with hands-on experience in A/B testing and user behavior analysis\nWorking knowledge of data querying, spreadsheet-based analysis, and data visualization\nBasic understanding of statistical concepts and modeling techniques\nExposure to scripting or analytical programming for data analysis\nStrong communication skills with the ability to translate data into actionable insights\nExperience in gaming, betting, or high-traffic digital platforms is an added advantage but not mandatory",
+    "role": "Web/Data Analyst",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "data-driven decision-making",
+      "user behavior analysis",
+      "A/B testing",
+      "campaign performance analysis",
+      "performance reporting",
+      "data extraction",
+      "data validation",
+      "data visualization",
+      "statistical analysis",
+      "scripting or analytical programming",
+      "strong communication skills"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4253729368/": {
+    "url": "https://www.linkedin.com/jobs/view/4253729368/",
+    "raw_text": "Gen AI - Artificial Intelligence Specialist\nWork Location: Hyderabad - Work from Office(Must)\nWilling to Join - ASAP\nResponsibilities\n-\nDrive customer conversations for Gen AI opportunities\nUnderstand customer specific requirements and create customer acceptable Gen AI solution architectures\nCreate customer proposals and RFP responses\nGuide solution engineers in creating Gen AI POC and solutions for industry verticals\nShow initiative and drive topics to resolution in an elevated level of quality, speed, reliability, and efficiency\nStaying abreast of the latest developments in technology and industry, best practices and finding where they can be incorporated\nDesign and deploy Proof of Concepts (POCs) and Points of View (POVs) across various industry verticals, proving the potential of Generative AI applications\nQualifications\n-\nExperience in software development: 8+ years\nExperience in Generative AI solution development: 3 years\nBachelor\u2019s degree or above in Computer Science, Software Engineering or similar disciplines\nExperience in two industry domains and ability to learn new domains quickly\nAdept at critical thinking and logical reasoning for problem-solving\nBe good at teamwork and delivering under pressure\nGenerative AI oriented\nExperience with at least one cloud technology: Azure, AWS, GCP\nGood understanding of NVIDIA or other similar technologies\nUnderstanding of sound design principles and patterns\nSolid appreciation of AI/ML concepts\nRequired Skills\n-\nExtremely dynamic and enthusiastic about technology\nDevelopment experience with one or more of these technologies: C++, Java, JavaScript, HTML, C#, Python, node.js\nBe able to adapt quickly to new challenges and an evolving technology stack\nExcellent written and verbal communication skills. Fluent English is essential\nStrong analytical and critical thinking skills\nDemonstrating a customer-focused attitude; Excellent communication skills (listening, presenting, writing, formal and informal)\nInitiative-taking, self-driven, curious, open-minded, resourceful, and flexible with the ability to learn quickly\nFirsthand of Python, ML Algorithms and Statistics\nKnowledge of source code maintenance and versioning tools\nStrong in Object Oriented Programming Concepts\nGood in debugging and analytical skills\nPreferred Skills\n-\n5+ years of experience in ML development and MLOps\nStrong programming skills, with ability in languages like Python, with a good knowledge of ML, Data and API libraries\nExpertise in creating end-to-end data pipelines (sourcing, exploration, automation, etc.)\nExperience with ML models and their development\nShould know ModelOps/MLOps, AutoML, AI Ethics, Trust and Explainable A\u00ed\nUnderstanding of some of the popular ML frameworks such as SparkML, TensorFlow, scikit-learn, XGBoost, H2O, etc.\nExperience working in a cloud environment (AWS, Azure, GCP) or a containerised environment (Mesos, Kubernetes)\nInterest in understanding functional and industry business challenges\nDesirable to know about IT Industry and potential GenAI use case in insurance processes\nIdeally, you\u2019ll also have Expertise in Big Data, Data Modelling",
+    "role": "Artificial Intelligence Specialist",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Generative AI solution development",
+      "C++",
+      "Java",
+      "JavaScript",
+      "HTML",
+      "C#",
+      "Python",
+      "node.js",
+      "Azure",
+      "AWS",
+      "GCP",
+      "NVIDIA technologies",
+      "AI/ML concepts",
+      "critical thinking",
+      "logical reasoning",
+      "teamwork",
+      "communication skills",
+      "analytical skills",
+      "Object Oriented Programming Concepts",
+      "debugging skills",
+      "ML development",
+      "MLOps",
+      "data pipelines",
+      "ModelOps",
+      "AutoML",
+      "AI Ethics",
+      "Trust and Explainable AI",
+      "SparkML",
+      "TensorFlow",
+      "scikit-learn",
+      "XGBoost",
+      "H2O"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371257221/": {
+    "url": "https://www.linkedin.com/jobs/view/4371257221/",
+    "raw_text": "Data Analyst Intern\nCompany:\nSkoollage\nLocation:\nRemote\nDuration:\n3 Months\nStipend:\n\u20b97,500 (Performance-Based)\nEmployment Opportunity:\nPotential full-time role based on performance + Certificate of Internship\nAbout Skoollage\nSkoollage is a next-generation learning and career-readiness platform dedicated to equipping students and professionals with in-demand, industry-aligned skills. Through real-world projects, expert mentorship, and practical exposure, Skoollage enables learners to transform raw data into meaningful insights that drive informed business decisions.\nRole Overview\nAs a Data Analyst Intern at Skoollage, you will work with real-world datasets to perform in-depth analysis and develop impactful visualizations that support data-driven decision-making. This role is ideal for individuals looking to build a strong foundation and hands-on experience in data analytics and business intelligence.\nKey Responsibilities\nPerform data cleaning, transformation, and validation to prepare datasets for analysis\nConduct Exploratory Data Analysis (EDA) using Python or R\nBuild interactive dashboards and visualizations using Power BI, Tableau, or MS Excel\nInterpret data findings and prepare analytical reports with actionable business insights\nAnalyze large datasets to identify trends, patterns, and opportunities\nSupport data-driven decision-making through clear documentation and presentations\nEligibility & Requirements\nStrong working knowledge of Python (Pandas, NumPy, Matplotlib) or MS Excel\nBasic understanding of SQL and data visualization tools\nStrong analytical thinking and problem-solving skills\nAttention to detail and data accuracy\nPrior coursework, certifications, or personal projects in data analytics will be an added advantage\nWhat You Will Gain\nPerformance-based stipend of \u20b97,500\nCertificate of Internship from Skoollage\nHands-on exposure to real-world analytics and business intelligence projects\nMentorship from experienced data analytics professionals\nCareer guidance, networking opportunities, and placement support\nPotential full-time employment opportunity based on performance",
+    "role": "Data Analyst Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "MS Excel",
+      "SQL",
+      "data visualization tools",
+      "analytical thinking",
+      "problem-solving",
+      "attention to detail",
+      "data accuracy"
+    ],
+    "salary": "\u20b97,500"
+  },
+  "https://www.linkedin.com/jobs/view/4370779757/": {
+    "url": "https://www.linkedin.com/jobs/view/4370779757/",
+    "raw_text": "Role- Gen AI Engineer\nKey Skills required- Strong Python Programming, Gen AI, Cloud\nExperience-2-6yrs\nJob location- Chennai/Hyderabad\nMode of Work- Hybrid\nResponsibilities:\no Design, develop, and implement AI/ML models and algorithms.\no Focus on building Proof of Concept (POC) applications to demonstrate the feasibility and value of AI solutions.\no Write clean, efficient, and well-documented code.\no Collaborate with data engineers to ensure data quality and availability for model training and evaluation.\no Work closely with senior team members to understand project requirements and contribute to technical solutions.\no Troubleshoot and debug AI/ML models and applications.\no Stay up-to-date with the latest advancements in AI/ML.\no Utilize machine learning frameworks (e.g., TensorFlow, PyTorch, Scikit-learn) to develop and deploy models.\no Develop and deploy AI solutions on Google Cloud Platform (GCP).\no Implement data preprocessing and feature engineering techniques using libraries like Pandas and NumPy.\no Utilize Vertex AI for model training, deployment, and management.\no Integrate and leverage Google Gemini for specific AI functionalities.\nQualifications:\no Bachelor's degree in Computer Science, Artificial Intelligence, or a related field.\no 3+ years of experience in developing and implementing AI/ML models.\no Strong programming skills in Python.\no Experience with machine learning frameworks such as TensorFlow, PyTorch, or Scikit-learn.\no Good understanding of machine learning concepts and techniques.\no Ability to work independently and as part of a team.\no Strong problem-solving skills.\no Good communication skills.\no Experience with Google Cloud Platform (GCP) is preferred.\no Familiarity with Vertex AI is a plus.",
+    "role": "Gen AI Engineer",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Strong Python Programming",
+      "Gen AI",
+      "Cloud",
+      "AI/ML models and algorithms",
+      "Proof of Concept (POC) applications",
+      "Clean and efficient code",
+      "Data quality and availability",
+      "Troubleshooting and debugging",
+      "Machine learning frameworks (TensorFlow, PyTorch, Scikit-learn)",
+      "Google Cloud Platform (GCP)",
+      "Data preprocessing and feature engineering (Pandas, NumPy)",
+      "Vertex AI",
+      "Google Gemini",
+      "Problem-solving skills",
+      "Good communication skills"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370788322/": {
+    "url": "https://www.linkedin.com/jobs/view/4370788322/",
+    "raw_text": "NirveonX Omnicare Pvt Ltd is hiring an App Developer (MERN Stack + React Native) (Remote, Unpaid)\nAbout NirveonX\nNirveonX Omnicare Pvt. Ltd. is India\u2019s AI-powered all-in-one healthcare platform focused on transforming how people access physical, mental, and lifestyle wellness. Our ecosystem integrates telemedicine, mental wellness, elder care, pet health, and emergency services into one seamless experience powered by AI. We are building a scalable digital healthcare infrastructure designed for speed, accessibility, and real-world impact.\nRole:\nApp Developer (MERN Stack + React Native)\nLocation:\nRemote\nExperience Level:\nFreshers to early-career developers\nType:\nInternship / Contract (with potential long-term opportunity)\nStipend:\nPerformance-Based\nWhat you will work on:\n\u2022 Developing and scaling cross-platform mobile applications using React Native\n\u2022 Building and maintaining backend services using Node.js, Express, and MongoDB\n\u2022 Collaborating on architecture decisions for a fast-growing healthcare platform\n\u2022 Optimizing performance, security, and scalability of applications\n\u2022 Working closely with product and design teams to ship real-world features\nWhat we are looking for:\n\u2022 Strong proficiency in the MERN stack (MongoDB, Express.js, React, Node.js)\n\u2022 Hands-on experience with React Native for mobile app development\n\u2022 Understanding of REST APIs, authentication, and cloud deployment basics\n\u2022 Clean coding practices and problem-solving mindset\n\u2022 Ability to work independently in a remote startup environment\n\u2022 Interest in healthcare technology and building impactful products\nThis is a high-impact opportunity to build real products used in a live healthcare ecosystem. You\u2019ll work closely with a fast-moving team and gain hands-on startup experience while contributing to meaningful technology.",
+    "role": "App Developer (MERN Stack + React Native)",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "MERN stack (MongoDB, Express.js, React, Node.js)",
+      "React Native",
+      "REST APIs",
+      "authentication",
+      "cloud deployment basics",
+      "clean coding practices",
+      "problem-solving mindset",
+      "ability to work independently",
+      "interest in healthcare technology"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370791436/": {
+    "url": "https://www.linkedin.com/jobs/view/4370791436/",
+    "raw_text": "Job description:\nMust-Have Skills:\nExpert-level proficiency in SQL and Python.\nDeep architectural knowledge of BigQuery (partitioning, clustering, nested fields).\nExperience with workflow orchestration tools like Apache Airflow (Cloud Composer).\nHands On Experience on Storage Transfer Service.\nStrong grasp of Infrastructure as Code (Terraform).\nExperience designing data lakes vs. data warehouses.\nKnowledge of Databricks is a plus\nKnowledge of Informatica is a plus",
+    "role": "Not mentioned",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "SQL",
+      "Python",
+      "BigQuery",
+      "Apache Airflow",
+      "Storage Transfer Service",
+      "Infrastructure as Code",
+      "Terraform",
+      "data lakes",
+      "data warehouses",
+      "Databricks",
+      "Informatica"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370796403/": {
+    "url": "https://www.linkedin.com/jobs/view/4370796403/",
+    "raw_text": "\ud83c\udf1f We're Hiring: AI Developer! \ud83c\udf1f\nWe are seeking a talented and innovative AI Developer to join our dynamic team in New Delhi. The ideal candidate will have a solid foundation in artificial intelligence, machine learning, and software development. This role is crucial for advancing our projects that leverage AI technologies to solve real-world problems.\n\ud83d\udccd Location:\nNew Delhi, India\n\u23f0 Work Mode:\nWork From Office\n\ud83d\udcbc Role:\nAI Developer\nWhat You'll Do:\n\ud83c\udfaf Design and implement AI models and algorithms.\n\ud83d\udd0d Analyze data sets to derive insights and improve models.\n\ud83d\udee0 Collaborate with cross-functional teams on project requirements.\n\ud83d\udcc8 Optimize existing algorithms for efficiency and performance.\n\ud83e\udd16 Stay updated with the latest advancements in AI technology.\n\ud83d\udcdd Document processes and maintain code quality standards.\nWhat We're Looking For:\n\u2705 Minimum 2 years of experience in AI/ML development.\n\u2705 Proficiency in programming languages such as Python or Java.\n\u2705 Strong understanding of machine learning frameworks (e.g., TensorFlow, PyTorch).\n\u2705 Excellent problem-solving skills and analytical mindset.\n\u2705 Ability to work collaboratively in a team-oriented environment.\nReady to shape the future with us? \ud83d\ude80 Apply now and be part of our journey!",
+    "role": "AI Developer",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "artificial intelligence",
+      "machine learning",
+      "software development",
+      "Python",
+      "Java",
+      "machine learning frameworks",
+      "TensorFlow",
+      "PyTorch",
+      "problem-solving",
+      "analytical mindset",
+      "collaborative teamwork"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370781836/": {
+    "url": "https://www.linkedin.com/jobs/view/4370781836/",
+    "raw_text": "About the Company\nZetheta Algorithms Private Limited is a FinTech start-up which has been recently set up and is developing innovative AI tools.\nhttps://www.instagram.com/zetheta.official\nAbout the Role\nWe are seeking a talented and motivated student/ fresher intern for a Software Engineering role. This is an extraordinary opportunity for a self-driven, technically skilled student with a passion for building robust software solutions and implementing cutting-edge technologies in the financial sector.\nAbout the Internship:\nAs a Software Engineer intern, you will work on development projects involving application design, coding, testing, and deployment. You will have the opportunity to engage in multiple mini-projects across various technical domains. The internship is designed to provide practical exposure to software development lifecycles in a FinTech environment.\nKey Responsibilities\nAs part of the internship, you will work through a structured set of assignments designed to enhance your understanding of software engineering principles and practices. Your primary responsibilities will include:\nSoftware Development\nWrite clean, efficient, and maintainable code\nParticipate in the full software development lifecycle\nImplement new features and functionality\nCollaborate with team members using version control systems\nApplication Design & Architecture\nContribute to software design discussions\nCreate technical specifications based on requirements\nApply best practices in application architecture\nDevelop modular and scalable components\nTesting & Quality Assurance\nWrite and execute unit and integration tests\nIdentify and fix bugs and performance issues\nParticipate in code reviews and quality assurance processes\nEnsure code meets quality and performance standards\nDevOps & Deployment\nLearn about continuous integration and delivery pipelines\nAssist in application deployment processes\nMonitor application performance and troubleshoot issues\nImplement security best practices\nCapstone Project\nComplete an end-to-end development project including: Requirement analysis, System design, Implementation, Testing, and Deployment\nWhat You Will Learn\nPractical experience with modern programming languages (Python with SQL) and frameworks\nSoftware design patterns and architectural principles\nAgile development methodologies and practices\nTesting strategies and quality assurance techniques\nFinTech-specific development challenges and solutions\nWho Should Apply?\nStudent or fresh graduate from computer science or related disciplines\nKnowledge of at least one programming language (e.g., Python, Java, JavaScript with SQL)\nBasic understanding of data structures and algorithms\nFamiliarity with web technologies and databases\nWillingness to self-learn and work in a fast-paced environment\nInternship Details\nDuration:\nSelf-paced. Options from 15 days to 6 months.\nType:\nUnpaid",
+    "role": "Software Engineering Intern",
+    "about_company": "Zetheta Algorithms Private Limited is a FinTech start-up which has been recently set up and is developing innovative AI tools.\nhttps://www.instagram.com/zetheta.official\nAbout the Role\nWe are seeking a talented and motivated student/ fresher intern for a Software Engineering role. This is an extraor...",
+    "fetched_at": "now",
+    "skills": [
+      "Python",
+      "SQL",
+      "Java",
+      "JavaScript",
+      "data structures",
+      "algorithms",
+      "web technologies",
+      "databases",
+      "software development lifecycle",
+      "application design",
+      "coding",
+      "testing",
+      "deployment",
+      "version control systems",
+      "Agile development methodologies",
+      "quality assurance"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370780562/": {
+    "url": "https://www.linkedin.com/jobs/view/4370780562/",
+    "raw_text": "KPI Partners is seeking a talented Databricks Architect to join our dynamic team. The ideal candidate will have extensive experience with Databricks and a strong proficiency in SQL, PySpark, Azure, and Python. This role involves designing and implementing data solutions on the Databricks platform that meet our clients' needs.\nKey Responsibilities:\n- Design and develop scalable data pipelines using Databricks.\n- Collaborate with data scientists and engineers to build robust data architectures.\n- Utilize SQL and PySpark for data manipulation and analysis.\n- Implement best practices in data governance and security in Azure environments.\n- Optimize existing data workflows for improved efficiency and performance.\n- Provide technical guidance and support to internal teams and clients.\n- Stay updated on the latest Databricks features and industry trends to enhance solutions.\nRequired Skills and Qualifications:\n- Strong expertise in Databricks and its ecosystem.\n- Proficient in SQL and PySpark for data processing and analysis.\n- Experience with Azure cloud services and their integration with Databricks.\n- Solid understanding of Python for data engineering tasks.\n- Excellent problem-solving skills and the ability to work collaboratively.\n- Strong communication skills to effectively interact with clients and team members.",
+    "role": "Databricks Architect",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Databricks",
+      "SQL",
+      "PySpark",
+      "Azure",
+      "Python",
+      "problem-solving",
+      "collaboration",
+      "communication"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371101146/": {
+    "url": "https://www.linkedin.com/jobs/view/4371101146/",
+    "raw_text": "Company Description\nAkiyam Solutions is an innovative company at the forefront of game and simulation development, specializing in AR, VR, MR, XR, and advanced gaming technologies. Our projects span a diverse range of genres, including horror, action, simulation, multiplayer, and story-driven games, for PC, console, and mobile platforms. Beyond entertainment, we create AI-driven training and simulation solutions for industries such as defense, aviation, and industrial sectors. Leveraging technologies like machine learning, generative AI, and neural networks, we develop adaptive and realistic experiences. Akiyam Solutions combines cutting-edge technology, immersive storytelling, and artificial intelligence to redefine gaming and simulation experiences.\nRole Description\nThis is a remote internship opportunity for a Game Designer Intern specializing in Unreal Engine, Unity, and Blender. The intern will assist with developing and designing immersive gaming environments, creating game levels, and optimizing game mechanics for console and mobile platforms. The role involves collaborating with the development team to implement creative ideas and innovative gameplay, ensuring a seamless and engaging user experience. The internship offers a unique opportunity to work with cutting-edge technologies in the gaming industry.\nQualifications\nProficiency in Level Design to create engaging and immersive game worlds.\nUnderstanding of Game Design principles, including mechanics, dynamics, and player experience.\nBasic skills in Game Development using tools such as Unreal Engine, Unity, and Blender.\nFamiliarity with designing and optimizing games for both Console and Mobile Games platforms.\nStrong creativity, problem-solving skills, and attention to detail.\nAbility to work in a remote, collaborative environment with excellent communication skills.\nExperience or interest in AR, VR, and AI technologies is a plus.\nCurrently pursuing or completed a degree in Game Design, Computer Science, or a related field.",
+    "role": "Game Designer Intern",
+    "about_company": "Akiyam Solutions is an innovative company at the forefront of game and simulation development, specializing in AR, VR, MR, XR, and advanced gaming technologies. Our projects span a diverse range of genres, including horror, action, simulation, multiplayer, and story-driven games, for PC, console, an...",
+    "fetched_at": "now",
+    "skills": [
+      "Level Design",
+      "Game Design principles",
+      "Game Development",
+      "Unreal Engine",
+      "Unity",
+      "Blender",
+      "Creativity",
+      "Problem-solving",
+      "Attention to detail",
+      "Communication skills",
+      "AR technologies",
+      "VR technologies",
+      "AI technologies"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371237971/": {
+    "url": "https://www.linkedin.com/jobs/view/4371237971/",
+    "raw_text": "\ud83d\udccc Data Analyst Intern (Remote)\nCompany:\nWeb X UM\nLocation:\nRemote\nDuration:\n3 Months\n\ud83d\udcc5 Application Deadline:\n11th February 2026\nOpportunity & Benefits:\n\ud83d\udcb0 Performance-based stipend up to \u20b97,499\n\ud83c\udf81 Swags and goodies\n\ud83d\udcdc Certificate of Internship\n\u2709\ufe0f Letter of Recommendation (based on performance)\n\ud83c\udf1f Potential full-time role based on performance\n\ud83d\udcca Hands-on experience with real-world data analysis projects\nAbout Web X UM:\nWeb X UM provides students and graduates with practical exposure to data analysis. The organization focuses on developing real-world skills, gaining industry experience, and working on projects that strengthen professional portfolios.\nRoles & Responsibilities:\nCollect, clean, and analyze datasets for actionable insights\nDevelop reports, dashboards, and data visualizations\nIdentify trends, patterns, and key metrics from data\nCollaborate on presentations and provide data-driven recommendations\nRequirements:\nCurrently enrolled in or graduated from Data Science, Computer Science, Statistics, or related fields\nStrong analytical skills with attention to detail\nFamiliarity with Excel, SQL, or Python (preferred)\nGood communication, collaboration, and teamwork skills\nWhat You Will Gain:\nHands-on experience with real-world data analysis projects\nPerformance-based stipend up to \u20b97,499\nSwags and goodies\nCertificate of Internship upon completion\nLetter of Recommendation based on performance\nOpportunity to build a strong professional portfolio\nPotential full-time role based on performance\nHow to Apply:\nSubmit your application with the subject line:\n\u201cData Analyst Intern Application\u201d\nPlease include:\nUpdated resume\nRelevant portfolio or project links\nEqual Opportunity Statement:\nWeb X UM is an equal opportunity employer and welcomes applicants from all backgrounds, fostering a diverse and inclusive work environment.",
+    "role": "Data Analyst Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "analytical skills",
+      "attention to detail",
+      "Excel",
+      "SQL",
+      "Python",
+      "communication",
+      "collaboration",
+      "teamwork"
+    ],
+    "salary": "\u20b97,499"
+  },
+  "https://www.linkedin.com/jobs/view/4370790522/": {
+    "url": "https://www.linkedin.com/jobs/view/4370790522/",
+    "raw_text": "About the Company\nZeTheta Algorithms Private Limited is a FinTech start-up which has been recently set up and is developing innovative AI tools.\nhttps://www.instagram.com/zetheta.official\nAbout the Role\nAs a Data Scientist intern, you will work on cutting-edge projects involving financial data analysis, investment research, and risk modelling. You will have the opportunity to engage in multiple mini-projects or take up a focused innovation-based research project. The project experience is designed to provide practical exposure to data science in the context of asset management, trading, and financial technology. We provide problem statements, methodology and after you submit your solution to develop the solutions/ model, we also showcase to you sample solution. You can use our sample solution to modify your project submission and expand further based on suggestions given in our sample solution. You can opt for your own research based data science solution to develop/ model.\nResponsibilities\nConduct data cleaning, wrangling, and pre-processing for financial datasets.\nAssist investment teams in equity research, fixed income research, portfolio management, and economic analysis.\nApply statistical techniques to financial problems such as credit risk modelling, probability of default, and value-at-risk estimation.\nWork with big data sources including financial reports, macroeconomic datasets, and alternative investment data.\nUse either one \u2013 Python, Excel or R to analyse, visualize, and model financial data.\nParticipate in research projects related to quantitative trading, financial derivatives, and portfolio optimization.\nWho Should Apply?\nAny student even without coding skills can upskill (self learning) to develop Data Science Solutions. Some basic knowledge of Excel or Python or R script can help complete the projects quicker. We permit the use of all LLMs/ NLPs to help students to develop the solutions.\nStrong problem-solving and analytical skills.\nAble to self-learn and work independently in a remote, flexible environment.\nInternship Details\nDuration: Option of 15 days and 1 months to 6 months\nTiming: Self-paced.\nType: Unpaid",
+    "role": "Data Scientist intern",
+    "about_company": "ZeTheta Algorithms Private Limited is a FinTech start-up which has been recently set up and is developing innovative AI tools.\nhttps://www.instagram.com/zetheta.official\nAbout the Role\nAs a Data Scientist intern, you will work on cutting-edge projects involving financial data analysis, investment re...",
+    "fetched_at": "now",
+    "skills": [
+      "data cleaning",
+      "data wrangling",
+      "pre-processing",
+      "financial datasets",
+      "equity research",
+      "fixed income research",
+      "portfolio management",
+      "economic analysis",
+      "statistical techniques",
+      "credit risk modelling",
+      "probability of default",
+      "value-at-risk estimation",
+      "big data analysis",
+      "Python",
+      "Excel",
+      "R",
+      "data visualization",
+      "quantitative trading",
+      "financial derivatives",
+      "portfolio optimization",
+      "problem-solving",
+      "analytical skills",
+      "self-learning",
+      "independent work"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4363200429/": {
+    "url": "https://www.linkedin.com/jobs/view/4363200429/",
+    "raw_text": "Build experiences people actually enjoy using. This role is for a developer who cares about clean code, thoughtful design, and creating fast, reliable websites that make a real impact.\nWhat You\u2019ll Do\n\u2022 Design, develop, and maintain responsive, high-quality websites\n\u2022 Turn designs and ideas into smooth, functional user experiences\n\u2022 Optimize performance, accessibility, and usability across devices\n\u2022 Collaborate with designers, product, and content teams\n\u2022 Debug issues, improve features, and continuously refine the web experience\nWhat You Bring\n\u2022 2\u20136 years of experience in web development\n\u2022 Strong skills in HTML, CSS, JavaScript, and modern frameworks\n\u2022 Experience with frontend or full-stack development\n\u2022 Eye for detail and appreciation for good design and UX\n\u2022 Curious mindset and comfort working in collaborative environments\nWhy This Role\n\u2022 Opportunity to build visible, user-facing products\n\u2022 Space to learn, experiment, and grow as a developer\n\u2022 Work that blends creativity with real-world impact",
+    "role": "Web Developer",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "modern frameworks",
+      "frontend development",
+      "full-stack development",
+      "design appreciation",
+      "UX",
+      "collaborative mindset"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371101102/": {
+    "url": "https://www.linkedin.com/jobs/view/4371101102/",
+    "raw_text": "Job Description \u2013 Data Analyst (E-commerce Focus)\nRole: Data Analyst\nExperience: 3 \u2013 7 Years\nEmployment Type: Full Time\nRole Overview\nWe are seeking a detail-oriented and analytical Data Analyst with strong experience in the e-commerce domain. The role requires analyzing customer behavior, sales performance, and operational metrics to generate actionable insights that drive business growth. The ideal candidate should be proficient in data analysis, reporting, and visualization while working closely with business, marketing, and product teams.\nKey Responsibilities\nAnalyze large datasets related to sales, customers, orders, traffic, and marketing performance.\nBuild dashboards and reports to track key e-commerce KPIs such as conversion rate, AOV, CLTV, retention, and churn.\nPerform cohort analysis, funnel analysis, and customer segmentation.\nSupport product and marketing teams with data-driven insights.\nAnalyze website and app performance data to optimize user experience.\nWork with business stakeholders to define metrics and reporting needs.\nAutomate recurring reports and dashboards.\nIdentify trends, anomalies, and opportunities for revenue growth.\nSupport A/B testing and experimentation initiatives.\nEnsure data accuracy and consistency across reporting systems.\nRequired Technical Skills\nStrong proficiency in SQL for querying and data manipulation.\nAdvanced knowledge of Microsoft Excel or Google Sheets.\nHands-on experience with BI tools such as Power BI, Tableau, Looker, or Google Data Studio.\nExperience with analytics platforms like Google Analytics, Firebase, Mixpanel, or Adobe Analytics.\nUnderstanding of ETL processes and data pipelines.\nBasic knowledge of Python or R for data analysis (preferred).\nFamiliarity with databases such as MySQL, PostgreSQL, BigQuery, or Redshift.\nDomain Expertise \u2013 E-commerce\nOnline customer journey and funnel performance analysis.\nProduct performance and category trend analysis.\nPricing and discount effectiveness tracking.\nInventory and supply chain analytics.\nMarketing campaign ROI measurement.\nPersonalization and recommendation performance analytics.\nMarketplace or D2C platform analytics.\nSoft Skills\nStrong analytical and problem-solving mindset.\nExcellent communication and presentation skills.\nAbility to translate business problems into analytical solutions.\nProactive attitude with ownership and accountability.\nAbility to work effectively with cross-functional teams.\nEducation\nBachelor\u2019s degree in Computer Science, Statistics, Mathematics, Economics, or a related field.",
+    "role": "Data Analyst",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "SQL",
+      "Microsoft Excel",
+      "Google Sheets",
+      "Power BI",
+      "Tableau",
+      "Looker",
+      "Google Data Studio",
+      "Google Analytics",
+      "Firebase",
+      "Mixpanel",
+      "Adobe Analytics",
+      "ETL processes",
+      "data pipelines",
+      "Python",
+      "R",
+      "MySQL",
+      "PostgreSQL",
+      "BigQuery",
+      "Redshift",
+      "analytical mindset",
+      "problem-solving",
+      "communication skills",
+      "presentation skills",
+      "cross-functional teamwork"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371256272/": {
+    "url": "https://www.linkedin.com/jobs/view/4371256272/",
+    "raw_text": "Data Science Intern\nCompany:\nSKOOLAGE\nLocation:\nRemote\nDuration:\n3 Months\nStipend:\nUp to \u20b97,500 (Paid | Performance-Based)\nEmployment Opportunity:\nPotential full-time role based on performance + Certificate of Internship\nAbout SKOOLAGE\nSKOOLAGE is a technology-driven learning and career-readiness platform that delivers practical training and internship programs across Artificial Intelligence, Machine Learning, Data Science, and emerging digital technologies. The organization focuses on real-world exposure, industry-relevant projects, and guided mentorship to prepare learners for successful careers in data-driven fields.\nRole Overview\nAs a Data Science Intern at SKOOLAGE, you will work on end-to-end data science projects involving data preprocessing, exploratory analysis, machine learning model development, and predictive analytics. This internship is ideal for candidates aiming to strengthen their applied data science and AI skills through hands-on experience.\nKey Responsibilities\nPerform data cleaning, preprocessing, feature engineering, and Exploratory Data Analysis (EDA)\nBuild, train, test, and evaluate machine learning models using Scikit-learn\nVisualize data insights using tools such as Matplotlib, Seaborn, or Power BI\nWork with real-world datasets to develop predictive and analytical solutions\nCollaborate with mentors to improve model accuracy, performance, and scalability\nDocument findings and present insights in a clear, structured manner\nEligibility & Requirements\nWorking knowledge of Python, Pandas, NumPy, Scikit-learn, and Matplotlib\nUnderstanding of machine learning algorithms, data preprocessing techniques, and evaluation metrics\nFamiliarity with SQL and Jupyter Notebooks\nStrong analytical thinking, curiosity, and problem-solving skills\nPrior coursework, certifications, or personal projects in data science or ML are an added advantage\nWhat You Will Gain\nPaid stipend of up to \u20b97,500 (Performance-Based)\nCertificate of Internship from SKOOLAGE\nHands-on experience with real-world AI and machine learning projects\nMentorship from experienced data science professionals\nOpportunity to build portfolio-ready data science projects\nNetworking opportunities, career guidance, and placement support\nPotential full-time employment opportunity based on performance",
+    "role": "Data Science Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Matplotlib",
+      "SQL",
+      "Jupyter Notebooks",
+      "data cleaning",
+      "feature engineering",
+      "Exploratory Data Analysis (EDA)",
+      "machine learning model development",
+      "predictive analytics",
+      "analytical thinking",
+      "problem-solving"
+    ],
+    "salary": "Up to \u20b97,500"
+  },
+  "https://www.linkedin.com/jobs/view/4370792614/": {
+    "url": "https://www.linkedin.com/jobs/view/4370792614/",
+    "raw_text": "Type:\nInternship (with potential for a permanent role)\nMail your resume at hr @moksharetails.com\nAbout Us\nMoksha Retails Global Private Ltd. is a dynamic company dedicated to revolutionizing the e-commerce landscape. We are working on building cutting-edge applications that provide seamless shopping experiences. Join us and contribute to an exciting journey of innovation and growth.\nRole Overview\nWe are looking for motivated and talented interns to join our development team in Bangalore. This is a unique opportunity to gain hands-on experience building an e-commerce application using modern web and mobile technologies.\nKey Responsibilities\nCollaborate with the development team to design, develop, and deploy features for our e-commerce platform.\nWork on both front-end and back-end development tasks using\nNode.js\n,\nReact.js\n, and\nReact Native\n.\nDevelop and optimize database queries using\nSQL\nand\nMongoDB\n.\nParticipate in code reviews, debugging, and ensuring best practices are followed.\nContribute to cloud-based solutions, leveraging\nAWS\n.\nWhat We Offer\nHands-on experience in\nbuilding a real-world e-commerce application\n.\nExposure to modern development practices and tools.\nGood stipend\nto support your learning journey.\nA supportive work environment encouraging growth and creativity.\nPotential for full-time employment\nbased on performance during the internship.",
+    "role": "Intern",
+    "about_company": "Moksha Retails Global Private Ltd. is a dynamic company dedicated to revolutionizing the e-commerce landscape. We are working on building cutting-edge applications that provide seamless shopping experiences. Join us and contribute to an exciting journey of innovation and growth.\nRole Overview\nWe are...",
+    "fetched_at": "now",
+    "skills": [
+      "Node.js",
+      "React.js",
+      "React Native",
+      "SQL",
+      "MongoDB",
+      "AWS"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370796412/": {
+    "url": "https://www.linkedin.com/jobs/view/4370796412/",
+    "raw_text": "Position: Backend Engineering Intern (Python | FastAPI | Azure)\nLocation: Remote\nDuration: 6 Months\nType: Full-time\nAbout UCH.AI\nUCH.AI is pioneering the transformation of the construction industry through its cutting-edge, AI-powered platform. As a funded startup, our mission is to empower construction companies to win more projects and eliminate operational inefficiencies. By leveraging technology, we enable firms to optimize business development, foster collaboration, and make informed, data-driven decisions.\nAt UCH.AI, we foster a culture rooted in innovation, agility, and operational excellence. We are committed to making a meaningful impact in the infrastructure ecosystem and are actively seeking driven professionals to join us on this journey of transformation.\nAbout the Role\nWe are looking for a\nBackend Engineering Intern\nwho is eager to learn and contribute to real-world backend systems. This role offers hands-on exposure to\nPython-based backend development\n,\nFastAPI services\n, and\ncloud deployments on Azure\n, working closely with experienced engineers under structured guidance.\nThis internship is ideal for candidates who want practical experience building scalable backend services and working with data-driven systems.\nKey Responsibilities\nBuild and maintain\nRESTful APIs\nusing\nPython and FastAPI\nWrite clean, readable, and maintainable Python code\nDebug and resolve backend-related issues\nPerform basic data operations using\nMongoDB\nAssist in\nDockerized deployments\non\nMicrosoft Azure\nFollow backend engineering best practices, including\nCI/CD workflows\nCollaborate with senior engineers to understand system architecture and workflows\nRequired Skills & Qualifications\nStrong understanding of\nPython fundamentals\nBasic knowledge of\nREST API concepts\nFamiliarity with\nFastAPI\nor similar Python web frameworks\nWorking knowledge of\nGit and GitHub\nWillingness to learn backend systems, databases, and cloud platforms\nGood problem-solving and debugging skills\nNice to Have / Optional Skills\nExposure to\nMicrosoft Azure\nor any cloud platform\nExperience with\nweb scraping tools\nsuch as BeautifulSoup, Playwright, or Selenium\nUnderstanding of\ndata cleaning, enrichment, and feature extraction\nBasic knowledge of\nasync/await\nin Python\nAwareness of\nDocker and containerization\nPrior backend projects, internships, or academic projects",
+    "role": "Backend Engineering Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Azure",
+      "RESTful APIs",
+      "MongoDB",
+      "Docker",
+      "CI/CD workflows",
+      "Git",
+      "GitHub",
+      "problem-solving",
+      "debugging"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370782685/": {
+    "url": "https://www.linkedin.com/jobs/view/4370782685/",
+    "raw_text": "BD Technology Campus India (BDTCI)\nis expanding, and we are looking for a\nTechnical Product Delivery Specialist\nto lead the end\u2011to\u2011end delivery of AI/ML solutions across our global teams.\nIf you are passionate about building scalable, production\u2011ready AI/ML solutions and enjoy working in a cross\u2011functional, high\u2011impact environment \u2014 this role is for you!\n\ud83d\udccd Work Model & Location\n4 days in office\n(Mon\u2013Thu)\nBengaluru\nFull\u2011time\n\ud83d\udd0e Role Overview\nAs a\nTechnical Product Delivery Specialist\n, you will drive delivery excellence by partnering with Product Managers, Data Scientists, ML Engineers, DevOps, and business teams.\nYou will ensure seamless execution of AI/ML solutions \u2014 from requirement gathering to deployment and post\u2011production stability.\nThis role requires strong delivery rigor, technical depth, and the ability to operate in a dynamic, global environment.\n\ud83d\udee0 Key Responsibilities\nLead end\u2011to\u2011end delivery lifecycle for AI/ML solutions\nTranslate business requirements into delivery roadmaps and execution plans\nOversee development, validation, testing, deployment & monitoring\nPartner with data science, ML engineering & DevOps teams\nConduct code reviews, environment setup and performance diagnostics\nEnsure delivery standards, governance, compliance & Responsible AI principles\nManage risks, dependencies & communication with global stakeholders\nDrive reuse, standardization & scalable frameworks\nProvide technical mentorship and delivery guidance\n\ud83c\udf93 Education & Experience\nBachelor\u2019s or Master\u2019s in Computer Science, Engineering, Data Science, or related fields\n6+ years\ndelivering AI/ML or technical engineering solutions\nStrong experience deploying solutions to production environments\nProven expertise in managing complex, multi\u2011team technical deliveries\nExperience working with global, cross\u2011functional teams in agile environments\n\ud83d\udca1 Technical Skills\nML lifecycle, MLOps practices, model deployment\nPython, SQL\nMLflow, Databricks, CI/CD, DevOps tooling\nDocker, Kubernetes\nCloud infrastructure & security best practices\nStrong problem\u2011solving & stakeholder management\n\ud83c\udf0d About BD\nBD is one of the world\u2019s largest global medical technology companies, advancing the world of health\u2122.\nThe\nBD Technology Campus India (BDTCI)\nis a key part of BD\u2019s global R&D and engineering ecosystem, driving digital, AI/ML, data, and product engineering initiatives for global markets.\nJoining us means becoming part of a fast\u2011growing capability center with the agility of a startup \u2014 backed by the strength of a global MedTech leader.\n\ud83d\udce8 Interested? Apply Now!\nPlease share your updated profile with the following details:\nFull Name\nContact Number\nCurrent Location\nTotal Experience\nNotice Period\nLatest Resume\n\ud83d\udce7\npreeti.tenneti@bd.com",
+    "role": "Technical Product Delivery Specialist",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "ML lifecycle",
+      "MLOps practices",
+      "model deployment",
+      "Python",
+      "SQL",
+      "MLflow",
+      "Databricks",
+      "CI/CD",
+      "DevOps tooling",
+      "Docker",
+      "Kubernetes",
+      "Cloud infrastructure",
+      "security best practices",
+      "problem-solving",
+      "stakeholder management"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370794326/": {
+    "url": "https://www.linkedin.com/jobs/view/4370794326/",
+    "raw_text": "Business Analyst Intern (Paid)\nCompany:\nZenithByte\nLocation:\nRemote\nDuration:\n3 Months\nPerks & Opportunity:\n\ud83d\udcb0\nPerformance-based stipend up to \u20b97,499\n\ud83c\udf81\nSwags and goodies\n\ud83c\udfaf\nPotential full-time role based on performance\n\ud83d\udcdc\nCertificate of Internship\nApplication Deadline:\n11th February 2026\nAbout ZenithByte\nZenithByte helps aspiring business analysts gain practical, project-based experience to bridge the gap between academic learning and real industry requirements. The internship focuses on developing analytical thinking, problem-solving, and decision-making skills through live projects and hands-on exposure.\nResponsibilities\nAnalyze business processes, gather requirements, and identify improvement opportunities\nPrepare reports, dashboards, and actionable insights to support management decisions\nAssist in developing business cases, workflow diagrams, and use-case documentation\nCollaborate with cross-functional teams, including stakeholders and developers, to understand business needs\nConduct market research and competitor analysis when required\nRequirements\nCurrently enrolled in or recently graduated from Business, Analytics, Management, or related fields\nProficiency in Excel and PowerPoint; familiarity with Power BI or Tableau (preferred)\nBasic understanding of business analysis concepts, tools, and documentation practices\nStrong communication, analytical thinking, and problem-solving skills\nWhat You Will Gain\nExposure to real-world business challenges and analytical scenarios\nCertificate of Internship\nLetter of Recommendation (based on performance)\nSwags and goodies\nPerformance-based stipend up to \u20b97,499\nOpportunity to work on live business analysis projects\nPotential full-time role based on performance\nEqual Opportunity Statement\nZenithByte is an equal opportunity organization and encourages applications from candidates of all backgrounds.",
+    "role": "Business Analyst Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Analytical thinking",
+      "Problem-solving",
+      "Decision-making",
+      "Excel",
+      "PowerPoint",
+      "Power BI",
+      "Tableau",
+      "Communication"
+    ],
+    "salary": "\u20b97,499"
+  },
+  "https://www.linkedin.com/jobs/view/4370798007/": {
+    "url": "https://www.linkedin.com/jobs/view/4370798007/",
+    "raw_text": "We are looking for an\nSDET\n(Software Development Engineer in Test) who can actively contribute to building and maintaining robust test automation solutions across web and API layers. This role requires strong programming fundamentals, hands-on experience with modern automation frameworks, and the ability to collaborate closely with developers to embed quality into every stage of the development lifecycle.\nThe ideal candidate approaches testing with an engineering mindset, focusing on scalability, reliability, and continuous improvement rather than manual execution alone.\nRole:\nSDET Intern\nLocation:\nHyderabad\nExperience:\n6 Months Minimum\nEmployment Type:\nFull-Time\nShift:\n2-11PM\nKey Responsibilities\nDesign, develop, and maintain\nautomation test scripts\nusing\nCypress or Playwright\nPerform\nmanual testing\nincluding functional, regression, smoke, and exploratory testing\nConduct\nAPI testing\nusing tools like\nPostman and Rest Assured\nExecute and analyze\nperformance testing\nusing\nJMeter\nCollaborate closely with developers, product managers, and DevOps teams to ensure quality across the SDLC\nIdentify, log, track, and verify defects using appropriate tools\nParticipate in sprint planning, daily stand-ups, and retrospectives\nEnsure test coverage, test documentation, and quality metrics are maintained\nRequired Technical Skills\nStrong experience in Automation Testing (Cypress or Playwright)\nProficiency in Manual Testing concepts and best practices\nHands-on experience with API Testing (Postman, Rest Assured)\nGood programming knowledge in JavaScript, Java, or Python\nExperience with Performance Testing using JMeter\nFamiliarity with VS Code for development and testing\nSolid understanding of GitHub for version control\nKnowledge of Agile/Scrum methodologies\nNegotiable Skills:\nExposure to cloud platforms (AWS/GCP/Azure)\nKnowledge or exposure to\nAI / AI-driven testing tools\nQualification/ Education:\nBachelor\u2019s degree in\nComputer Science, Engineering, or a related field\nAbout Techolution:\nTecholution is the world's #1 AI Acceleration Partner and the inventor of BPA 4.0, the groundbreaking AI platform that delivers guaranteed ROI from enterprise AI in 30 days or less.\nWith over 10+ years of experience, we specialize in turning AI into measurable business value\u2014helping global enterprises achieve dramatic efficiency gains (like 42x improvements in key processes), modernize legacy systems, migrate to the cloud (as a Google Premier Partner), and deploy custom AI solutions across industries such as healthcare, manufacturing, media, banking, government, and life sciences.\nOur mission is simple yet powerful: \"TURN AI INTO ROI\" \u2014 where it matters most. We go beyond generic AI by offering risk-free innovation, including our 100k Challenge (2x quantifiable savings in 100 days or your money back), rapid diagnostics via BPA Value Finder, and AI-powered managed services that deliver twice the quality at half the cost.\nBacked by 12 patents, 5 notable awards (including Inc. 5000 recognition), 2 published books, and a track record of solving real-world challenges\u2014from patient prioritization during COVID-19 to quality control in supply chains and air quality monitoring\u2014we empower teams to thrive in an AI-driven future.\nAt Techolution, we're building \"innovation done right\" with a passionate, collaborative team focused on delivering next-level impact, workforce enablement, and trustworthy, enterprise-scale automation. Join us to be part of redefining how businesses operate with AI.\nLet's explore further!\nUncover our unique AI accelerators with us:\n1.\nEnterprise LLM Studio\n: Our no-code DIY AI studio for enterprises. Choose an LLM, connect it to your data, and create an expert-level agent in 20 minutes.\n2.\nAppMod. AI\n: Modernizes ancient tech stacks quickly, achieving over 80% autonomy for major brands!\n3.\nComputerVision. AI\n: Our ComputerVision. AI Offers customizable Computer Vision and Audio AI models, plus DIY tools and a Real-Time Co-Pilot for human-AI collaboration!\n4.\nRobotics and Edge Device Fabrication\n: Provides comprehensive robotics, hardware fabrication, and AI-integrated edge design services.\n5.\nRLEF AI Platform\n: Our proven Reinforcement Learning with Expert Feedback (RLEF) approach bridges Lab-Grade AI to Real-World AI.\n6.\nAI Center of Excellence\n: Establishes an AI Center of Excellence to maximize AI potential and ROI.\n7.\nFaceOpen\n: AI-powered user identification system using image recognition and deep neural networks, eliminating the need for keys, badges, or fingerprint scanners!\nOur Unique Value Proposition:\n\u2022 White Glove Service: From Ideation \u2192 Innovation \u2192 Integration, we lead the way to deliver meaningful\noutcomes, enabling your team to operate AI solutions independently.\n\u2022 Human-AI Partnership: Our Govern Guide Control (GGC) framework ensures responsible AI governance,\naligning solutions with your organizational requirements and brand identity.\n\u2022 Customized AI Solutions: We tailor AI to your enterprise needs, delivering from concept to\nimplementation with our turnkey approach at a guaranteed price.\nOur Impact:\nTecholution has partnered with 300+ clients worldwide, including 50+ Fortune 500 companies. Our growing team\nworks across diverse sectors such as healthcare, education, retail, media, tech, banking, fintech, government,\ntelecom, and manufacturing. Celebrating 9+ years in business, we are committed to AI Done Right!\nAwards & Recognition\n\u2022 2024: Forbes publishes the best-selling book by our CEO, \"Failing Fast?: The 10 Secrets to Succeed\nFaster.\"\n\u2022 2023: AI Solutions Provider of the Year - AI Summit\n\u2022 2022: Best in Business Award - Inc. Magazine\n\u2022 2021: Best Cloud Transformation Consulting - CIO Review\n\u2022 2019: Inc. 500 Fastest Growing Company Award\nSome videos you wanna watch!\nComputer Vision demo at The AI Summit New York 2023\nLife at Techolution\nGoogleNext 2023\nAi4 - Artificial Intelligence Conferences 2023\nWaWa - Solving Food Wastage\nSaving lives - Brooklyn Hospital\nInnovation Done Right on Google Cloud\nTecholution featured on Worldwide Business with KathyIreland\nTecholution presented by ION World\u2019s Greatest\nVisit us @\nwww.techolution.com\n: To know more about our revolutionary core practices and getting to know in detail about how we enrich the human experience with technology.",
+    "role": "SDET Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Automation Testing (Cypress or Playwright)",
+      "Manual Testing concepts and best practices",
+      "API Testing (Postman, Rest Assured)",
+      "Programming knowledge in JavaScript, Java, or Python",
+      "Performance Testing using JMeter",
+      "Familiarity with VS Code",
+      "Understanding of GitHub for version control",
+      "Knowledge of Agile/Scrum methodologies",
+      "Exposure to cloud platforms (AWS/GCP/Azure)",
+      "Knowledge or exposure to AI / AI-driven testing tools"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370796407/": {
+    "url": "https://www.linkedin.com/jobs/view/4370796407/",
+    "raw_text": "NOIR & BLANCO\nNOIR & BLANCO is a fast-growing digital solutions company focused on building high-performance Shopify stores, AI-driven automation systems, and scalable e-commerce brands across India and global markets. We work with ambitious brands and founders who want to scale through technology, design, and performance marketing.\nRole Overview\nWe are looking for a passionate\nAI Engineer Intern\nwho is excited about building real-world AI solutions. You will work closely with our tech and growth team to build AI tools, automation workflows, and smart systems that improve internal operations and client performance.\nThis is not a theoretical internship \u2014 you will build real AI systems used by real businesses.\nKey Responsibilities\nAssist in developing AI-based tools and automation systems\nBuild and optimize chatbots (WhatsApp, website, Shopify integrations)\nWork on prompt engineering for AI models (OpenAI, Claude, etc.)\nCreate internal automation workflows (Zapier, Make, APIs)\nDevelop data-driven solutions for marketing & e-commerce\nResearch and test new AI tools and frameworks\nSupport integration of AI features into Shopify and web projects\nRequired Skills\nBasic understanding of AI/ML concepts\nStrong knowledge of Python (preferred)\nFamiliarity with APIs and automation tools\nUnderstanding of LLMs and prompt engineering\nBasic knowledge of databases\nProblem-solving mindset\nAbility to learn fast and execute quickly\nGood to Have\nExperience with OpenAI API\nExperience with LangChain / LLM frameworks\nShopify app development knowledge\nExperience with data analysis\nUnderstanding of e-commerce ecosystem\nWhat You\u2019ll Gain\nReal startup exposure\nHands-on AI project experience\nDirect mentorship from founders\nOpportunity for full-time role based on performance\nWork on live client projects\nWho Should Apply?\nEngineering students (CS/IT/AI)\nFinal year students\nFreshers passionate about AI\nSelf-taught AI builders",
+    "role": "AI Engineer Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Basic understanding of AI/ML concepts",
+      "Strong knowledge of Python",
+      "Familiarity with APIs and automation tools",
+      "Understanding of LLMs and prompt engineering",
+      "Basic knowledge of databases",
+      "Problem-solving mindset",
+      "Ability to learn fast and execute quickly"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370784524/": {
+    "url": "https://www.linkedin.com/jobs/view/4370784524/",
+    "raw_text": "Hi All\nGreetings from Live Connections!\nWe have an urgent requirement on\nSDET (C2H - Immediate)\nrole with one of our MNC based Company\nRemote\nLocation. Please find the below job description and kindly share me your updated CV to sharmila@liveconnections.in\nPosition Title:\nSDET (C2H - Immediate)\nrole\nExperience Level: 5+ Years\nContract\nNotice Period: Immediate to 1 Month\nLocation\n: Remote\nSkills / Experience:\n?\nMust have 5+ years of strong experience in writing micro service automation and UI Automation using Selenium and Java.\n? Good to have Overall 8+ years of experience in designing and executing test cases on web based applications and services.\n?\nMust have experience in using tools like JIRA, Zephyr, IDEs like Eclipse or Intellij Idea\n?\nGood to have Knowledge of basic tools like Maven, Test-NG, Wiremock, Jenkins\n? Must have experience with version control tools like Bitbucket/GitHubetc.\n? Must have Cloud experience and worked on 2 ECOM projects end to end.\n? Must have 2+ years of experience on Katalon tool used for service testing and good to have knowledge of its integration with CI/CD pipelines.\n? Good to have 1+ years of experience on mocking tool (like Wiremock) and integrating it with Azure platforms.\n? Good to have experience with running test automation suites in\nCI/CD\npipelines.\n? Must have experience with running automation suites in parallel on multiple VMs and browsers.\n? Must have experience in analyzing results of automation test runs for UI and Services\n?\nAbility to create test cases based on user stories and business requirements.\n?\nAbility to execute QA testing, interpret test results, and document outcomes\n.\nRegards,\nSharmila\nsharmila@liveconnections.in",
+    "role": "SDET (C2H - Immediate)",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "micro service automation",
+      "UI Automation",
+      "Selenium",
+      "Java",
+      "designing and executing test cases",
+      "JIRA",
+      "Zephyr",
+      "Eclipse",
+      "Intellij Idea",
+      "Maven",
+      "Test-NG",
+      "Wiremock",
+      "Jenkins",
+      "Bitbucket",
+      "GitHub",
+      "Cloud experience",
+      "Katalon tool",
+      "CI/CD pipelines",
+      "mocking tool",
+      "Azure platforms",
+      "running test automation suites",
+      "analyzing results of automation test runs",
+      "creating test cases based on user stories",
+      "executing QA testing",
+      "interpreting test results",
+      "documenting outcomes"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371100179/": {
+    "url": "https://www.linkedin.com/jobs/view/4371100179/",
+    "raw_text": "Company Description\nWe suggest you enter details here.\nRole Description\nWe are looking for an Internship Trainee skilled in React Native to join our team on a full-time, remote basis. As an Intern, you will work closely with our development team to design, develop, and test mobile applications. Key responsibilities include assisting in writing clean and efficient code, debugging, troubleshooting, and collaborating with a team to ensure smooth deployment and maintenance of applications.\nQualifications\nProficiency in React Native framework, JavaScript, and mobile application development.\nGood understanding of UI/UX design principles and cross-platform compatibility.\nBasic knowledge in integrating APIs and using debugging tools to optimize performance.\nTeam collaboration skills with a willingness to learn and adapt to new technologies.\nPursuing or completed a degree in Computer Science, Software Engineering, or related fields is preferred.\nPrior experience with version control tools such as Git is a plus.",
+    "role": "Internship Trainee",
+    "about_company": "We suggest you enter details here.\nRole Description\nWe are looking for an Internship Trainee skilled in React Native to join our team on a full-time, remote basis. As an Intern, you will work closely with our development team to design, develop, and test mobile applications. Key responsibilities inc...",
+    "fetched_at": "now",
+    "skills": [
+      "React Native",
+      "JavaScript",
+      "mobile application development",
+      "UI/UX design principles",
+      "cross-platform compatibility",
+      "integrating APIs",
+      "debugging tools",
+      "team collaboration",
+      "willingness to learn",
+      "version control tools (Git)"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371102149/": {
+    "url": "https://www.linkedin.com/jobs/view/4371102149/",
+    "raw_text": "Hiring: Web Development Intern (PHP/Laravel/WordPress)\nWe are looking for passionate Freshers who are ready to kickstart their careers in web development. While we don\u2019t expect you to be an expert, we do expect\u00a0dedication, a high level of curiosity, and a strong work ethic.\nYou will not be doing \"dummy\" tasks. You will be integrated into\u00a0real-time projects\u00a0where your contribution matters.\nWhat We Are Looking For\nEagerness to Learn:\nA self-starter who spends their free time exploring PHP, Laravel, or WordPress.\nCommitment:\nSomeone dedicated to meeting deadlines and solving problems.\nBasics:\nA foundational understanding of HTML, CSS, and Core PHP (even if from college projects or personal learning).\nAvailability:\nCandidates must be available for a minimum of 6 months.\nThe Perks\nReal-World Experience:\nWork on live client projects that will look great on your resume.\nFull-Time Potential:\nWe are looking for long-term team members. If you perform exceptionally well during your internship, you will be offered a\u00a0Permanent Full-Time Position.\nStipend:\n\u20b95,000 \u2013 \u20b98,000 per month (based on interview performance).\nHow to Apply\nIf you are ready to learn, work hard, and build a career with us, we want to hear from you.\nInterested candidates apply from:\nsarasuk.com/careers",
+    "role": "Web Development Intern (PHP/Laravel/WordPress)",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "PHP",
+      "Laravel",
+      "WordPress",
+      "HTML",
+      "CSS",
+      "Core PHP",
+      "dedication",
+      "curiosity",
+      "strong work ethic"
+    ],
+    "salary": "\u20b95,000 \u2013 \u20b98,000 per month"
+  },
+  "https://www.linkedin.com/jobs/view/4370779825/": {
+    "url": "https://www.linkedin.com/jobs/view/4370779825/",
+    "raw_text": "About the Company\nZeTheta Algorithms Private Limited (www.zetheta.com) is a FinTech start-up which has been recently set up and is developing innovative AI tools.\nhttps://www.instagram.com/zetheta.official/\nAbout the Role\nWe are seeking a talented and motivated student/ fresher intern to develop AI models from scratch within a 2 month timeframe. This is an extraordinary opportunity for a self-driven, technically skilled student to build a complete enterprise-grade system that incorporates cutting-edge AI technologies including deep learning.\nResponsibilities\nDesign and implement the complete AI Models following provided specifications\nDevelop both frontend and backend components of the platform\nCreate and integrate AI modules\nDesign and optimize database schema and queries\nEnsure system security, especially for sensitive identity verification data\nDeploy the solution using zero-cost cloud services\nDocument code, APIs, and system architecture\nComplete the entire project within the 2 month timeline\nQualifications\nNo experience required. Preferably, a student who is currently pursuing or fresh graduate who has recently completed a degree in Computer Science, AI/ML, or related field.\nRequired Skills (permitted to use all LLMs)\nStrong programming skills in Python and JavaScript\nUnderstanding of React.js for frontend development and Node.js for backend\nKnowledge of FastAPI or similar Python web frameworks\nFamiliarity with database design and SQL (particularly PostgreSQL with Supabase)\nDeployment on AWS with CD/ CI Pipelines and Manual Environment in EC2 instance, S3\nUnderstanding of basic machine learning concepts\nSelf-motivated with ability to work independently\nPreferred Skills (permitted to use all LLMs)\nSound knowledge of AI/ML libraries (TensorFlow, Keras, HuggingFace Transformers)\nFamiliarity with computer vision techniques using OpenCV\nKnowledge of natural language processing concepts\nSound knowledge of facial recognition or emotion detection systems\nUnderstanding of identity verification methodologies\nDocker containerization experience\nPrior work with cloud deployment (AWS)\nWho Should Apply?\nStudent or fresh graduate from any academic discipline.\nStrong analytical and problem-solving skills.\nBasic knowledge of Microsoft Office.\nWillingness to self-learn and work in a fast-paced environment.\nInternship Details\nDuration: Self paced, options for 15days or 1,2,3,4 or 6 months.\nType: Unpaid",
+    "role": "Intern",
+    "about_company": "ZeTheta Algorithms Private Limited (www.zetheta.com) is a FinTech start-up which has been recently set up and is developing innovative AI tools.\nhttps://www.instagram.com/zetheta.official/\nAbout the Role\nWe are seeking a talented and motivated student/ fresher intern to develop AI models from scratc...",
+    "fetched_at": "now",
+    "skills": [
+      "Strong programming skills in Python",
+      "JavaScript",
+      "Understanding of React.js",
+      "Node.js",
+      "Knowledge of FastAPI or similar Python web frameworks",
+      "Familiarity with database design and SQL",
+      "PostgreSQL with Supabase",
+      "Deployment on AWS",
+      "CD/CI Pipelines",
+      "Manual Environment in EC2 instance",
+      "S3",
+      "Understanding of basic machine learning concepts",
+      "Self-motivated",
+      "Sound knowledge of AI/ML libraries",
+      "TensorFlow",
+      "Keras",
+      "HuggingFace Transformers",
+      "Familiarity with computer vision techniques using OpenCV",
+      "Knowledge of natural language processing concepts",
+      "Sound knowledge of facial recognition or emotion detection systems",
+      "Understanding of identity verification methodologies",
+      "Docker containerization experience",
+      "Prior work with cloud deployment (AWS)",
+      "Strong analytical and problem-solving skills",
+      "Basic knowledge of Microsoft Office",
+      "Willingness to self-learn"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4363171474/": {
+    "url": "https://www.linkedin.com/jobs/view/4363171474/",
+    "raw_text": "About BeGig\nBeGig is the leading tech freelancing marketplace. We empower innovative, early-stage, non-tech founders to bring their visions to life by connecting them with top-tier freelance talent. By joining BeGig, you\u2019re not just taking on one role\u2014you\u2019re signing up for a platform that will continuously match you with high-impact opportunities tailored to your expertise.\nYour Opportunity\nJoin BeGig as an AI Task Planner and contribute to the development of task automation and AI workflow systems. Help build intelligent systems that plan, prioritize, and manage tasks efficiently, helping businesses streamline their processes and increase productivity.\nRole Overview\nAs an AI Task Planner, you will:\nDevelop intelligent systems that can autonomously plan and schedule tasks.\nIntegrate AI models to understand dependencies, priorities, and resource availability.\nDesign algorithms that optimize workflows and task execution in real-time.\nWork with data scientists and engineers to refine task management capabilities.\nMonitor system performance, identify bottlenecks, and optimize task planning processes.\nTechnical Requirements & Skills\nExperience: 2+ years in AI, automation, or workflow management.\nTools: Proficiency with machine learning frameworks (e.g., TensorFlow, PyTorch) and task scheduling libraries.\nProgramming: Strong Python skills and experience with task automation tools (e.g., Celery, Airflow).\nOptimization: Knowledge of algorithms for task scheduling, load balancing, and resource allocation.\nCloud: Experience with deploying solutions in cloud environments.\nWhat We\u2019re Looking For\nAn AI enthusiast passionate about building solutions that optimize human tasks.\nStrong problem-solving skills with a focus on efficiency and automation.\nComfortable working independently and managing complex tasks in a remote setting.\nWhy Join Us?\nImpact: Help businesses automate and optimize critical processes with intelligent task management.\nFlexibility: Choose from a variety of AI-driven projects to match your expertise.\nInnovation: Work on cutting-edge AI technology and problem-solving challenges.",
+    "role": "AI Task Planner",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "AI",
+      "automation",
+      "workflow management",
+      "machine learning frameworks",
+      "TensorFlow",
+      "PyTorch",
+      "Python",
+      "task automation tools",
+      "Celery",
+      "Airflow",
+      "algorithms for task scheduling",
+      "load balancing",
+      "resource allocation",
+      "cloud environments",
+      "problem-solving",
+      "efficiency",
+      "automation"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4370794530/": {
+    "url": "https://www.linkedin.com/jobs/view/4370794530/",
+    "raw_text": "About the Company\nZeTheta Algorithms Private Limited is a FinTech start-up which has been recently set up and is developing innovative AI tools.\nhttps://www.instagram.com/zetheta.official/\nAbout the Role\nWe are seeking a talented and motivated student intern for a Data Analyst role. This is an extraordinary opportunity for a self-driven, analytically minded student with a passion for extracting meaningful insights from complex datasets and contributing to data-driven decision making.\nAbout the Internship:\nAs a Data Analyst intern, you will work on cutting-edge projects involving data collection, processing, analysis, and visualization in financial markets. You will have the opportunity to engage in multiple mini-projects across various functional areas of the company. The internship is designed to provide practical exposure to real-world data analysis and business intelligence.\nKey Responsibilities\nAs part of the internship, you will work through a structured set of assignments designed to enhance your understanding of data analytics methodologies and applications. Your primary responsibilities will include:\nData Collection & Processing\nGather data from various sources and databases\nClean and pre-process data to ensure quality and usability\nDevelop and maintain data pipelines\nImplement data validation procedures and quality checks\nData Analysis & Modelling\nApply statistical methods to interpret datasets\nIdentify patterns, trends, and correlations in complex data\nDevelop predictive models and conduct hypothesis testing\nCreate data-driven solutions for business problems\nData Visualization & Reporting\nCreate interactive dashboards and visual reports\nDevelop compelling data visualizations to communicate findings\nPresent analytical insights to stakeholders\nAutomate regular reporting processes\nBusiness Intelligence\nTransform raw data into actionable business insights\nSupport decision-making processes with data-backed recommendations\nMonitor key performance indicators and metrics\nIdentify opportunities for process optimization\nCapstone Project\nComplete an end-to-end data analysis project including: Problem definition, Data collection and preparation, Analysis and modelling, Visualization of results, and Recommendations based on findings\nWhat You Will Learn\nPractical experience with data analysis tools and techniques\nHands-on skills in data visualization and dashboard creation\nStrong analytical and problem-solving abilities\nEffective communication of technical findings to non-technical audiences\nKnowledge of AI and machine learning applications in data analytics\nWho Should Apply?\nStudent or fresh graduate from any academic discipline\nStrong analytical and quantitative skills\nBasic knowledge of data analysis tools (Excel, SQL, Python, or R)\nInterest in working with data and deriving insights\nWillingness to self-learn and work in a fast-paced environment\nInternship Details\nDuration:\nSelf-paced. Option of 15days, 1 month or 2 months within a period of 4 months provided.\nType:\nUnpaid",
+    "role": "Data Analyst Intern",
+    "about_company": "ZeTheta Algorithms Private Limited is a FinTech start-up which has been recently set up and is developing innovative AI tools.\nhttps://www.instagram.com/zetheta.official/\nAbout the Role\nWe are seeking a talented and motivated student intern for a Data Analyst role. This is an extraordinary opportuni...",
+    "fetched_at": "now",
+    "skills": [
+      "data collection",
+      "data processing",
+      "data analysis",
+      "data visualization",
+      "statistical methods",
+      "predictive modeling",
+      "data-driven solutions",
+      "communication skills",
+      "Excel",
+      "SQL",
+      "Python",
+      "R"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4363220072/": {
+    "url": "https://www.linkedin.com/jobs/view/4363220072/",
+    "raw_text": "Designation / Role\n- Computer Science and Mathematics Specialist\nLocation\n: Noida\nTHE POSITION\nThe Computer Science and Mathematics Specialist will design and drive advanced, future-ready curricula that integrate Mathematics, Science, Computational Thinking, Artificial Intelligence, and Generative AI across grade levels. This role is responsible for embedding deep conceptual math and science learning with coding, AI literacy, robotics, web/app development, and real-world problem solving, while also leading teacher professional development and supporting institution-wide technology initiatives and events.\nKEY RESPONSIBILITIES\nCurriculum Design & Development\nDesign integrated, cross-disciplinary curricula combining Math, Science, Coding, AI, and Computational Thinking, aligned with NEP 2020, CBSE, and international benchmarks.\nDevelop grade-wise curriculum frameworks from Primary to Senior School with progressive depth in mathematics, logic, and algorithmic reasoning.\nCreate AI-infused and GenAI-enabled learning modules, including: data literacy, model thinking, prompt engineering fundamentals and ethical AI use in classrooms.\nArtificial Intelligence & Advanced Technology Integration\nEmbed Artificial Intelligence and Generative AI concepts into Math & Science curricula covering : AI fundamentals and applications, machine learning concepts (introductory to advanced), generative AI tools and classroom use cases and responsible and ethical AI usage.\nIntegrate advanced computational problem-solving into Math instruction using AI.\nCoding, Robotics & Development Ecosystems\nIntegrate coding and development frameworks across curriculum, including: scratch, python, HTML/CSS, JavaScript, app development concepts, web development foundations.\nDesign and support robotics-based learning using platforms such as Arduino, Raspberry Pi.\nCreate hands-on STEM/STEAM projects that combine: coding, robotics, math modeling and scientific experimentation.\nResource & Content Development\nDevelop student workbooks, teacher manuals, project templates, assessment rubrics, and digital resources.\nCollaborate with multimedia, design, and tech teams to create: interactive simulations, e-learning modules, gamified and AI-supported assessments and ensure content is inclusive, inquiry-driven, application-oriented, and rooted in real-world relevance.\nDesign and deliver professional development programs for teachers on:, AI and GenAI integration in classrooms, coding and computational thinking in Math & Science, robotics, web/app development, and emerging edtech tools.\nInnovation, Research & Continuous Improvement\nResearch and benchmark global trends in AI education, STEM pedagogy, and school-level technology adoption.\nPilot new programs and measure impact using data-driven insights.\nContinuously evolve curriculum to stay aligned with rapid technological and AI advancements.\nCollaboration & Institutional Engagement\nWork closely with instructional designers, school leaders, tech teams, and data analysts to ensure effective rollout.\nSupport in-house technology events, such as: coding competitions, AI showcases, STEM fairs and exhibitions.\nEnable inter-disciplinary projects and cross-grade alignment across Math, Science, and Technology.\nQualifications\nBachelor\u2019s or Master\u2019s degree in Computer Science, Mathematics, Science, Education, AI, or related fields.\n3 - 5 years of experience in curriculum design or advanced classroom practice.\nMandatory experience in Artificial Intelligence and Generative AI within educational or applied contexts.\nStrong command over Mathematics concepts and their application through computational models.\nProficiency in coding and development tools, including: scratch, python, HTML/CSS, JavaScript, AI tools and platforms.\nExcellent curriculum writing, instructional planning, and communication skills.\nPreferred Skills\nCertification in AI education, coding instruction, STEM facilitation, or educational technology.\nExperience with platforms such as Tynker, Code.org, Arduino, Raspberry Pi, Google Workspace for Education, and AI-based tools.\nStrong background in project-based learning, design thinking, and assessment design for STEM competencies.\nAbility to translate complex technical concepts into age-appropriate learning experiences.\nPassion for building future-ready learners with creativity, curiosity, and ethical awareness.",
+    "role": "Computer Science and Mathematics Specialist",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "Curriculum Design",
+      "Mathematics",
+      "Science",
+      "Computational Thinking",
+      "Artificial Intelligence",
+      "Generative AI",
+      "Coding",
+      "Robotics",
+      "Web Development",
+      "Project-Based Learning",
+      "Instructional Planning",
+      "Communication",
+      "Data Literacy",
+      "Model Thinking",
+      "Prompt Engineering",
+      "Ethical AI",
+      "STEM/STEAM Projects"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371247950/": {
+    "url": "https://www.linkedin.com/jobs/view/4371247950/",
+    "raw_text": "Who We Are\nArtmac Soft is a technology consulting and service-oriented IT company dedicated to providing innovative technology solutions and services to customers.\nJob Description\nJob Title : Python Developer (Freshers)\nJob Type : Full-time\nExperience : 0-1 Year\nLocation : Hyderabad, Telangana\nResponsibilities\nMandatory certification on PCPP1 or PCPP2\nStrong understanding of Python fundamentals, OOP concepts, and data structures.\nBasic knowledge of SQL and relational databases.\nFamiliarity with version control tools such as Git.\nUnderstanding of REST APIs and web development frameworks (Django/Flask) is a plus.\nFamiliarity with databases (MySQL, PostgreSQL, or MongoDB).\nKnowledge of front-end technologies (HTML, CSS, JavaScript).\nFamiliarity with cloud platforms (AWS/Azure/GCP).\nUnderstanding of Agile/Scrum methodologies.\nDevelop, test, and maintain Python-based applications and scripts.\nWrite clean, efficient, and reusable code following best practices.\nAssist in debugging, troubleshooting, and optimizing existing applications.\nCollaborate with cross-functional teams to define, design, and deliver new features.\nParticipate in code reviews and maintain proper documentation.\nWork on REST APIs, data processing, and backend development tasks as assigned.\nStay updated with the latest industry trends and technologies in Python development.\nQualification\nBachelor's degree or equivalent combination of education and experience.",
+    "role": "Python Developer (Freshers)",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "PCPP1 or PCPP2 certification",
+      "Python fundamentals",
+      "OOP concepts",
+      "data structures",
+      "SQL",
+      "relational databases",
+      "version control tools (Git)",
+      "REST APIs",
+      "web development frameworks (Django/Flask)",
+      "databases (MySQL, PostgreSQL, MongoDB)",
+      "front-end technologies (HTML, CSS, JavaScript)",
+      "cloud platforms (AWS/Azure/GCP)",
+      "Agile/Scrum methodologies",
+      "debugging",
+      "troubleshooting",
+      "optimizing applications",
+      "collaboration",
+      "code reviews",
+      "documentation"
+    ],
+    "salary": "Not mentioned"
+  },
+  "https://www.linkedin.com/jobs/view/4371259035/": {
+    "url": "https://www.linkedin.com/jobs/view/4371259035/",
+    "raw_text": "\ud83d\udccc Data Analyst Intern (Remote)\nCompany:\nWeb X UM\nLocation:\nRemote\nDuration:\n3 Months\n\ud83d\udcc5 Application Deadline:\n11th February 2026\nOpportunity & Benefits:\n\ud83d\udcb0 Performance-based stipend up to \u20b97,499\n\ud83c\udf81 Swags and goodies\n\ud83d\udcdc Certificate of Internship\n\u2709\ufe0f Letter of Recommendation (based on performance)\n\ud83c\udf1f Potential full-time role based on performance\n\ud83d\udcca Hands-on experience with real-world data analysis projects\nAbout Web X UM:\nWeb X UM provides students and graduates with practical exposure to data analysis. The organization focuses on developing real-world skills, gaining industry experience, and working on projects that strengthen professional portfolios.\nRoles & Responsibilities:\nCollect, clean, and analyze datasets for actionable insights\nDevelop reports, dashboards, and data visualizations\nIdentify trends, patterns, and key metrics from data\nCollaborate on presentations and provide data-driven recommendations\nRequirements:\nCurrently enrolled in or graduated from Data Science, Computer Science, Statistics, or related fields\nStrong analytical skills with attention to detail\nFamiliarity with Excel, SQL, or Python (preferred)\nGood communication, collaboration, and teamwork skills\nWhat You Will Gain:\nHands-on experience with real-world data analysis projects\nPerformance-based stipend up to \u20b97,499\nSwags and goodies\nCertificate of Internship upon completion\nLetter of Recommendation based on performance\nOpportunity to build a strong professional portfolio\nPotential full-time role based on performance\nHow to Apply:\nSubmit your application with the subject line:\n\u201cData Analyst Intern Application\u201d\nPlease include:\nUpdated resume\nRelevant portfolio or project links\nEqual Opportunity Statement:\nWeb X UM is an equal opportunity employer and welcomes applicants from all backgrounds, fostering a diverse and inclusive work environment.",
+    "role": "Data Analyst Intern",
+    "about_company": "",
+    "fetched_at": "now",
+    "skills": [
+      "analytical skills",
+      "attention to detail",
+      "Excel",
+      "SQL",
+      "Python",
+      "communication",
+      "collaboration",
+      "teamwork"
+    ],
+    "salary": "\u20b97,499"
   }
 }
