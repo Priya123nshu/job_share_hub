@@ -1,0 +1,17 @@
+[Unit]
+Description=LinkedIn collect_job_urls hourly uploader
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ec2-user
+Group=ec2-user
+WorkingDirectory=/home/ec2-user/mcp_client
+EnvironmentFile=/etc/mcp-collector.env
+ExecStart=/home/ec2-user/mcp_client/ec2_free_tier_hourly_collector/run_collect_and_upload.sh
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target

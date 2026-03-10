@@ -1,0 +1,10 @@
+[Unit]
+Description=Run MCP collector at minute 5 every hour
+
+[Timer]
+OnCalendar=*:05
+Persistent=true
+Unit=mcp-collector.service
+
+[Install]
+WantedBy=timers.target
